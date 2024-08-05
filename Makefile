@@ -2,8 +2,9 @@ TEST?=ralph
 TEST_ARGS=
 DOCKER_REPO_NAME?="allegro"
 RALPH_VERSION?=$(shell git describe --abbrev=0)
+RALPH_DIR=/opt/ralph
 
-.PHONY: test flake clean coverage docs coveralls
+.PHONY: test flake clean coverage docs coveralls run build-package build-snapshot-package
 
 # release-new-version is used by ralph mainteiners prior to publishing
 # new version of the package. The command generates the debian changelog
@@ -25,16 +26,16 @@ release-new-version:
 # build-package builds a release version of the package using the generated
 # changelog and the tag.
 build-package:
-	docker build --force-rm -f docker/Dockerfile-deb -t ralph-deb:latest .
-	docker run --rm -v $(shell pwd):/volume ralph-deb:latest build-package
-	docker image rm --force ralph-deb:latest
+	docker build -f docker/Dockerfile-deb-packer -t ralph-deb-packer:latest .
+	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -t ralph-deb-packer:latest build-package
+	# docker image rm --force ralph-deb-packer:latest
 
 # build-snapshot-package renerates a snapshot changelog and uses it to build
 # snapshot version of the package. It is mainly used for testing.
 build-snapshot-package:
-	docker build --force-rm -f docker/Dockerfile-deb -t ralph-deb:latest .
-	docker run --rm -v $(shell pwd):/volume ralph-deb:latest build-snapshot-package
-	docker image rm --force ralph-deb:latest
+	docker build -f docker/Dockerfile-deb-packer -t ralph-deb-packer:latest .
+	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -t ralph-deb-packer:latest build-snapshot-package
+	# docker image rm --force ralph-deb-packer:latest
 
 build-docker-image:
 	docker build \
