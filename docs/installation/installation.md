@@ -1,18 +1,18 @@
 # Installation guide
 
-For production, we provide deb packages for Ubuntu 18.04 Bionic
+For production, we provide deb packages for Ubuntu 22.04 Jammy
 on the AMD64 platform.
 
 The package can be installed inside a Docker container using allegro/ralph and
 allegro/ralph-static-nginx images.
 
-## Ubuntu package - bionic and newer - recommended
+## Ubuntu package - jammy and newer - recommended
 
-This is a quick introduction on how to install Ralph on Ubuntu 18.04 Bionic.
+This is a quick introduction on how to install Ralph on Ubuntu 22.04 Jammy.
 
-We introduced some changes in the Ubuntu 18.04 Bionic package:
+We introduced some changes in the Ubuntu 22.04 Jammy package:
 
-  * Ralph now uses Python 3.6
+  * Ralph now uses Python 3.10
   * settings are located in /etc/ralph
   * database settings are configured via debconf prompts during a fresh
   installation
@@ -24,10 +24,10 @@ used as Django settings.
 
 ### Ralph installation
 
-The steps below can be executed on any clean installation Ubuntu 18.04 Bionic.
+The steps below can be executed on any clean installation Ubuntu 22.04 Jammy.
 
     curl -sL https://packagecloud.io/allegro/ralph/gpgkey | sudo apt-key add -
-    sudo sh -c "echo 'deb https://packagecloud.io/allegro/ralph/ubuntu/ bionic main' >  /etc/apt/sources.list.d/ralph.list"
+    sudo sh -c "echo 'deb https://packagecloud.io/allegro/ralph/ubuntu/ jammy main' >  /etc/apt/sources.list.d/ralph.list"
     sudo apt-get update
     sudo apt-get install mysql-server nginx ralph-core
 

@@ -19,6 +19,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.event.inputs.branch }}
+          
       - name: Publish docker snapshot
         env:
           RETRY_COUNT: 3

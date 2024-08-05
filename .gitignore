@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+
 # C extensions
 *.so
 volumes
@@ -75,7 +76,14 @@ src/ralph/admin/static/elements/elements-min.html
 # TODO: move to src/ralph/static
 src/ralph/admin/static/elements/elements-min.html
 
-debian/ralph-core/*
+# deb packer
+debian/ralph-core/
+debian/.debhelper/
+debian/*.debhelper*
+debian/*.substvars
+
+# pip cache
+pip_cache/
 
 .idea
 !src/ralph/lib

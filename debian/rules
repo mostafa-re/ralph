@@ -6,10 +6,7 @@ export DH_VIRTUALENV_INSTALL_ROOT=/opt/ralph
 	dh $@ --with python-virtualenv
 
 override_dh_virtualenv:
-	npm install
-	node_modules/bower/bin/bower --allow-root install
-	node_modules/gulp/bin/gulp.js
-	dh_virtualenv --python /usr/bin/python3.6 --upgrade-pip-to 19.3.1 --requirements requirements/prod.txt
+	dh_virtualenv --python /usr/bin/python3.10 --requirements requirements/prod.txt --verbose
 
 override_dh_shlibdeps:
 	dh_shlibdeps --dpkg-shlibdeps-params="--ignore-missing-info" --exclude=PIL --exclude=_cffi_backend

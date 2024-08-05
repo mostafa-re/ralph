@@ -2,7 +2,6 @@
 
 set -eu
 
-
 # NOTE(romcheg): In order to have the same command syntax
 if [[ "$OSTYPE" == "darwin"* ]]; then
     SED="gsed"
@@ -20,7 +19,6 @@ die() {
     echo "$1"
     exit 2
 }
-
 
 generate_next_version() {
     current_dateversion=$(echo "${LATEST_TAG}" | cut -d '.' -f1)
@@ -51,7 +49,6 @@ show_current_version() {
         echo "${next_tag}-${sanitized_branch_name}-SNAPSHOT"
     fi
 }
-
 
 case "$ACTION" in
     show)

@@ -14,7 +14,7 @@
 Make sure your host has the following requirements installed and
 properly configured, if required:
 
-1.  Python 3.6 (Ralph is tested to run on this version)
+1.  Python 3.10 (Ralph is tested to run on this version)
 1.  pip
 1.  virtualenvwrapper
 1.  NodeJS (versions v8.10.0 - v11.7.0 are known to work)

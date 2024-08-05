@@ -51,4 +51,3 @@ markdown_extensions:
 extra_css:
     - custom.css
 site_dir: /tmp/docs/_build/html  # sphinx compatible
-
