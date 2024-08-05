@@ -5,18 +5,21 @@
   "dependencies": {
     "bower": "~1.8.0",
     "gulp": "~3.9.0",
-    "gulp-autoprefixer": "~2.3.1",
-    "gulp-bower": "0.0.10",
-    "gulp-rename": "~1.2.2",
-    "gulp-sass": "~3.1.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "jshint": "~2.8.0",
-    "run-sequence": "~1.1.0",
+    "gulp-autoprefixer": "~4.1.0",
+    "gulp-bower": "~0.0.0",
+    "gulp-rename": "~1.4.0",
+    "gulp-sass": "~4.1.0",
+    "gulp-sourcemaps": "~1.12.0",
+    "jshint": "~2.12.0",
+    "run-sequence": "~1.2.0",
     "gulp-watch-sequence": "~1.0.0"
   },
   "devDependencies": {
-    "gulp-watch": "~4.2.4",
+    "gulp-watch": "~4.3.0",
     "gulp-vulcanize": "~6.1.0",
     "del": "~2.2.0"
+  },
+  "overrides": {
+    "graceful-fs": "~4.2.0"
   }
 }
