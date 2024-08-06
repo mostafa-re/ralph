@@ -1,41 +1,39 @@
 TEST?=ralph
 TEST_ARGS=
 DOCKER_REPO_NAME?="allegro"
-RALPH_VERSION?=$(shell git describe --abbrev=0)
+RALPH_VERSION=$(./get_version.sh)
 RALPH_DIR=/opt/ralph
 
-.PHONY: test flake clean coverage docs coveralls run build-package build-snapshot-package
+.PHONY: test flake clean coverage docs coveralls run cleanup commit-changelog-tag build-release-package build-snapshot-package
 
-# release-new-version is used by ralph mainteiners prior to publishing
-# new version of the package. The command generates the debian changelog
-# commits it and tags the created commit with the appropriate snapshot version.
-release-new-version: new_version = $(shell ./get_version.sh generate)
-release-new-version:
-	docker build \
-		--force-rm \
-		-f docker/Dockerfile-deb \
-		--build-arg GIT_USER_NAME="$(shell git config user.name)" \
-		--build-arg GIT_USER_EMAIL="$(shell git config user.email)" \
-		-t ralph-deb:latest .
-	docker run --rm -it -v $(shell pwd):/volume ralph-deb:latest release-new-version
-	docker image rm --force ralph-deb:latest
+# cleanup the whole middle files, builds and docker images during build proccess.
+cleanup:
+	rm -rdf build/ debian/files debian/ralph-core src/ralph.egg-info \
+	debian/.debhelper/ debian/*debhelper* debian/*.substvars \
+	bower_components/ node_modules/ pip_cache/ \
+	debian/.changelog.swp ./package-lock.json
+	docker image rm --force ralph-deb-packer:latest 2>/dev/null
+
+# commit-changelog-tag is used to publish the new version of the package.
+# It commits the generated debian changelog for release/snapshot builds
+# and tags the created commit with the next appropriate release version.
+commit-changelog-tag:
 	git add debian/changelog
-	git commit -m "Updated changelog for $(new_version) version."
-	git tag -m $(new_version) -a $(new_version)
+	NEXT_VERSION = $(./get_version.sh generate)
+	git commit -m "Updated changelog for version $(NEXT_VERSION)"
+	git tag $(NEXT_VERSION)
 
-# build-package builds a release version of the package using the generated
-# changelog and the tag.
-build-package:
+# build-release-package generates a release changelog and uses it to
+# build release version of the package. It is mainly used for testing.
+build-release-package:
 	docker build -f docker/Dockerfile-deb-packer -t ralph-deb-packer:latest .
-	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -t ralph-deb-packer:latest build-package
-	# docker image rm --force ralph-deb-packer:latest
+	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -t ralph-deb-packer:latest release
 
-# build-snapshot-package renerates a snapshot changelog and uses it to build
-# snapshot version of the package. It is mainly used for testing.
+# build-snapshot-package generates a snapshot changelog and uses it to
+# build snapshot version of the package. It is mainly used for testing.
 build-snapshot-package:
 	docker build -f docker/Dockerfile-deb-packer -t ralph-deb-packer:latest .
-	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -t ralph-deb-packer:latest build-snapshot-package
-	# docker image rm --force ralph-deb-packer:latest
+	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -t ralph-deb-packer:latest snapshot
 
 build-docker-image:
 	docker build \
@@ -51,18 +49,17 @@ build-docker-image:
 		-t $(DOCKER_REPO_NAME)/ralph-static-nginx:latest \
 		-t "$(DOCKER_REPO_NAME)/ralph-static-nginx:$(RALPH_VERSION)" .
 
-build-snapshot-docker-image: version = $(shell ./get_version.sh show)
 build-snapshot-docker-image: build-snapshot-package
 	docker build \
 		-f docker/Dockerfile-prod \
-		--build-arg RALPH_VERSION="$(version)" \
+		--build-arg RALPH_VERSION="$(RALPH_VERSION)" \
 		--build-arg SNAPSHOT="1" \
 		-t $(DOCKER_REPO_NAME)/ralph:latest \
-		-t "$(DOCKER_REPO_NAME)/ralph:$(version)" .
+		-t "$(DOCKER_REPO_NAME)/ralph:$(RALPH_VERSION)" .
 	docker build \
 		-f docker/Dockerfile-static \
-		--build-arg RALPH_VERSION="$(version)" \
-		-t "$(DOCKER_REPO_NAME)/ralph-static-nginx:$(version)" .
+		--build-arg RALPH_VERSION="$(RALPH_VERSION)" \
+		-t "$(DOCKER_REPO_NAME)/ralph-static-nginx:$(RALPH_VERSION)" .
 
 publish-docker-image: build-docker-image
 	docker push $(DOCKER_REPO_NAME)/ralph:$(RALPH_VERSION)
@@ -70,10 +67,9 @@ publish-docker-image: build-docker-image
 	docker push $(DOCKER_REPO_NAME)/ralph-static-nginx:$(RALPH_VERSION)
 	docker push $(DOCKER_REPO_NAME)/ralph-static-nginx:latest
 
-publish-docker-snapshot-image: version = $(shell ./get_version.sh show)
 publish-docker-snapshot-image: build-snapshot-docker-image
-	docker push $(DOCKER_REPO_NAME)/ralph:$(version)
-	docker push $(DOCKER_REPO_NAME)/ralph-static-nginx:$(version)
+	docker push $(DOCKER_REPO_NAME)/ralph:$(RALPH_VERSION)
+	docker push $(DOCKER_REPO_NAME)/ralph-static-nginx:$(RALPH_VERSION)
 
 install-js:
 	npm install

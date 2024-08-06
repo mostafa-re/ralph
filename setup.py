@@ -13,7 +13,9 @@ def read(fname):
 
 
 def get_version():
-    script = os.path.join(os.path.abspath(os.path.dirname(__file__)), "get_version.sh")
+    script = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "./get_version.sh generate"
+    )
     ver = subprocess.check_output([script], shell=True)
     return ver.decode().strip()
 

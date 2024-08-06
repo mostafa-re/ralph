@@ -12,8 +12,8 @@ fi
 ACTION=${1:-"show"}
 MAIN_BRANCH=${MAIN_BRANCH:-"ng"}
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-LATEST_TAG=$(git describe --abbrev=0)
-CURRENT_TAG=$(git describe)
+LATEST_TAG=$(git describe --tags --abbrev=0)
+CURRENT_TAG=$(git describe --tags)
 
 die() {
     echo "$1"
@@ -22,14 +22,14 @@ die() {
 
 generate_next_version() {
     current_dateversion=$(echo "${LATEST_TAG}" | cut -d '.' -f1)
-    current_path_number=$(echo "${LATEST_TAG}" | cut -d '.' -f2)
+    current_patch_number=$(echo "${LATEST_TAG}" | cut -d '.' -f2)
 
     new_dateversion=$(date +"%Y%m%d")
 
     if [[ $current_dateversion ==  $new_dateversion ]]; then
-        incremented_patch=$((current_path_number+1))
+        incremented_patch=$((current_patch_number+1))
     else
-        incremented_patch="1"
+        incremented_patch="0"
     fi
 
     echo "${new_dateversion}.${incremented_patch}"

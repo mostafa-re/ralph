@@ -79,8 +79,9 @@ src/ralph/admin/static/elements/elements-min.html
 # deb packer
 debian/ralph-core/
 debian/.debhelper/
-debian/*.debhelper*
+debian/*debhelper*
 debian/*.substvars
+debian/files
 
 # pip cache
 pip_cache/

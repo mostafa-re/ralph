@@ -4,19 +4,21 @@ LABEL maintainer="Allegro.pl Sp. z o.o. opensource@allegro.pl"
 LABEL authors="Allegro.pl Sp. z o.o. and Contributors opensource@allegro.pl"
 LABEL description="Helper image to build deb package for Ralph."
 
+ENV DEBEMAIL="root@localhost"
 ENV DEBIAN_FRONTEND=noninteractive
 ENV SHELL=/bin/bash
-ENV EDITOR=nano
+ENV EDITOR=/bin/nano
 ENV RALPH_DIR=/opt/ralph
 
 RUN apt-get update
 RUN apt-get -y install software-properties-common build-essential \
     python3 python3-dev libffi-dev libjpeg-dev libpng-dev \
-    git git-buildpackage
+    git git-buildpackage nano
 RUN apt-get -y install debhelper devscripts equivs dh-virtualenv \
     libmysqlclient-dev libmysqlclient21
 RUN apt-get -y install nodejs npm
-RUN rm -rf /var/lib/apt/lists/*
+RUN rm -rf /var/lib/apt/lists/* && \
+    git config --system --add safe.directory '*'
 
 WORKDIR $RALPH_DIR
-ENTRYPOINT ["make", "-f", "Makefile.docker"]
+ENTRYPOINT ["/bin/bash", "scripts/build_deb_package.sh"]
