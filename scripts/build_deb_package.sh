@@ -41,16 +41,12 @@ esac
 
 cd $(dirname "${BASH_SOURCE[0]}")/.. && pwd
 
-VERSION=${VERSION:-""}
-if [[ -z $VERSION ]]; then
-    VERSION=$(./get_version.sh generate)
-fi
-
 npm install
 node_modules/bower/bin/bower --allow-root install
 node_modules/gulp/bin/gulp.js
 
-gbp dch --ignore-branch --git-author --spawn-editor=never --new-version $VERSION $BUILD_TYPE
+VERSION=$(./get_version.sh generate)
+gbp dch --ignore-branch --git-author --spawn-editor=never --new-version $VERSION $BUILD_TYPE --snapshot-number="os.popen('git log --pretty=oneline | wc -l').readlines()[0]"
 
 export PIP_CACHE_DIR="pip_cache/"
 mkdir -p $PIP_CACHE_DIR

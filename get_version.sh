@@ -2,61 +2,38 @@
 
 set -eu
 
-# NOTE(romcheg): In order to have the same command syntax
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    SED="gsed"
+ACTION=${1:-"show"}
+
+if git tag | grep -q .; then
+    LATEST_TAG=$(git describe --tags --abbrev=0)
 else
-    SED="sed"
+    echo "Error: No tags found in the repository."
+    echo "* Run 'git tag $(date +'%Y%m%d').0' to create a new tag with today's date."
+    exit 1
 fi
 
-ACTION=${1:-"show"}
-MAIN_BRANCH=${MAIN_BRANCH:-"ng"}
-CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-LATEST_TAG=$(git describe --tags --abbrev=0)
-CURRENT_TAG=$(git describe --tags)
+generate() {
+    CURR_VERSION=$(echo $LATEST_TAG | cut -d '.' -f1)
+    CURR_PATCH=$(echo $LATEST_TAG | cut -d '.' -f2)
 
-die() {
-    echo "$1"
-    exit 2
-}
-
-generate_next_version() {
-    current_dateversion=$(echo "${LATEST_TAG}" | cut -d '.' -f1)
-    current_patch_number=$(echo "${LATEST_TAG}" | cut -d '.' -f2)
-
-    new_dateversion=$(date +"%Y%m%d")
-
-    if [[ $current_dateversion ==  $new_dateversion ]]; then
-        incremented_patch=$((current_patch_number+1))
+    NEXT_VERSION=$(date +"%Y%m%d")
+    if [[ $CURR_VERSION ==  $NEXT_VERSION ]]; then
+        NEXT_PATCH=$((CURR_PATCH+1))
     else
-        incremented_patch="0"
+        NEXT_PATCH="0"
     fi
-
-    echo "${new_dateversion}.${incremented_patch}"
+    echo "${NEXT_VERSION}.${NEXT_PATCH}"
 }
 
-show_current_version() {
-    local changes_above_tag=$(echo $CURRENT_TAG | \
-        $SED -r '/^.*-[0-9]+-[a-z0-9].*/p'      | \
-        wc -l                                   | \
-        xargs)
-    local sanitized_branch_name=$(echo ${CURRENT_BRANCH} | $SED 's/[^a-zA-Z0-9]/-/g')
-    
-    if [[ "$changes_above_tag" -eq 1 ]] && [[ "$CURRENT_BRANCH" == "$MAIN_BRANCH" ]]; then
-        echo "${LATEST_TAG}"
-    else
-        local next_tag=$(generate_next_version)
-        echo "${next_tag}-${sanitized_branch_name}-SNAPSHOT"
-    fi
-}
-
-case "$ACTION" in
+case $ACTION in
     show)
-        show_current_version
+        echo $LATEST_TAG
         ;;
     generate)
-        generate_next_version
+        generate
         ;;
     *)
-    echo $"Usage: $0 {show|generate}"
+        echo "Error: Invalid argument."
+        echo "Usage: $0 [show|generate]"
+        exit 1
 esac
