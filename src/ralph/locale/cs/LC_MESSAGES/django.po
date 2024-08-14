@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-21 10:58+0200\n"
+"POT-Creation-Date: 2024-08-14 22:34+0000\n"
 "PO-Revision-Date: 2018-08-08 09:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,379 +18,360 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Poedit 2.0.4\n"
 
-#: src/ralph/access_cards/admin.py:25
+#: access_cards/admin.py:26
 msgid "Access Card Info"
 msgstr ""
 
-#: src/ralph/access_cards/admin.py:32 src/ralph/accessories/admin.py:46
-#: src/ralph/back_office/admin.py:170 src/ralph/sim_cards/admin.py:45
+#: access_cards/admin.py:33 accessories/admin.py:48 back_office/admin.py:181
+#: sim_cards/admin.py:59
 msgid "User Info"
 msgstr "Uživatelské informace"
 
-#: src/ralph/access_cards/admin.py:39 src/ralph/admin/sitetrees.py:321
+#: access_cards/admin.py:40 admin/sitetrees.py:324
 #, fuzzy
 #| msgid "accessories"
 msgid "Access Zones"
 msgstr "Příslušenství"
 
-#: src/ralph/access_cards/admin.py:53
+#: access_cards/admin.py:54
 #, fuzzy
 #| msgid "employee id"
 msgid "Employee ID"
 msgstr "osobní číslo"
 
-#: src/ralph/access_cards/admin.py:61
+#: access_cards/admin.py:62
 #, fuzzy
 #| msgid "Company"
 msgid "Employee Company"
 msgstr "Společnost"
 
-#: src/ralph/access_cards/admin.py:71
+#: access_cards/admin.py:72
 #, fuzzy
 #| msgid "accessories"
 msgid "Access Zone"
 msgstr "Příslušenství"
 
-#: src/ralph/access_cards/models.py:22 src/ralph/accessories/models.py:20
-#: src/ralph/back_office/models.py:69 src/ralph/data_center/models/choices.py:9
-#: src/ralph/sim_cards/models.py:51 src/ralph/supports/models.py:31
-#: src/ralph/tests/models.py:24 src/ralph/virtual/models.py:330
+#: access_cards/models.py:27 accessories/models.py:59 back_office/models.py:69
+#: data_center/models/choices.py:9 sim_cards/models.py:54 supports/models.py:31
+#: tests/models.py:24 virtual/models.py:330
 msgid "new"
 msgstr "nové"
 
-#: src/ralph/access_cards/models.py:23 src/ralph/accessories/models.py:21
-#: src/ralph/back_office/models.py:70
-#: src/ralph/operations/migrations/0010_auto_20170410_1031.py:16
-#: src/ralph/sim_cards/models.py:52
+#: access_cards/models.py:28 accessories/models.py:60 back_office/models.py:70
+#: operations/migrations/0010_auto_20170410_1031.py:16 sim_cards/models.py:55
 msgid "in progress"
 msgstr "v běhu"
 
-#: src/ralph/access_cards/models.py:24 src/ralph/accessories/models.py:22
+#: access_cards/models.py:29 accessories/models.py:61
 msgid "lost"
 msgstr ""
 
-#: src/ralph/access_cards/models.py:25 src/ralph/accessories/models.py:23
-#: src/ralph/back_office/models.py:74
-#: src/ralph/data_center/models/choices.py:12 src/ralph/sim_cards/models.py:55
+#: access_cards/models.py:30 accessories/models.py:62 back_office/models.py:74
+#: data_center/models/choices.py:12 sim_cards/models.py:58
 msgid "damaged"
 msgstr "poškozené"
 
-#: src/ralph/access_cards/models.py:26 src/ralph/accessories/models.py:24
-#: src/ralph/back_office/models.py:72
-#: src/ralph/data_center/models/choices.py:10
-#: src/ralph/data_center/models/virtual.py:77 src/ralph/sim_cards/models.py:54
-#: src/ralph/virtual/models.py:331
+#: access_cards/models.py:31 accessories/models.py:63 back_office/models.py:72
+#: data_center/models/choices.py:10 data_center/models/virtual.py:77
+#: sim_cards/models.py:57 virtual/models.py:331
 msgid "in use"
 msgstr "v používání"
 
-#: src/ralph/access_cards/models.py:27 src/ralph/accessories/models.py:25
-#: src/ralph/back_office/models.py:78
-#: src/ralph/data_center/models/choices.py:11 src/ralph/sim_cards/models.py:57
+#: access_cards/models.py:32 accessories/models.py:64 back_office/models.py:78
+#: data_center/models/choices.py:11 sim_cards/models.py:60
 msgid "free"
 msgstr "volné"
 
-#: src/ralph/access_cards/models.py:28 src/ralph/accessories/models.py:26
-#: src/ralph/back_office/models.py:82 src/ralph/sim_cards/models.py:60
+#: access_cards/models.py:33 accessories/models.py:65 back_office/models.py:82
+#: sim_cards/models.py:63
 #, fuzzy
 #| msgid "in progress"
 msgid "return in progress"
 msgstr "v běhu"
 
-#: src/ralph/access_cards/models.py:29 src/ralph/accessories/models.py:27
-#: src/ralph/back_office/models.py:75
-#: src/ralph/data_center/models/choices.py:13 src/ralph/sim_cards/models.py:56
-#: src/ralph/virtual/models.py:333
+#: access_cards/models.py:34 accessories/models.py:66 back_office/models.py:75
+#: data_center/models/choices.py:13 sim_cards/models.py:59
+#: virtual/models.py:333
 msgid "liquidated"
 msgstr "zlikvidované"
 
-#: src/ralph/access_cards/models.py:30 src/ralph/accessories/models.py:28
-#: src/ralph/back_office/models.py:79 src/ralph/networks/models/choices.py:8
-#: src/ralph/sim_cards/models.py:58
+#: access_cards/models.py:35 accessories/models.py:67 back_office/models.py:79
+#: networks/models/choices.py:8 sim_cards/models.py:61
 msgid "reserved"
 msgstr "zamluvené"
 
-#: src/ralph/access_cards/models.py:34
-#: src/ralph/assets/models/configuration.py:31
-#: src/ralph/data_center/models/components.py:18
-#: src/ralph/data_center/models/virtual.py:42
-#: src/ralph/data_center/models/virtual.py:90 src/ralph/lib/mixins/models.py:15
-#: src/ralph/lib/mixins/models.py:26 src/ralph/security/models.py:47
-#: src/ralph/virtual/models.py:59
+#: access_cards/models.py:39 assets/models/configuration.py:31
+#: data_center/models/components.py:18 data_center/models/virtual.py:42
+#: data_center/models/virtual.py:90 lib/mixins/models.py:16
+#: lib/mixins/models.py:27 security/models.py:47 virtual/models.py:59
 msgid "name"
 msgstr "název"
 
-#: src/ralph/access_cards/models.py:46
+#: access_cards/models.py:51
 #, fuzzy
 #| msgid "description"
 msgid "Optional description"
 msgstr "popis"
 
-#: src/ralph/access_cards/models.py:69
+#: access_cards/models.py:74
 msgid "Number visible on the access card"
 msgstr ""
 
-#: src/ralph/access_cards/models.py:76
+#: access_cards/models.py:81
 msgid "Internal number in the access system"
 msgstr ""
 
-#: src/ralph/access_cards/models.py:81
+#: access_cards/models.py:86
 msgid "Date of issue to the User"
 msgstr ""
 
-#: src/ralph/access_cards/models.py:86
+#: access_cards/models.py:91
 #, fuzzy
 #| msgid "Additional info"
 msgid "Optional notes"
 msgstr "Další informace"
 
-#: src/ralph/access_cards/models.py:93
+#: access_cards/models.py:98
 #, fuzzy
 #| msgid "ethernet card"
 msgid "User of the card"
 msgstr "síťová karta"
 
-#: src/ralph/access_cards/models.py:109
+#: access_cards/models.py:114
 #, fuzzy
 #| msgid "scan status"
 msgid "Access card status"
 msgstr "stav skenu"
 
-#: src/ralph/access_cards/models.py:118
+#: access_cards/models.py:123
 msgid "Access Card: {}"
 msgstr ""
 
-#: src/ralph/access_cards/models.py:139 src/ralph/accessories/models.py:111
-#: src/ralph/admin/templates/admin/object_history.html:13
-#: src/ralph/admin/templates/reversion/object_history.html:15
-#: src/ralph/back_office/models.py:291 src/ralph/back_office/models.py:480
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table.html:6
-#: src/ralph/sim_cards/models.py:153
+#: access_cards/models.py:144 accessories/models.py:155
+#: admin/templates/admin/object_history.html:13
+#: admin/templates/reversion/object_history.html:15 back_office/admin.py:295
+#: back_office/models.py:307 back_office/models.py:496
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:6
+#: sim_cards/models.py:162 sim_cards/models.py:362
 msgid "User"
 msgstr "Uživatel"
 
-#: src/ralph/access_cards/models.py:154 src/ralph/back_office/models.py:307
-#: src/ralph/back_office/models.py:484 src/ralph/sim_cards/models.py:232
+#: access_cards/models.py:159 back_office/models.py:323
+#: back_office/models.py:500 sim_cards/models.py:241 sim_cards/models.py:366
 msgid "Owner"
 msgstr "Vlastník"
 
-#: src/ralph/access_cards/models.py:159 src/ralph/sim_cards/models.py:237
+#: access_cards/models.py:164 sim_cards/models.py:246
 #, fuzzy
 #| msgid "assignee"
 msgid "assign owner"
 msgstr "přiřazeno"
 
-#: src/ralph/access_cards/models.py:185
+#: access_cards/models.py:190
 msgid "notes"
 msgstr ""
 
-#: src/ralph/accessories/admin.py:12 src/ralph/licences/admin.py:42
+#: access_cards/models.py:216 back_office/models.py:551 sim_cards/models.py:180
+msgid "I have read and fully understand and accept the agreement."
+msgstr ""
+
+#: access_cards/models.py:231 back_office/models.py:576 sim_cards/models.py:195
+msgid "Release report language"
+msgstr "Jazyk výkazu o vydání"
+
+#: accessories/admin.py:13 licences/admin.py:46
 msgid "Assigned to users"
 msgstr "Přiřazeno uživatelům"
 
-#: src/ralph/accessories/admin.py:37
+#: accessories/admin.py:39
 #, fuzzy
 #| msgid "accessory"
 msgid "Accessory Info"
 msgstr "příslušenství"
 
-#: src/ralph/accessories/models.py:43
-#, fuzzy
-#| msgid "Manufacturer"
-msgid "Accessory manufacturer"
-msgstr "Výrobce"
-
-#: src/ralph/accessories/models.py:50
-#, fuzzy
-#| msgid "accessory"
-msgid "Accessory type"
-msgstr "příslušenství"
-
-#: src/ralph/accessories/models.py:57
+#: accessories/models.py:87
 #, fuzzy
 #| msgid "accessory"
 msgid "Accessory name"
 msgstr "příslušenství"
 
-#: src/ralph/accessories/models.py:64
+#: accessories/models.py:94
 #, fuzzy
 #| msgid "number of cores"
 msgid "Number of accessories"
 msgstr "počet jader"
 
-#: src/ralph/accessories/models.py:76
+#: accessories/models.py:106
 #, fuzzy
 #| msgid "accessory"
 msgid "Accessory owner"
 msgstr "příslušenství"
 
-#: src/ralph/accessories/models.py:84
+#: accessories/models.py:114
 #, fuzzy
 #| msgid "accessory"
 msgid "Accessory status"
 msgstr "příslušenství"
 
-#: src/ralph/accessories/models.py:87 src/ralph/licences/models.py:173
+#: accessories/models.py:117 licences/models.py:173
 msgid "number of purchased items"
 msgstr "počet zakoupených položek"
 
-#: src/ralph/accessories/models.py:98
+#: accessories/models.py:129
 msgid "restock"
 msgstr ""
 
-#: src/ralph/accessories/models.py:115
+#: accessories/models.py:142
+#, fuzzy
+#| msgid "accessory"
+msgid "accessory_send"
+msgstr "příslušenství"
+
+#: accessories/models.py:159
 msgid "Quantity"
 msgstr ""
 
-#: src/ralph/accounts/admin.py:101
+#: accounts/admin.py:107
 msgid "Buyout date"
 msgstr "Datum odprodeje"
 
-#: src/ralph/accounts/admin.py:176
+#: accounts/admin.py:187
 msgid "<div class=\"small-12 columns label alert\">missing</div>"
 msgstr "<div class=\"small-12 columns label alert\">chybí</div>"
 
-#: src/ralph/accounts/admin.py:180
+#: accounts/admin.py:191
 msgid "<div class=\"small-12 columns label success\">confirmed</div>"
 msgstr "<div class=\"small-12 columns label success\">potvrzeno</div>"
 
-#: src/ralph/accounts/admin.py:190
+#: accounts/admin.py:201
 msgid "yes"
 msgstr "ano"
 
-#: src/ralph/accounts/admin.py:195
+#: accounts/admin.py:206
 msgid "no"
 msgstr "ne"
 
-#: src/ralph/accounts/admin.py:198
+#: accounts/admin.py:209
 msgid "<i>Only asset's user can confirm.</i>"
 msgstr "<i>Může potvrdit pouze vlastník majetku.</i>"
 
-#: src/ralph/accounts/admin.py:199
+#: accounts/admin.py:210
 msgid "Do you have it?"
 msgstr "Máte to?"
 
-#: src/ralph/accounts/admin.py:256 src/ralph/deployment/admin.py:28
-#: src/ralph/deployment/admin.py:46 src/ralph/deployment/admin.py:66
-#: src/ralph/networks/admin.py:284
+#: accounts/admin.py:267 deployment/admin.py:29 deployment/admin.py:47
+#: deployment/admin.py:67 networks/admin.py:292
 msgid "Additional info"
 msgstr "Další informace"
 
-#: src/ralph/accounts/admin.py:266
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:7
+#: accounts/admin.py:277
+#: admin/templates/admin/templatetags/transition_history.html:7
 msgid "Transition history"
 msgstr "Historie přechodu"
 
-#: src/ralph/accounts/admin.py:292
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:14
+#: accounts/admin.py:303 accounts/templates/ralphuser/user_profile.html:14
 msgid "Personal info"
 msgstr "Osobní údaje"
 
-#: src/ralph/accounts/admin.py:295
+#: accounts/admin.py:306
 msgid "Permissions"
 msgstr "Oprávnění"
 
-#: src/ralph/accounts/admin.py:301
+#: accounts/admin.py:312
 msgid "Important dates"
 msgstr "Důležité datumy"
 
-#: src/ralph/accounts/admin.py:304
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:34
+#: accounts/admin.py:315 accounts/templates/ralphuser/user_profile.html:34
 msgid "Profile"
 msgstr "Profil"
 
-#: src/ralph/accounts/admin.py:309
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:48
+#: accounts/admin.py:320 accounts/templates/ralphuser/user_profile.html:48
 msgid "Job info"
 msgstr "Informace o úkolu"
 
-#: src/ralph/accounts/admin.py:355
+#: accounts/admin.py:366
 msgid "LDAP mapping"
 msgstr "LDAP mapování"
 
-#: src/ralph/accounts/admin.py:365 src/ralph/admin/sitetrees.py:318
+#: accounts/admin.py:376 admin/sitetrees.py:321
 msgid "Users list"
 msgstr "Seznam uživatelů"
 
-#: src/ralph/accounts/apps.py:9
+#: accounts/apps.py:9
 msgid "Accounts"
 msgstr "Účty"
 
-#: src/ralph/accounts/models.py:33 src/ralph/accounts/models.py:74
-#: src/ralph/trade_marks/admin.py:118
+#: accounts/models.py:33 accounts/models.py:74
+#: data_center/models/physical.py:149 trade_marks/admin.py:222
+#: trade_marks/admin.py:259 trade_marks/admin.py:295 trade_marks/admin.py:347
 msgid "country"
 msgstr "země"
 
-#: src/ralph/accounts/models.py:79
+#: accounts/models.py:79 data_center/models/physical.py:155
 msgid "city"
 msgstr "město"
 
-#: src/ralph/accounts/models.py:84
+#: accounts/models.py:84 data_center/models/physical.py:147
 msgid "company"
 msgstr "společnost"
 
-#: src/ralph/accounts/models.py:89
+#: accounts/models.py:89
 msgid "employee id"
 msgstr "osobní číslo"
 
-#: src/ralph/accounts/models.py:94
+#: accounts/models.py:94
 msgid "profit center"
 msgstr "ziskové centrum"
 
-#: src/ralph/accounts/models.py:99
+#: accounts/models.py:99
 msgid "cost center"
 msgstr "nákladové centrum"
 
-#: src/ralph/accounts/models.py:104
+#: accounts/models.py:104
 msgid "department"
 msgstr "oddělení"
 
-#: src/ralph/accounts/models.py:109
+#: accounts/models.py:109
 msgid "manager"
 msgstr "nadřízený"
 
-#: src/ralph/accounts/models.py:114
+#: accounts/models.py:114
 msgid "location"
 msgstr "umístění"
 
-#: src/ralph/accounts/models.py:119
+#: accounts/models.py:119
 msgid "segment"
 msgstr "segment"
 
-#: src/ralph/accounts/templates/ralphuser/inventory_tag_confirmation.html:5
+#: accounts/templates/ralphuser/inventory_tag_confirmation.html:5
 msgid "Asset possession confirmation"
 msgstr "Potvrzení dispozice majetku"
 
-#: src/ralph/accounts/templates/ralphuser/inventory_tag_confirmation.html:12
+#: accounts/templates/ralphuser/inventory_tag_confirmation.html:12
 msgid "Are you sure you have following item?"
 msgstr "Opravdu máte následující položku?"
 
-#: src/ralph/accounts/templates/ralphuser/inventory_tag_confirmation.html:14
+#: accounts/templates/ralphuser/inventory_tag_confirmation.html:14
 msgid "Are you sure you don't have this item?"
 msgstr "Opravdu nemáte následující položku?"
 
-#: src/ralph/accounts/templates/ralphuser/my_equipment.html:12
-#: src/ralph/accounts/templates/ralphuser/user_additional_info.html:7
+#: accounts/templates/ralphuser/my_equipment.html:16
+#: accounts/templates/ralphuser/user_additional_info.html:7
 msgid "Assigned assets"
 msgstr "Přiřazené majekty"
 
-#: src/ralph/accounts/templates/ralphuser/my_equipment.html:15
-#, fuzzy
-#| msgid "Assigned to users"
-msgid "Assigned SIM cards"
-msgstr "Přiřazeno uživatelům"
-
-#: src/ralph/accounts/templates/ralphuser/my_equipment.html:18
-#: src/ralph/accounts/templates/ralphuser/user_additional_info.html:10
+#: accounts/templates/ralphuser/my_equipment.html:19
+#: accounts/templates/ralphuser/user_additional_info.html:10
 msgid "Assigned licences"
 msgstr "Přiřazené licence"
 
-#: src/ralph/accounts/templates/ralphuser/partials/accept_assets.html:18
+#: accounts/templates/ralphuser/partials/accept_assets.html:18
 #, fuzzy
 #| msgid "Nothing to do."
 msgid "Nothing to accept."
 msgstr "Není co dělat."
 
-#: src/ralph/accounts/templates/ralphuser/partials/accept_assets.html:23
+#: accounts/templates/ralphuser/partials/accept_assets.html:23
 #, python-format
 msgid ""
 "\n"
@@ -400,108 +381,106 @@ msgid ""
 "      "
 msgstr ""
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:5
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:9
-#: src/ralph/admin/templates/admin/partials/userlinks.html:3
+#: accounts/templates/ralphuser/user_profile.html:5
+#: accounts/templates/ralphuser/user_profile.html:9
+#: admin/templates/admin/partials/userlinks.html:3
 msgid "My profile"
 msgstr "Můj profil"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:18
+#: accounts/templates/ralphuser/user_profile.html:18
 msgid "Username"
 msgstr "Uživatelské jméno"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:20
+#: accounts/templates/ralphuser/user_profile.html:20
 msgid "Full name"
 msgstr "Celé jméno"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:26
+#: accounts/templates/ralphuser/user_profile.html:26
 msgid "API Token"
 msgstr "Token API"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:38
-#: src/ralph/back_office/models.py:455
+#: accounts/templates/ralphuser/user_profile.html:38 back_office/models.py:471
 msgid "Country"
 msgstr "Země"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:40
+#: accounts/templates/ralphuser/user_profile.html:40
 msgid "City"
 msgstr "Město"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:52
+#: accounts/templates/ralphuser/user_profile.html:52
 msgid "Company"
 msgstr "Společnost"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:54
-#: src/ralph/admin/sitetrees.py:304
+#: accounts/templates/ralphuser/user_profile.html:54 admin/sitetrees.py:307
 msgid "Profit center"
 msgstr "Ziskové centrum"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:56
+#: accounts/templates/ralphuser/user_profile.html:56
 msgid "Cost center"
 msgstr "Nákladové centrum"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:58
+#: accounts/templates/ralphuser/user_profile.html:58
 msgid "Department"
 msgstr "Oddělení"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:64
+#: accounts/templates/ralphuser/user_profile.html:64
 msgid "Manager"
 msgstr "Nadřízený"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:66
-#: src/ralph/data_center/admin.py:518 src/ralph/data_center/admin.py:716
+#: accounts/templates/ralphuser/user_profile.html:66 data_center/admin.py:532
+#: data_center/admin.py:730
 msgid "Location"
 msgstr "Umístění"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:68
+#: accounts/templates/ralphuser/user_profile.html:68
 msgid "Segment"
 msgstr "Segment"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:77
+#: accounts/templates/ralphuser/user_profile.html:77
 msgid "Preferences"
 msgstr "Předvolby"
 
-#: src/ralph/accounts/templates/ralphuser/user_profile.html:88
+#: accounts/templates/ralphuser/user_profile.html:88
 msgid "Change language"
 msgstr "Změnit jazyk"
 
-#: src/ralph/accounts/templates/ralphuser/user_transition_history.html:5
+#: accounts/templates/ralphuser/user_transition_history.html:5
 msgid "User transition history"
 msgstr "Historie přechodu uživatele"
 
-#: src/ralph/accounts/views.py:61 src/ralph/accounts/views.py:186
+#: accounts/views.py:61 accounts/views.py:186
 msgid "Barcode / Inventory Number"
 msgstr "Čárový kód / inventární číslo"
 
-#: src/ralph/accounts/views.py:63 src/ralph/accounts/views.py:188
+#: accounts/views.py:63 accounts/views.py:188
 msgid "Serial Number"
 msgstr "Sériové číslo"
 
-#: src/ralph/accounts/views.py:116
+#: accounts/views.py:116
 msgid "Successfully tagged asset"
 msgstr "Majetek úspěšně označen"
 
-#: src/ralph/accounts/views.py:220
+#: accounts/views.py:204
 msgid "Inventory Number"
 msgstr "Inventární číslo"
 
-#: src/ralph/accounts/views.py:230
+#: accounts/views.py:217
 #, fuzzy
 #| msgid "order number"
 msgid "Phone Number"
 msgstr "číslo objednávky"
 
-#: src/ralph/accounts/views.py:231
+#: accounts/views.py:218
 #, fuzzy
 #| msgid "order number"
 msgid "Card Number"
 msgstr "číslo objednávky"
 
-#: src/ralph/accounts/views.py:232
+#: accounts/views.py:219
 msgid "PIN 1"
 msgstr ""
 
-#: src/ralph/admin/fields.py:29
+#: admin/fields.py:29
 msgid ""
 "Field can't be empty. Please put the item OR items separated by new line or "
 "comma."
@@ -509,84 +488,80 @@ msgstr ""
 "Kolonka nemůže zůstat nevyplněná. Zadejte položku nebo položky oddělované "
 "koncem řádku nebo čárkou."
 
-#: src/ralph/admin/fields.py:39
+#: admin/fields.py:39
 msgid "There are duplicates in field."
 msgstr "V kolonce jsou duplicity."
 
-#: src/ralph/admin/fields.py:57
+#: admin/fields.py:57
 msgid "Enter a valid number."
 msgstr "Zadejte platné číslo."
 
-#: src/ralph/admin/fields.py:119
+#: admin/fields.py:119
 #, python-format
 msgid "Fill at least on of %(v)s in each row"
 msgstr "Je třeba vyplnit alespon na z %(v)s každého rádku"
 
-#: src/ralph/admin/fields.py:146
+#: admin/fields.py:146
 msgid "Following items already exist: "
 msgstr "Následující položky už existují: "
 
-#: src/ralph/admin/filters.py:57 src/ralph/admin/filters.py:512
-#: src/ralph/networks/filters.py:32
+#: admin/filters.py:57 admin/filters.py:512 networks/filters.py:32
 #, python-format
 msgid "Incorrect value in \"%(field_name)s\" filter"
 msgstr "Neplatná hodnota ve filtru „%(field_name)s“"
 
-#: src/ralph/admin/filters.py:136 src/ralph/admin/sitetrees.py:278
-#: src/ralph/admin/widgets.py:93 src/ralph/reports/views.py:76
+#: admin/filters.py:136 admin/sitetrees.py:281 admin/widgets.py:93
+#: reports/views.py:76
 msgid "All"
 msgstr "Vše"
 
-#: src/ralph/admin/filters.py:156
+#: admin/filters.py:156
 msgid "Yes"
 msgstr "Ano"
 
-#: src/ralph/admin/filters.py:157
+#: admin/filters.py:157
 msgid "No"
 msgstr "Ne"
 
-#: src/ralph/admin/filters.py:310 src/ralph/admin/filters.py:317
-#: src/ralph/virtual/admin.py:322 src/ralph/virtual/admin.py:454
+#: admin/filters.py:310 admin/filters.py:317 virtual/admin.py:324
+#: virtual/admin.py:456
 msgid "Tags"
 msgstr "Štítky"
 
-#: src/ralph/admin/filters.py:522 src/ralph/admin/filters.py:528
+#: admin/filters.py:522 admin/filters.py:528
 msgid "IP"
 msgstr "IP adresa"
 
-#: src/ralph/admin/filters.py:552 src/ralph/admin/filters.py:558
-#: src/ralph/deployment/deployment.py:589
+#: admin/filters.py:552 admin/filters.py:558 deployment/deployment.py:589
 msgid "MAC Address"
 msgstr "MAC adresa"
 
-#: src/ralph/admin/filters.py:584 src/ralph/admin/filters.py:594
+#: admin/filters.py:584 admin/filters.py:594
 msgid "show liquidated"
 msgstr "zobrazit zlikvidované"
 
-#: src/ralph/admin/filters.py:614 src/ralph/admin/filters.py:629
-#: src/ralph/data_center/admin.py:122 src/ralph/data_center/admin.py:145
-#: src/ralph/data_center/admin.py:700
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:16
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:39
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:58
-#: src/ralph/deployment/deployment.py:400 src/ralph/virtual/admin.py:196
-#: src/ralph/virtual/admin.py:334
+#: admin/filters.py:614 admin/filters.py:629 data_center/admin.py:127
+#: data_center/admin.py:150 data_center/admin.py:714
+#: data_center/templates/data_center/datacenterasset/relations.html:16
+#: data_center/templates/data_center/datacenterasset/relations.html:39
+#: data_center/templates/data_center/datacenterasset/relations.html:58
+#: deployment/deployment.py:400 virtual/admin.py:198 virtual/admin.py:336
 msgid "Hostname"
 msgstr "Název stroje"
 
 #. Translators: Model verbose name and instance
 #. representation, suitable to be an item in a
 #. list.
-#: src/ralph/admin/m2m.py:268
+#: admin/m2m.py:272
 #, python-format
 msgid "%(class_name)s %(instance)s"
 msgstr "%(class_name)s %(instance)s"
 
-#: src/ralph/admin/m2m.py:275
+#: admin/m2m.py:279
 msgid "and"
 msgstr "a"
 
-#: src/ralph/admin/m2m.py:278
+#: admin/m2m.py:282
 #, python-format
 msgid ""
 "Deleting %(class_name)s %(instance)s would require deleting the following "
@@ -595,422 +570,429 @@ msgstr ""
 "Smazání %(class_name)s %(instance)s by vyžadoval smazání následujících "
 "chráněných souvisejících objektů: %(related_objects)s"
 
-#: src/ralph/admin/mixins.py:157
+#: admin/mixins.py:158
 msgid "Found exactly one result."
 msgstr "Nalezen přesně jeden výsledek."
 
-#: src/ralph/admin/sitetrees.py:66
+#: admin/sitetrees.py:66
 msgid "Add {}"
 msgstr "Přidat {}"
 
-#: src/ralph/admin/sitetrees.py:92 src/ralph/data_center/admin.py:575
+#: admin/sitetrees.py:92 data_center/admin.py:589
 msgid "Data Center"
 msgstr "Datacentrum"
 
-#: src/ralph/admin/sitetrees.py:97
+#: admin/sitetrees.py:97
 msgid "All hosts"
 msgstr "Všechny stroje"
 
-#: src/ralph/admin/sitetrees.py:99
+#: admin/sitetrees.py:99
 msgid "DC Visualization"
 msgstr "Vizualizace datacentra"
 
-#: src/ralph/admin/sitetrees.py:103 src/ralph/admin/sitetrees.py:142
+#: admin/sitetrees.py:103 admin/sitetrees.py:142
 msgid "Hardware"
 msgstr "Hardware"
 
-#: src/ralph/admin/sitetrees.py:104
+#: admin/sitetrees.py:104
 msgid "Virtual Servers"
 msgstr "Virtuální servery"
 
-#: src/ralph/admin/sitetrees.py:105
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:74
+#: admin/sitetrees.py:105
+#: data_center/templates/data_center/datacenterasset/relations.html:74
 msgid "Clusters"
 msgstr "Klastry"
 
-#: src/ralph/admin/sitetrees.py:106
+#: admin/sitetrees.py:106
 msgid "Data Centers"
 msgstr "Datacentra"
 
-#: src/ralph/admin/sitetrees.py:107
+#: admin/sitetrees.py:107
 msgid "Racks"
 msgstr "Rozvaděče"
 
-#: src/ralph/admin/sitetrees.py:108
+#: admin/sitetrees.py:108
 msgid "Rack accessories"
 msgstr "Příslušenství rozvaděče"
 
-#: src/ralph/admin/sitetrees.py:109
-#: src/ralph/data_center/models/physical.py:184
+#: admin/sitetrees.py:109 data_center/models/physical.py:219
 msgid "accessories"
 msgstr "Příslušenství"
 
-#: src/ralph/admin/sitetrees.py:110
+#: admin/sitetrees.py:110
 msgid "Databases"
 msgstr "Databáze"
 
-#: src/ralph/admin/sitetrees.py:111
+#: admin/sitetrees.py:111
 msgid "Disk Shares"
 msgstr "Disková sdílení"
 
-#: src/ralph/admin/sitetrees.py:112
+#: admin/sitetrees.py:112
 msgid "Server Rooms"
 msgstr "Serverovny"
 
-#: src/ralph/admin/sitetrees.py:113 src/ralph/data_center/models/virtual.py:53
+#: admin/sitetrees.py:113 data_center/models/virtual.py:53
 msgid "VIPs"
 msgstr "v běhu"
 
-#: src/ralph/admin/sitetrees.py:114
+#: admin/sitetrees.py:114
 msgid "Preboots"
 msgstr "Preboot prostředí"
 
-#: src/ralph/admin/sitetrees.py:116
+#: admin/sitetrees.py:116
 msgid "Preboot configuration"
 msgstr "Preboot nastavení"
 
-#: src/ralph/admin/sitetrees.py:119
+#: admin/sitetrees.py:119
 msgid "Preboot files"
 msgstr "Preboot soubory"
 
-#: src/ralph/admin/sitetrees.py:123
+#: admin/sitetrees.py:123
 #, fuzzy
 #| msgid "Cloud host"
 msgid "Cloud"
 msgstr "Hostitel cloudu"
 
-#: src/ralph/admin/sitetrees.py:128
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:13
-#: src/ralph/virtual/models.py:224
+#: admin/sitetrees.py:128
+#: data_center/templates/data_center/datacenterasset/relations.html:13
+#: virtual/models.py:224
 msgid "Cloud hosts"
 msgstr "Stroje cloudu"
 
-#: src/ralph/admin/sitetrees.py:129
+#: admin/sitetrees.py:129
 msgid "Cloud projects"
 msgstr "Projekty cloudu"
 
-#: src/ralph/admin/sitetrees.py:130
+#: admin/sitetrees.py:130
 #, fuzzy
 #| msgid "Cloud Flavor"
 msgid "Cloud flavors"
 msgstr "Varianta cloudu"
 
-#: src/ralph/admin/sitetrees.py:131 src/ralph/virtual/models.py:43
+#: admin/sitetrees.py:131 virtual/models.py:43
 msgid "Cloud providers"
 msgstr "Poskytovatelé cloudu"
 
-#: src/ralph/admin/sitetrees.py:132
+#: admin/sitetrees.py:132
 #, fuzzy
 #| msgid "Cloud providers"
 msgid "Cloud images"
 msgstr "Poskytovatelé cloudu"
 
-#: src/ralph/admin/sitetrees.py:136
+#: admin/sitetrees.py:136
 msgid "Back Office"
 msgstr "Back Office"
 
-#: src/ralph/admin/sitetrees.py:141
+#: admin/sitetrees.py:141
 #, fuzzy
 #| msgid "accessories"
 msgid "Access Cards"
 msgstr "Příslušenství"
 
-#: src/ralph/admin/sitetrees.py:143
+#: admin/sitetrees.py:143
 msgid "SIM Cards"
 msgstr ""
 
-#: src/ralph/admin/sitetrees.py:144
+#: admin/sitetrees.py:144
 #, fuzzy
 #| msgid "accessory"
 msgid "Accessory"
 msgstr "příslušenství"
 
-#: src/ralph/admin/sitetrees.py:148 src/ralph/admin/sitetrees.py:153
+#: admin/sitetrees.py:148 admin/sitetrees.py:153
 msgid "Networks"
 msgstr "Sítě"
 
-#: src/ralph/admin/sitetrees.py:155
+#: admin/sitetrees.py:155
 msgid "Network environments"
 msgstr "Síťová prostředí"
 
-#: src/ralph/admin/sitetrees.py:157
+#: admin/sitetrees.py:157
 msgid "Network kind"
 msgstr "Druh sítě"
 
-#: src/ralph/admin/sitetrees.py:158 src/ralph/virtual/admin.py:219
-#: src/ralph/virtual/admin.py:368
+#: admin/sitetrees.py:158 virtual/admin.py:221 virtual/admin.py:370
 msgid "IP Addresses"
 msgstr "IP adresy"
 
-#: src/ralph/admin/sitetrees.py:159 src/ralph/dhcp/models.py:44
+#: admin/sitetrees.py:159 dhcp/models.py:44
 msgid "DHCP Servers"
 msgstr "DHCP servery"
 
-#: src/ralph/admin/sitetrees.py:160 src/ralph/dhcp/models.py:61
+#: admin/sitetrees.py:160 dhcp/models.py:61
 #, fuzzy
 #| msgid "DNS Servers"
 msgid "DNS Server Groups"
 msgstr "DNS servery"
 
-#: src/ralph/admin/sitetrees.py:161 src/ralph/dhcp/models.py:99
+#: admin/sitetrees.py:161 dhcp/models.py:99
 msgid "DNS Servers"
 msgstr "DNS servery"
 
-#: src/ralph/admin/sitetrees.py:165
+#: admin/sitetrees.py:165
 msgid "Licenses"
 msgstr "Licence"
 
-#: src/ralph/admin/sitetrees.py:170 src/ralph/data_center/admin.py:177
-#: src/ralph/data_center/admin.py:302 src/ralph/virtual/admin.py:96
+#: admin/sitetrees.py:170 data_center/admin.py:182 data_center/admin.py:310
+#: virtual/admin.py:98
 msgid "Licences"
 msgstr "Licence"
 
-#: src/ralph/admin/sitetrees.py:171 src/ralph/admin/sitetrees.py:199
-#: src/ralph/admin/sitetrees.py:279
+#: admin/sitetrees.py:171 admin/sitetrees.py:202 admin/sitetrees.py:282
 msgid "Types"
 msgstr "Typy"
 
-#: src/ralph/admin/sitetrees.py:172
+#: admin/sitetrees.py:172
 msgid "Software"
 msgstr "Software"
 
-#: src/ralph/admin/sitetrees.py:176
+#: admin/sitetrees.py:176
 msgid "Intellectual Property"
 msgstr ""
 
-#: src/ralph/admin/sitetrees.py:181
+#: admin/sitetrees.py:181
 #, fuzzy
 #| msgid "remarks"
 msgid "Trade Marks"
 msgstr "poznámky"
 
-#: src/ralph/admin/sitetrees.py:182
+#: admin/sitetrees.py:182
+msgid "Designs"
+msgstr ""
+
+#: admin/sitetrees.py:183
+msgid "Patents"
+msgstr ""
+
+#: admin/sitetrees.py:184
+msgid "Utility Models"
+msgstr ""
+
+#: admin/sitetrees.py:185
 msgid "Domains"
 msgstr "Doméhny"
 
-#: src/ralph/admin/sitetrees.py:183
+#: admin/sitetrees.py:186
 msgid "Contracts"
 msgstr "Smlouvy"
 
-#: src/ralph/admin/sitetrees.py:184
+#: admin/sitetrees.py:187
 msgid "Registrants"
 msgstr "Registrovaní"
 
-#: src/ralph/admin/sitetrees.py:185
+#: admin/sitetrees.py:188
 msgid "Owners"
 msgstr "Vlastníci"
 
-#: src/ralph/admin/sitetrees.py:186
+#: admin/sitetrees.py:189
 msgid "DNS Providers"
 msgstr "Poskytovatelé DNS"
 
-#: src/ralph/admin/sitetrees.py:187
+#: admin/sitetrees.py:190
 msgid "Domain Categories"
 msgstr "Doménové kategorie"
 
-#: src/ralph/admin/sitetrees.py:188
+#: admin/sitetrees.py:191
 msgid "SSL Certificates"
 msgstr ""
 
-#: src/ralph/admin/sitetrees.py:193 src/ralph/admin/sitetrees.py:198
-#: src/ralph/back_office/admin.py:35 src/ralph/data_center/admin.py:286
+#: admin/sitetrees.py:196 admin/sitetrees.py:201 back_office/admin.py:39
+#: data_center/admin.py:294
 msgid "Supports"
 msgstr "Podpory"
 
-#: src/ralph/admin/sitetrees.py:200
+#: admin/sitetrees.py:203
 msgid "Assets supports"
 msgstr "Podpora majetků"
 
-#: src/ralph/admin/sitetrees.py:204
-#: src/ralph/reports/templates/reports/report_detail.html:5
+#: admin/sitetrees.py:207 reports/templates/reports/report_detail.html:5
 msgid "Reports"
 msgstr "Výkazy"
 
-#: src/ralph/admin/sitetrees.py:210
+#: admin/sitetrees.py:213
 msgid "Category model"
 msgstr "Model kategorie"
 
-#: src/ralph/admin/sitetrees.py:217
+#: admin/sitetrees.py:220
 msgid "Category model status"
 msgstr "Stav modelu kategorie"
 
-#: src/ralph/admin/sitetrees.py:224
+#: admin/sitetrees.py:227
 msgid "Manufacturer category model"
 msgstr "Model kategorie výrobce"
 
-#: src/ralph/admin/sitetrees.py:232
+#: admin/sitetrees.py:235
 msgid "Status model"
 msgstr "Model stavu"
 
-#: src/ralph/admin/sitetrees.py:239 src/ralph/reports/views.py:319
+#: admin/sitetrees.py:242 reports/views.py:319
 msgid "Asset - relations"
 msgstr "Majetek – vztahy"
 
-#: src/ralph/admin/sitetrees.py:246 src/ralph/reports/views.py:483
+#: admin/sitetrees.py:249 reports/views.py:483
 msgid "Licence - relations"
 msgstr "Licence – vztahy"
 
-#: src/ralph/admin/sitetrees.py:253
+#: admin/sitetrees.py:256
 msgid "Assets - supports"
 msgstr "Majetky – podpory"
 
-#: src/ralph/admin/sitetrees.py:260 src/ralph/admin/sitetrees.py:277
-#: src/ralph/reports/views.py:588
+#: admin/sitetrees.py:263 admin/sitetrees.py:280 reports/views.py:588
 msgid "Failures"
 msgstr "Poruchy"
 
-#: src/ralph/admin/sitetrees.py:269 src/ralph/operations/views.py:63
+#: admin/sitetrees.py:272 operations/views.py:63
 msgid "Operations"
 msgstr "Operace"
 
-#: src/ralph/admin/sitetrees.py:274
+#: admin/sitetrees.py:277
 msgid "Changes"
 msgstr "Změny"
 
-#: src/ralph/admin/sitetrees.py:275
+#: admin/sitetrees.py:278
 msgid "Problems"
 msgstr "Problémy"
 
-#: src/ralph/admin/sitetrees.py:276
+#: admin/sitetrees.py:279
 msgid "Incidents"
 msgstr "Incidenty"
 
-#: src/ralph/admin/sitetrees.py:280
+#: admin/sitetrees.py:283
 msgid "Statuses"
 msgstr "Stavy"
 
-#: src/ralph/admin/sitetrees.py:284 src/ralph/admin/sitetrees.py:289
+#: admin/sitetrees.py:287 admin/sitetrees.py:292
 msgid "Dashboards"
 msgstr "Nástěnky"
 
-#: src/ralph/admin/sitetrees.py:290
+#: admin/sitetrees.py:293
 msgid "Graphs"
 msgstr "Grafy"
 
-#: src/ralph/admin/sitetrees.py:294
+#: admin/sitetrees.py:297
 msgid "Settings"
 msgstr "Nastavení"
 
-#: src/ralph/admin/sitetrees.py:299
+#: admin/sitetrees.py:302
 msgid "Asset model"
 msgstr "Model majetku"
 
-#: src/ralph/admin/sitetrees.py:300
+#: admin/sitetrees.py:303
 msgid "Asset category"
 msgstr "Kategorie majetku"
 
-#: src/ralph/admin/sitetrees.py:301
+#: admin/sitetrees.py:304
 msgid "Manufacturer"
 msgstr "Výrobce"
 
-#: src/ralph/admin/sitetrees.py:302
+#: admin/sitetrees.py:305
 msgid "Manufacturer Kind"
 msgstr "Druh výrobce"
 
-#: src/ralph/admin/sitetrees.py:303
+#: admin/sitetrees.py:306
 msgid "Business segment"
 msgstr "Segment trhu"
 
-#: src/ralph/admin/sitetrees.py:305
-#: src/ralph/admin/templates/admin/templatetags/my_services.html:12
+#: admin/sitetrees.py:308
+#: admin/templates/admin/templatetags/my_services.html:12
 msgid "Service"
 msgstr "Služba"
 
-#: src/ralph/admin/sitetrees.py:306
-#: src/ralph/admin/templates/admin/templatetags/my_services.html:13
+#: admin/sitetrees.py:309
+#: admin/templates/admin/templatetags/my_services.html:13
 msgid "Environment"
 msgstr "Prostředí"
 
-#: src/ralph/admin/sitetrees.py:307 src/ralph/assets/models/assets.py:350
+#: admin/sitetrees.py:310 assets/models/assets.py:351
 msgid "Budget info"
 msgstr "Informace o rozpočtu"
 
-#: src/ralph/admin/sitetrees.py:309
+#: admin/sitetrees.py:312
 msgid "Service Environment"
 msgstr "Prostředí služby"
 
-#: src/ralph/admin/sitetrees.py:312
+#: admin/sitetrees.py:315
 msgid "Configuration modules"
 msgstr "Moduly nastavení"
 
-#: src/ralph/admin/sitetrees.py:315
+#: admin/sitetrees.py:318
 msgid "Configuration classes"
 msgstr "Třídy nastavení"
 
-#: src/ralph/admin/sitetrees.py:317
+#: admin/sitetrees.py:320
 msgid "Asset holder"
 msgstr "Výplň majetku"
 
-#: src/ralph/admin/sitetrees.py:319
+#: admin/sitetrees.py:322
 msgid "Groups list"
 msgstr "Seznam skupin"
 
-#: src/ralph/admin/sitetrees.py:320
+#: admin/sitetrees.py:323
 msgid "Regions"
 msgstr "Oblasti"
 
-#: src/ralph/admin/sitetrees.py:322
-#: src/ralph/lib/transitions/templates/transitions/templatetags/available_transitions.html:7
+#: admin/sitetrees.py:325
+#: lib/transitions/templates/transitions/templatetags/available_transitions.html:7
 msgid "Transitions"
 msgstr "Přechody"
 
-#: src/ralph/admin/sitetrees.py:323
+#: admin/sitetrees.py:326
 msgid "Report template"
 msgstr "Šablona výkazu"
 
-#: src/ralph/admin/sitetrees.py:324
+#: admin/sitetrees.py:327
 msgid "Custom fields"
 msgstr "Vlastní kolonky"
 
-#: src/ralph/admin/sitetrees.py:325
+#: admin/sitetrees.py:328
 msgid "Warehouses"
 msgstr "Sklady"
 
-#: src/ralph/admin/sitetrees.py:327 src/ralph/back_office/models.py:95
+#: admin/sitetrees.py:330 back_office/models.py:105
 msgid "Office Infrastructures"
 msgstr "Infrastruktury kanceláří"
 
-#: src/ralph/admin/templates/admin/actions.html:5
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:18
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table.html:12
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:27
+#: admin/templates/admin/actions.html:5
+#: admin/templates/admin/templatetags/transition_history.html:18
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:12
+#: lib/transitions/templates/transitions/current_transitions.html:27
 msgid "Actions"
 msgstr "Akce"
 
-#: src/ralph/admin/templates/admin/actions.html:10
+#: admin/templates/admin/actions.html:10
 msgid "Run the selected action"
 msgstr "Spustit vybranou akci"
 
-#: src/ralph/admin/templates/admin/actions.html:11
+#: admin/templates/admin/actions.html:11
 msgid "Go"
 msgstr "Přejít"
 
-#: src/ralph/admin/templates/admin/change_form.html:13
-#: src/ralph/admin/templates/admin/multi_add.html:53
+#: admin/templates/admin/change_form.html:13
+#: admin/templates/admin/multi_add.html:53
 msgid "Add"
 msgstr "Přidat"
 
-#: src/ralph/admin/templates/admin/change_form.html:27
+#: admin/templates/admin/change_form.html:27
 msgid "History"
 msgstr "Historie"
 
-#: src/ralph/admin/templates/admin/change_form.html:61
-#: src/ralph/admin/templates/admin/change_list.html:73
-#: src/ralph/admin/templates/admin/login.html:28
+#: admin/templates/admin/change_form.html:61
+#: admin/templates/admin/change_list.html:73
+#: admin/templates/admin/login.html:28
 msgid "Please correct the error below."
 msgstr "Opravte níže uvedenou chybu."
 
-#: src/ralph/admin/templates/admin/change_form.html:63
-#: src/ralph/admin/templates/admin/change_list.html:75
-#: src/ralph/admin/templates/admin/login.html:28
+#: admin/templates/admin/change_form.html:63
+#: admin/templates/admin/change_list.html:75
+#: admin/templates/admin/login.html:28
 msgid "Please correct the errors below."
 msgstr "Opravte níže uvedené chyby."
 
-#: src/ralph/admin/templates/admin/change_list.html:34
+#: admin/templates/admin/change_list.html:34
 msgid "Back to list"
 msgstr "Zpět na seznam"
 
-#: src/ralph/admin/templates/admin/change_list.html:40
+#: admin/templates/admin/change_list.html:40
 #, python-format
 msgid ""
 "\n"
@@ -1023,11 +1005,11 @@ msgstr ""
 "%(name)s\n"
 "                "
 
-#: src/ralph/admin/templates/admin/change_list.html:47
+#: admin/templates/admin/change_list.html:47
 msgid "Other actions"
 msgstr "Ostatní akce"
 
-#: src/ralph/admin/templates/admin/change_list.html:56
+#: admin/templates/admin/change_list.html:56
 #, python-format
 msgid ""
 "\n"
@@ -1038,15 +1020,15 @@ msgstr ""
 "                            Obnovit smazané %(name)s\n"
 "                          "
 
-#: src/ralph/admin/templates/admin/change_list_results.html:32
+#: admin/templates/admin/change_list_results.html:32
 msgid "Remove from sorting"
 msgstr "Odebrat z třídění"
 
-#: src/ralph/admin/templates/admin/change_list_results.html:63
+#: admin/templates/admin/change_list_results.html:63
 msgid "Nothing to display."
 msgstr "Není co zobrazit."
 
-#: src/ralph/admin/templates/admin/change_list_results.html:65
+#: admin/templates/admin/change_list_results.html:65
 #, python-format
 msgid ""
 "\n"
@@ -1057,7 +1039,7 @@ msgstr ""
 "        Můžete <a href=\"%(add_url)s\">přidat první %(name)s</a>.\n"
 "      "
 
-#: src/ralph/admin/templates/admin/delete_confirmation.html:8
+#: admin/templates/admin/delete_confirmation.html:8
 #, python-format
 msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
@@ -1068,7 +1050,7 @@ msgstr ""
 "souvisejících objektů, ale váš účet nemá oprávnění mazat následující typy "
 "objektů:"
 
-#: src/ralph/admin/templates/admin/delete_confirmation.html:15
+#: admin/templates/admin/delete_confirmation.html:15
 #, python-format
 msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
@@ -1077,7 +1059,7 @@ msgstr ""
 "Smazání %(object_name)s „%(escaped_object)s“ by vyžadovalo smazání "
 "následujících chráněných souvisejících objektů:"
 
-#: src/ralph/admin/templates/admin/delete_confirmation.html:23
+#: admin/templates/admin/delete_confirmation.html:23
 #, python-format
 msgid ""
 "\n"
@@ -1090,23 +1072,23 @@ msgstr ""
 "z následujících souvisejících objektů budou smazány:\n"
 "      "
 
-#: src/ralph/admin/templates/admin/delete_confirmation.html:29
-#: src/ralph/admin/templates/admin/delete_selected_confirmation.html:30
-#: src/ralph/assets/admin.py:152 src/ralph/operations/admin.py:144
+#: admin/templates/admin/delete_confirmation.html:29
+#: admin/templates/admin/delete_selected_confirmation.html:30
+#: assets/admin.py:153 operations/admin.py:144
 msgid "Objects"
 msgstr "Objekty"
 
-#: src/ralph/admin/templates/admin/delete_confirmation.html:36
-#: src/ralph/admin/templates/admin/delete_selected_confirmation.html:41
+#: admin/templates/admin/delete_confirmation.html:36
+#: admin/templates/admin/delete_selected_confirmation.html:41
 msgid "Yes, I'm sure"
 msgstr "Ano, jsem si jistý"
 
-#: src/ralph/admin/templates/admin/delete_confirmation.html:37
-#: src/ralph/admin/templates/admin/delete_selected_confirmation.html:42
+#: admin/templates/admin/delete_confirmation.html:37
+#: admin/templates/admin/delete_selected_confirmation.html:42
 msgid "No, take me back"
 msgstr "Ne, vzít zpět"
 
-#: src/ralph/admin/templates/admin/delete_selected_confirmation.html:7
+#: admin/templates/admin/delete_selected_confirmation.html:7
 #, python-format
 msgid ""
 "Deleting the selected %(objects_name)s would result in deleting related "
@@ -1117,7 +1099,7 @@ msgstr ""
 "objektů, ale váš uživatelský účet nemá oprávnění mazat následující typy "
 "objektů:"
 
-#: src/ralph/admin/templates/admin/delete_selected_confirmation.html:14
+#: admin/templates/admin/delete_selected_confirmation.html:14
 #, python-format
 msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
@@ -1126,7 +1108,7 @@ msgstr ""
 "Smazání označených %(objects_name)s by vedlo ke smazání souvisejících "
 "objektů:"
 
-#: src/ralph/admin/templates/admin/delete_selected_confirmation.html:22
+#: admin/templates/admin/delete_selected_confirmation.html:22
 #, python-format
 msgid ""
 "\n"
@@ -1139,28 +1121,28 @@ msgstr ""
 "objekty a jejich související položky budou smazány:\n"
 "      "
 
-#: src/ralph/admin/templates/admin/edit_inline/tabular.html:8
+#: admin/templates/admin/edit_inline/tabular.html:8
 #, python-format
 msgid "Add another %(verbose_name)s"
 msgstr "Přidat další %(verbose_name)s"
 
-#: src/ralph/admin/templates/admin/edit_inline/tabular.html:8
+#: admin/templates/admin/edit_inline/tabular.html:8
 msgid "Remove"
 msgstr "Odebrat"
 
-#: src/ralph/admin/templates/admin/edit_inline/tabular.html:26
+#: admin/templates/admin/edit_inline/tabular.html:26
 msgid "Delete?"
 msgstr "Smazat?"
 
-#: src/ralph/admin/templates/admin/edit_inline/tabular.html:67
+#: admin/templates/admin/edit_inline/tabular.html:67
 msgid "Change"
 msgstr "Změnit"
 
-#: src/ralph/admin/templates/admin/edit_inline/tabular_m2m.html:5
+#: admin/templates/admin/edit_inline/tabular_m2m.html:5
 msgid "Delete assignment?"
 msgstr "Smazat přiřazení?"
 
-#: src/ralph/admin/templates/admin/filters/_filter_base.html:7
+#: admin/templates/admin/filters/_filter_base.html:7
 #, python-format
 msgid ""
 "\n"
@@ -1171,83 +1153,83 @@ msgstr ""
 "        %(filter_title)s\n"
 "      "
 
-#: src/ralph/admin/templates/admin/import_export/change_list_import_export.html:8
+#: admin/templates/admin/import_export/change_list_import_export.html:8
 msgid "Import"
 msgstr "Import"
 
-#: src/ralph/admin/templates/admin/import_export/change_list_import_export.html:14
-#: src/ralph/admin/templates/admin/import_export/export.html:7
-#: src/ralph/admin/templates/admin/import_export/export.html:11
+#: admin/templates/admin/import_export/change_list_import_export.html:14
+#: admin/templates/admin/import_export/export.html:7
+#: admin/templates/admin/import_export/export.html:11
 msgid "Export"
 msgstr "Export"
 
-#: src/ralph/admin/templates/admin/import_export/export.html:14
+#: admin/templates/admin/import_export/export.html:14
 msgid ""
 "To avoid wrong calculations in the report, make sure all exported items' "
 "prices are expressed in the same currency."
 msgstr ""
 
-#: src/ralph/admin/templates/admin/import_export/export.html:38
+#: admin/templates/admin/import_export/export.html:38
 msgid "Submit"
 msgstr ""
 
-#: src/ralph/admin/templates/admin/includes/object_delete_summary.html:3
+#: admin/templates/admin/includes/object_delete_summary.html:3
 msgid "Summary"
 msgstr "Souhrn"
 
-#: src/ralph/admin/templates/admin/index.html:19
+#: admin/templates/admin/index.html:19
 msgid "My Recent Actions"
 msgstr "Mé nedávné akce"
 
-#: src/ralph/admin/templates/admin/index.html:23
+#: admin/templates/admin/index.html:23
 msgid "None available"
 msgstr "Není k dispozici"
 
-#: src/ralph/admin/templates/admin/index.html:37
+#: admin/templates/admin/index.html:37
 msgid "Unknown content"
 msgstr "Neznámý obsah"
 
-#: src/ralph/admin/templates/admin/login.html:51
+#: admin/templates/admin/login.html:51
 msgid "Please login"
 msgstr "Přihlaste se"
 
-#: src/ralph/admin/templates/admin/login.html:53
+#: admin/templates/admin/login.html:53
 msgid "Log in"
 msgstr "Přihlásit"
 
-#: src/ralph/admin/templates/admin/login.html:59
+#: admin/templates/admin/login.html:59
 msgid "Forgotten your password or username?"
 msgstr "Zapomněli jste své uživatelské jméno nebo heslo?"
 
-#: src/ralph/admin/templates/admin/multi_add.html:5
+#: admin/templates/admin/multi_add.html:5
 msgid "Bulk adding:"
 msgstr "Dávkové přidání:"
 
-#: src/ralph/admin/templates/admin/multi_add.html:12
+#: admin/templates/admin/multi_add.html:12
 msgid "This object will be multiplied"
 msgstr "Tento objekt bude znásoben"
 
-#: src/ralph/admin/templates/admin/multi_add.html:17
+#: admin/templates/admin/multi_add.html:17
 msgid "Please add multiple values separated with comma, new line or pipe"
 msgstr "Přidejte vícero hodnot oddělovaných čárkou, koncem řádku nebo pajpou"
 
-#: src/ralph/admin/templates/admin/multi_add.html:47
+#: admin/templates/admin/multi_add.html:47
 msgid "Cancel"
 msgstr "Storno"
 
-#: src/ralph/admin/templates/admin/object_history.html:12
-#: src/ralph/admin/templates/reversion/object_history.html:14
+#: admin/templates/admin/object_history.html:12
+#: admin/templates/reversion/object_history.html:14
 msgid "Date/time"
 msgstr "Datum/čas"
 
-#: src/ralph/admin/templates/admin/object_history.html:14
-#: src/ralph/back_office/templates/backofficeasset/components.html:14
-#: src/ralph/data_center/templates/data_center/datacenterasset/components.html:14
+#: admin/templates/admin/object_history.html:14
+#: back_office/templates/backofficeasset/components.html:14
+#: data_center/templates/data_center/datacenterasset/components.html:14
 msgid "Action"
 msgstr "Akce"
 
-#: src/ralph/admin/templates/admin/object_history.html:28
-#: src/ralph/admin/templates/reversion/object_history.html:37
+#: admin/templates/admin/object_history.html:28
+#: admin/templates/reversion/object_history.html:37
 msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
@@ -1255,119 +1237,118 @@ msgstr ""
 "Tento objekt nemá historii změn. Nejspíš nebyl přidán prostřednictvím této "
 "správní stránky."
 
-#: src/ralph/admin/templates/admin/pagination.html:21
+#: admin/templates/admin/pagination.html:21
 msgid "Show all"
 msgstr "Zobrazit vše"
 
-#: src/ralph/admin/templates/admin/pagination.html:26
-#: src/ralph/admin/templates/admin/submit_line.html:28
-#: src/ralph/dns/templates/dns/dns_edit.html:36
+#: admin/templates/admin/pagination.html:26
+#: admin/templates/admin/submit_line.html:28 dns/templates/dns/dns_edit.html:36
 msgid "Save"
 msgstr "Uložit"
 
-#: src/ralph/admin/templates/admin/partials/userlinks.html:6
-#: src/ralph/admin/templatetags/dashboard_tags.py:39
+#: admin/templates/admin/partials/userlinks.html:6
+#: admin/templatetags/dashboard_tags.py:46
 msgid "My equipment"
 msgstr "Moje vybavení"
 
-#: src/ralph/admin/templates/admin/partials/userlinks.html:10
+#: admin/templates/admin/partials/userlinks.html:10
 msgid "Change password"
 msgstr "Změnit heslo"
 
-#: src/ralph/admin/templates/admin/partials/userlinks.html:14
+#: admin/templates/admin/partials/userlinks.html:14
 msgid "Log out"
 msgstr "Odhlásit"
 
-#: src/ralph/admin/templates/admin/related_widget_wrapper.html:9
+#: admin/templates/admin/popup_response.html:3
+msgid "Popup closing..."
+msgstr ""
+
+#: admin/templates/admin/related_widget_wrapper.html:9
 #, python-format
 msgid "Change selected %(model)s"
 msgstr "Změnit označené %(model)s"
 
-#: src/ralph/admin/templates/admin/related_widget_wrapper.html:16
+#: admin/templates/admin/related_widget_wrapper.html:16
 #, python-format
 msgid "Add another %(model)s"
 msgstr "Přidat další %(model)s"
 
-#: src/ralph/admin/templates/admin/search_form.html:7
+#: admin/templates/admin/search_form.html:7
 #, python-format
 msgid "Search %(verbose_name)s by"
 msgstr "Hledat %(verbose_name)s podle"
 
-#: src/ralph/admin/templates/admin/submit_line.html:8
-#: src/ralph/attachments/templates/attachments/attachments.html:15
-#: src/ralph/dns/templates/dns/dns_edit.html:40
+#: admin/templates/admin/submit_line.html:8
+#: attachments/templates/attachments/attachments.html:15
+#: dns/templates/dns/dns_edit.html:40
 msgid "Delete"
 msgstr "Smazat"
 
-#: src/ralph/admin/templates/admin/submit_line.html:18
+#: admin/templates/admin/submit_line.html:18
 msgid "Duplicate"
 msgstr "Zduplikovat"
 
-#: src/ralph/admin/templates/admin/submit_line.html:22
+#: admin/templates/admin/submit_line.html:22
 msgid "Bulk add"
 msgstr "Dávkové přidání"
 
-#: src/ralph/admin/templates/admin/templatetags/my_services.html:9
+#: admin/templates/admin/templatetags/my_services.html:9
 msgid "My services"
 msgstr "Moje služby"
 
-#: src/ralph/admin/templates/admin/templatetags/my_services.html:14
-#: src/ralph/assets/admin.py:282
+#: admin/templates/admin/templatetags/my_services.html:14 assets/admin.py:283
 msgid "Assets count"
 msgstr "Počet položek majetku"
 
-#: src/ralph/admin/templates/admin/templatetags/tabs.html:13
-#: src/ralph/admin/templates/admin/templatetags/tabs.html:14
-#: src/ralph/assets/admin.py:79 src/ralph/back_office/admin.py:162
-#: src/ralph/data_center/admin.py:199 src/ralph/data_center/admin.py:465
-#: src/ralph/deployment/admin.py:23 src/ralph/deployment/admin.py:41
-#: src/ralph/deployment/admin.py:61 src/ralph/domains/admin.py:47
-#: src/ralph/domains/admin.py:91
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:18
-#: src/ralph/licences/admin.py:123 src/ralph/networks/admin.py:34
-#: src/ralph/networks/admin.py:140 src/ralph/networks/admin.py:279
-#: src/ralph/operations/admin.py:137 src/ralph/ssl_certificates/admin.py:34
-#: src/ralph/supports/admin.py:89 src/ralph/trade_marks/admin.py:71
+#: admin/templates/admin/templatetags/tabs.html:13
+#: admin/templates/admin/templatetags/tabs.html:14 assets/admin.py:80
+#: back_office/admin.py:173 data_center/admin.py:204 data_center/admin.py:478
+#: deployment/admin.py:24 deployment/admin.py:42 deployment/admin.py:62
+#: domains/admin.py:48 domains/admin.py:92
+#: lib/transitions/templates/transitions/current_transitions.html:18
+#: licences/admin.py:127 networks/admin.py:35 networks/admin.py:142
+#: networks/admin.py:287 operations/admin.py:137 ssl_certificates/admin.py:35
+#: supports/admin.py:93 trade_marks/admin.py:113 trade_marks/admin.py:193
 msgid "Basic info"
 msgstr "Základní informace"
 
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:13
-#: src/ralph/attachments/templates/attachments/attachments.html:14
+#: admin/templates/admin/templatetags/transition_history.html:13
+#: attachments/templates/attachments/attachments.html:14
 msgid "Date"
 msgstr "Datum"
 
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:14
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:19
+#: admin/templates/admin/templatetags/transition_history.html:14
+#: lib/transitions/templates/transitions/current_transitions.html:19
 msgid "Author"
 msgstr "Autor"
 
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:15
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:20
+#: admin/templates/admin/templatetags/transition_history.html:15
+#: lib/transitions/templates/transitions/current_transitions.html:20
 msgid "Transition"
 msgstr "Přechod"
 
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:16
+#: admin/templates/admin/templatetags/transition_history.html:16
 msgid "Source"
 msgstr "Zdroj"
 
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:17
+#: admin/templates/admin/templatetags/transition_history.html:17
 msgid "Target"
 msgstr "Cíl"
 
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:19
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:26
+#: admin/templates/admin/templatetags/transition_history.html:19
+#: lib/transitions/templates/transitions/current_transitions.html:26
 msgid "Data"
 msgstr "Data"
 
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:20
+#: admin/templates/admin/templatetags/transition_history.html:20
 msgid "Attachment"
 msgstr "Příloha"
 
-#: src/ralph/admin/templates/admin/templatetags/transition_history.html:65
+#: admin/templates/admin/templatetags/transition_history.html:65
 msgid "Transition history is empty"
 msgstr "Historie přechodů je prázdná"
 
-#: src/ralph/admin/templates/reversion/object_history.html:7
+#: admin/templates/reversion/object_history.html:7
 msgid ""
 "Choose a date from the list below to revert to a previous version of this "
 "object."
@@ -1375,138 +1356,148 @@ msgstr ""
 "Zvolte z níže uvedeného seznamu datum na verzi ze kterého tento objekt "
 "vrátit."
 
-#: src/ralph/admin/templates/reversion/object_history.html:16
+#: admin/templates/reversion/object_history.html:16
 msgid "Comment"
 msgstr "Komentář"
 
-#: src/ralph/admin/templatetags/dashboard_tags.py:53
-#: src/ralph/admin/tests/test_templatetags.py:21
+#: admin/templatetags/dashboard_tags.py:60 admin/tests/test_templatetags.py:21
 #, fuzzy
 #| msgid "Hardware"
 msgid "Hardware pick up"
 msgstr "Hardware"
 
-#: src/ralph/admin/templatetags/dashboard_tags.py:65
-#: src/ralph/admin/tests/test_templatetags.py:45
+#: admin/templatetags/dashboard_tags.py:72 admin/tests/test_templatetags.py:45
 msgid "SIM Card pick up"
 msgstr ""
 
-#: src/ralph/admin/templatetags/dashboard_tags.py:77
-#: src/ralph/admin/tests/test_templatetags.py:29
+#: admin/templatetags/dashboard_tags.py:84
+#, fuzzy
+#| msgid "accessories"
+msgid "Access Card pick up"
+msgstr "Příslušenství"
+
+#: admin/templatetags/dashboard_tags.py:96 admin/tests/test_templatetags.py:29
 #, fuzzy
 #| msgid "Hardware"
 msgid "Hardware loan"
 msgstr "Hardware"
 
-#: src/ralph/admin/templatetags/dashboard_tags.py:89
-#: src/ralph/admin/tests/test_templatetags.py:37
+#: admin/templatetags/dashboard_tags.py:108 admin/tests/test_templatetags.py:37
 #, fuzzy
 #| msgid "Hardware"
 msgid "Hardware return"
 msgstr "Hardware"
 
-#: src/ralph/admin/views/multiadd.py:142
+#: admin/templatetags/dashboard_tags.py:120
+#, fuzzy
+#| msgid "Hardware"
+msgid "Team hardware pick up"
+msgstr "Hardware"
+
+#: admin/templatetags/dashboard_tags.py:132
+#, fuzzy
+#| msgid "Hardware"
+msgid "Test hardware pick up"
+msgstr "Hardware"
+
+#: admin/views/multiadd.py:142
 #, python-format
 msgid "Saved %(count)d object(s): %(objects)s"
 msgstr "Uloženo %(count)d object(s): %(objects)s"
 
-#: src/ralph/api/tests/test_fields.py:15
-#: src/ralph/api/tests/test_serializers.py:22
+#: api/tests/test_fields.py:15 api/tests/test_serializers.py:22
 msgid "foo11"
 msgstr "foo11"
 
-#: src/ralph/api/tests/test_fields.py:16
-#: src/ralph/api/tests/test_serializers.py:23
+#: api/tests/test_fields.py:16 api/tests/test_serializers.py:23
 msgid "bar22"
 msgstr "bar22"
 
-#: src/ralph/assets/admin.py:61
+#: assets/admin.py:62
 msgid "Objects count"
 msgstr "Počet objektů"
 
-#: src/ralph/assets/admin.py:84 src/ralph/networks/admin.py:148
+#: assets/admin.py:85 networks/admin.py:150
 msgid "Relations"
 msgstr "Vztahy"
 
-#: src/ralph/assets/admin.py:101
+#: assets/admin.py:102
 msgid "Children modules"
 msgstr "Podřízené moduly"
 
-#: src/ralph/assets/admin.py:112
+#: assets/admin.py:113
 msgid "Children classes"
 msgstr "Podřízené třídy"
 
-#: src/ralph/assets/admin.py:140
+#: assets/admin.py:141
 msgid "Go to object"
 msgstr "Přejít na objekt"
 
-#: src/ralph/assets/admin.py:142 src/ralph/dashboards/admin.py:116
+#: assets/admin.py:143 dashboards/admin.py:116
 msgid "Link"
 msgstr "Odkaz"
 
-#: src/ralph/assets/admin.py:146
+#: assets/admin.py:147
 msgid "object"
 msgstr "objekt"
 
-#: src/ralph/assets/admin.py:167 src/ralph/assets/models/assets.py:174
-#: src/ralph/deployment/models.py:96 src/ralph/deployment/models.py:118
-#: src/ralph/operations/models.py:57
+#: assets/admin.py:168 assets/models/assets.py:176 deployment/models.py:101
+#: deployment/models.py:123 operations/models.py:58
 msgid "type"
 msgstr "typ"
 
-#: src/ralph/assets/admin.py:168 src/ralph/networks/models/networks.py:286
+#: assets/admin.py:169 networks/models/networks.py:289
 msgid "environment"
 msgstr "prostředí"
 
-#: src/ralph/assets/admin.py:248
+#: assets/admin.py:249
 #, fuzzy
 #| msgid "Cores count"
 msgid "Services count"
 msgstr "Počet jader"
 
-#: src/ralph/assets/invoice_report.py:47
+#: assets/invoice_report.py:47
 msgid "Invoice report"
 msgstr "Výkaz o faktuře"
 
-#: src/ralph/assets/invoice_report.py:87
+#: assets/invoice_report.py:87
 msgid "Selected items have different"
 msgstr "Označené položky mají různý"
 
-#: src/ralph/assets/models/assets.py:151
+#: assets/models/assets.py:153
 msgid "manufacturer kind"
 msgstr "druh výrobce"
 
-#: src/ralph/assets/models/assets.py:183
+#: assets/models/assets.py:185
 msgid "Power consumption"
 msgstr "Spotřeba energie"
 
-#: src/ralph/assets/models/assets.py:187
+#: assets/models/assets.py:189
 msgid "Height of device"
 msgstr "Výška zařízení"
 
-#: src/ralph/assets/models/assets.py:192
+#: assets/models/assets.py:194
 msgid "Cores count"
 msgstr "Počet jader"
 
-#: src/ralph/assets/models/assets.py:196
+#: assets/models/assets.py:198
 msgid "visualization layout of front side"
 msgstr "rozvržení vizualizace přední strany"
 
-#: src/ralph/assets/models/assets.py:202
+#: assets/models/assets.py:204
 msgid "visualization layout of back side"
 msgstr "vizualizace rozvržení zadní strany"
 
-#: src/ralph/assets/models/assets.py:211
-#: src/ralph/assets/models/components.py:83
+#: assets/models/assets.py:213 assets/models/components.py:83
 msgid "model"
 msgstr "model"
 
-#: src/ralph/assets/models/assets.py:212
+#: assets/models/assets.py:214
 msgid "models"
 msgstr "modely"
 
-#: src/ralph/assets/models/assets.py:260 src/ralph/assets/models/assets.py:419
-#: src/ralph/licences/models.py:205
+#: assets/models/assets.py:262 assets/models/assets.py:420
+#: licences/models.py:205
 msgid ""
 "This value is in percentage. For example value: \"100\" means it depreciates "
 "during a year. Value: \"25\" means it depreciates during 4 years, and so "
@@ -1515,523 +1506,566 @@ msgstr ""
 "Tato hodnota je v procentech. Například hodnota: „100“ znamená, že ztratí "
 "hodnotu za rok. Hodnota: „25“ znamená, že ztratí hodnotu za 4 roky, atd…"
 
-#: src/ralph/assets/models/assets.py:268 src/ralph/deployment/deployment.py:256
+#: assets/models/assets.py:270 deployment/deployment.py:256
 msgid "category"
 msgstr "kategorie"
 
-#: src/ralph/assets/models/assets.py:269
+#: assets/models/assets.py:271
 msgid "categories"
 msgstr "kategorie"
 
-#: src/ralph/assets/models/assets.py:351
+#: assets/models/assets.py:352
 msgid "Budgets info"
 msgstr "Informace o rozpočtech"
 
-#: src/ralph/assets/models/assets.py:368
-#: src/ralph/data_center/models/virtual.py:96
-#: src/ralph/networks/models/networks.py:620 src/ralph/virtual/models.py:216
-#: src/ralph/virtual/models.py:355
+#: assets/models/assets.py:369 data_center/models/virtual.py:96
+#: networks/models/networks.py:623 virtual/models.py:216 virtual/models.py:355
 msgid "hostname"
 msgstr "název stroje"
 
-#: src/ralph/assets/models/assets.py:374 src/ralph/virtual/models.py:360
+#: assets/models/assets.py:375 virtual/models.py:360
 msgid "SN"
 msgstr "sériové číslo"
 
-#: src/ralph/assets/models/assets.py:383
+#: assets/models/assets.py:384
 msgid "barcode"
 msgstr "čárový kód"
 
-#: src/ralph/assets/models/assets.py:390 src/ralph/licences/models.py:182
+#: assets/models/assets.py:391 licences/models.py:182
 msgid "inventory number"
 msgstr "inventární číslo"
 
-#: src/ralph/assets/models/assets.py:395
+#: assets/models/assets.py:396
 msgid "order number"
 msgstr "číslo objednávky"
 
-#: src/ralph/assets/models/assets.py:401 src/ralph/supports/models.py:103
+#: assets/models/assets.py:402 supports/models.py:103
 msgid "invoice number"
 msgstr "číslo faktury"
 
-#: src/ralph/assets/models/assets.py:518
+#: assets/models/assets.py:527
 msgid "SN or BARCODE field is required"
 msgstr "Je třeba sériové číslo nebo čárový kód"
 
-#: src/ralph/assets/models/base.py:88 src/ralph/operations/admin.py:98
+#: assets/models/base.py:87 operations/admin.py:98
 msgid "configuration path"
 msgstr "cesta nastavení"
 
-#: src/ralph/assets/models/base.py:90
+#: assets/models/base.py:89
 msgid "path to configuration for this object, for example path to puppet class"
 msgstr "cesta k nastavení pro tento objekt, například cesta k puppet třídě"
 
-#: src/ralph/assets/models/choices.py:9
+#: assets/models/choices.py:9
 msgid "for contractor"
 msgstr "pro kontraktora"
 
-#: src/ralph/assets/models/choices.py:10
+#: assets/models/choices.py:10
 msgid "sectional"
 msgstr "sekční"
 
-#: src/ralph/assets/models/choices.py:11
+#: assets/models/choices.py:11
 msgid "for dashboards"
 msgstr "pro nástěnky"
 
-#: src/ralph/assets/models/choices.py:12
+#: assets/models/choices.py:12
 msgid "for events"
 msgstr "pro události"
 
-#: src/ralph/assets/models/choices.py:13
+#: assets/models/choices.py:13
 msgid "for tests"
 msgstr "pro testy"
 
-#: src/ralph/assets/models/choices.py:14
+#: assets/models/choices.py:14
 msgid "others"
 msgstr "ostatní"
 
-#: src/ralph/assets/models/choices.py:20
+#: assets/models/choices.py:20
 msgid "shipment"
 msgstr "doprava"
 
-#: src/ralph/assets/models/choices.py:21
+#: assets/models/choices.py:21
 msgid "salvaged"
 msgstr "zachráněno"
 
-#: src/ralph/assets/models/choices.py:27
+#: assets/models/choices.py:27
 msgid "back office"
 msgstr "back office"
 
-#: src/ralph/assets/models/choices.py:28
-#: src/ralph/data_center/models/physical.py:155
-#: src/ralph/data_center/models/physical.py:157
-#: src/ralph/networks/models/networks.py:58
+#: assets/models/choices.py:28 data_center/models/physical.py:190
+#: data_center/models/physical.py:192 networks/models/networks.py:61
 msgid "data center"
 msgstr "datacentrum"
 
-#: src/ralph/assets/models/choices.py:29
+#: assets/models/choices.py:29
 msgid "part"
 msgstr "část"
 
-#: src/ralph/assets/models/choices.py:30
+#: assets/models/choices.py:30
 msgid "all"
 msgstr "vše"
 
-#: src/ralph/assets/models/choices.py:36
+#: assets/models/choices.py:36
 msgid "N/A"
 msgstr "N/A"
 
-#: src/ralph/assets/models/choices.py:37
+#: assets/models/choices.py:37
 msgid "1 row x 2 columns"
 msgstr "1 řádek x 2 sloupce"
 
-#: src/ralph/assets/models/choices.py:38
+#: assets/models/choices.py:38
 msgid "2 rows x 8 columns"
 msgstr "2 řádky x 8 sloupců"
 
-#: src/ralph/assets/models/choices.py:39
+#: assets/models/choices.py:39
 msgid "2 rows x 16 columns (A/B)"
 msgstr "2 řádky x 16 sloupců"
 
-#: src/ralph/assets/models/choices.py:42
+#: assets/models/choices.py:42
 msgid "4 rows x 2 columns"
 msgstr "4 řádky x 2 sloupce"
 
-#: src/ralph/assets/models/choices.py:43
+#: assets/models/choices.py:43
 msgid "2 rows x 4 columns"
 msgstr "2 řádky x 4 sloupce"
 
-#: src/ralph/assets/models/choices.py:44
+#: assets/models/choices.py:44
 msgid "2 rows x 2 columns"
 msgstr "2 řádky x 2 sloupce"
 
-#: src/ralph/assets/models/choices.py:45
+#: assets/models/choices.py:45
 msgid "1 rows x 14 columns"
 msgstr "1 řádek x 14 sloupců"
 
-#: src/ralph/assets/models/choices.py:46
+#: assets/models/choices.py:46
 msgid "2 rows x 1 columns"
 msgstr "2 řádky x 1 sloupec"
 
-#: src/ralph/assets/models/choices.py:52
-#: src/ralph/assets/models/components.py:227
+#: assets/models/choices.py:52 assets/models/components.py:230
 msgid "processor"
 msgstr "procesor"
 
-#: src/ralph/assets/models/choices.py:53
-#: src/ralph/assets/models/components.py:188
-#: src/ralph/assets/models/components.py:189
+#: assets/models/choices.py:53 assets/models/components.py:188
+#: assets/models/components.py:189
 msgid "memory"
 msgstr "paměť"
 
-#: src/ralph/assets/models/choices.py:54
+#: assets/models/choices.py:54
 msgid "disk drive"
 msgstr "disková jednotka"
 
-#: src/ralph/assets/models/choices.py:55
+#: assets/models/choices.py:55
 msgid "ethernet card"
 msgstr "síťová karta"
 
-#: src/ralph/assets/models/choices.py:56
+#: assets/models/choices.py:56
 msgid "expansion card"
 msgstr "rozšiřující karta"
 
-#: src/ralph/assets/models/choices.py:57
-#: src/ralph/assets/models/components.py:213
+#: assets/models/choices.py:57 assets/models/components.py:213
 msgid "fibre channel card"
 msgstr "fibre channel karta"
 
-#: src/ralph/assets/models/choices.py:58
-#: src/ralph/data_center/models/components.py:36
+#: assets/models/choices.py:58 data_center/models/components.py:36
 msgid "disk share"
 msgstr "diskové sdílení"
 
-#: src/ralph/assets/models/choices.py:59
+#: assets/models/choices.py:59
 msgid "unknown"
 msgstr "neznámé"
 
-#: src/ralph/assets/models/choices.py:60
+#: assets/models/choices.py:60
 msgid "management"
 msgstr "správa"
 
-#: src/ralph/assets/models/choices.py:61
+#: assets/models/choices.py:61
 msgid "power module"
 msgstr "napájecí modul"
 
-#: src/ralph/assets/models/choices.py:62
+#: assets/models/choices.py:62
 msgid "cooling device"
 msgstr "chladící zařízení"
 
-#: src/ralph/assets/models/choices.py:63
+#: assets/models/choices.py:63
 msgid "media tray"
 msgstr "zásuvka na média"
 
-#: src/ralph/assets/models/choices.py:64
+#: assets/models/choices.py:64
 msgid "chassis"
 msgstr "skříň"
 
-#: src/ralph/assets/models/choices.py:65
+#: assets/models/choices.py:65
 msgid "backup"
 msgstr "záloha"
 
-#: src/ralph/assets/models/choices.py:66
+#: assets/models/choices.py:66
 msgid "software"
 msgstr "software"
 
-#: src/ralph/assets/models/choices.py:67
+#: assets/models/choices.py:67
 msgid "operating system"
 msgstr "operační systém"
 
-#: src/ralph/assets/models/choices.py:73
+#: assets/models/choices.py:73
 msgid "10 Mbps"
 msgstr "10 Mb/s"
 
-#: src/ralph/assets/models/choices.py:74
+#: assets/models/choices.py:74
 msgid "100 Mbps"
 msgstr "100 Mb/s"
 
-#: src/ralph/assets/models/choices.py:75
+#: assets/models/choices.py:75
 msgid "1 Gbps"
 msgstr "1 Gb/s"
 
-#: src/ralph/assets/models/choices.py:76
+#: assets/models/choices.py:76
 msgid "10 Gbps"
 msgstr "10 Gb/s"
 
-#: src/ralph/assets/models/choices.py:77
+#: assets/models/choices.py:77
 msgid "40 Gbps"
 msgstr "40 Gb/s"
 
-#: src/ralph/assets/models/choices.py:78
+#: assets/models/choices.py:78
 msgid "100 Gbps"
 msgstr "100 Gb/s"
 
-#: src/ralph/assets/models/choices.py:81 src/ralph/assets/models/choices.py:95
+#: assets/models/choices.py:81 assets/models/choices.py:95
 msgid "unknown speed"
 msgstr "neznámá rychlost"
 
-#: src/ralph/assets/models/choices.py:87
+#: assets/models/choices.py:87
 msgid "1 Gbit"
 msgstr "1 Gbit"
 
-#: src/ralph/assets/models/choices.py:88
+#: assets/models/choices.py:88
 msgid "2 Gbit"
 msgstr "2 Gbit"
 
-#: src/ralph/assets/models/choices.py:89
+#: assets/models/choices.py:89
 msgid "4 Gbit"
 msgstr "4 Gbit"
 
-#: src/ralph/assets/models/choices.py:90
+#: assets/models/choices.py:90
 msgid "8 Gbit"
 msgstr "8 Gbit"
 
-#: src/ralph/assets/models/choices.py:91
+#: assets/models/choices.py:91
 msgid "16 Gbit"
 msgstr "16 Gbit"
 
-#: src/ralph/assets/models/choices.py:92
+#: assets/models/choices.py:92
 msgid "32 Gbit"
 msgstr "32 Gbit"
 
-#: src/ralph/assets/models/components.py:39
-#: src/ralph/assets/models/components.py:184
-#: src/ralph/assets/models/components.py:222
+#: assets/models/components.py:39 assets/models/components.py:184
+#: assets/models/components.py:222
 msgid "speed (MHz)"
 msgstr "rychlost (MHz)"
 
-#: src/ralph/assets/models/components.py:44
+#: assets/models/components.py:44
 msgid "number of cores"
 msgstr "počet jader"
 
-#: src/ralph/assets/models/components.py:49
-#: src/ralph/assets/models/components.py:182
-#: src/ralph/data_center/models/components.py:22
-#: src/ralph/data_center/models/components.py:55
+#: assets/models/components.py:49 assets/models/components.py:182
+#: data_center/models/components.py:22 data_center/models/components.py:55
 msgid "size (MiB)"
 msgstr "velikost (MiB)"
 
-#: src/ralph/assets/models/components.py:54
+#: assets/models/components.py:54
 msgid "component type"
 msgstr "typ komponenty"
 
-#: src/ralph/assets/models/components.py:70
+#: assets/models/components.py:70
 msgid "component model"
 msgstr "model komponenty"
 
-#: src/ralph/assets/models/components.py:71
+#: assets/models/components.py:71
 msgid "component models"
 msgstr "modely komponent"
 
-#: src/ralph/assets/models/components.py:90
+#: assets/models/components.py:90
 msgid "model name"
 msgstr "název modelu"
 
-#: src/ralph/assets/models/components.py:99
-#: src/ralph/assets/models/components.py:114
+#: assets/models/components.py:99 assets/models/components.py:114
 msgid "label"
 msgstr "štítek"
 
-#: src/ralph/assets/models/components.py:103
+#: assets/models/components.py:103
 msgid "vendor SN"
 msgstr "sériové číslo výrobce"
 
-#: src/ralph/assets/models/components.py:108
+#: assets/models/components.py:108
 msgid "generic component"
 msgstr "obecná komponenta"
 
-#: src/ralph/assets/models/components.py:109
+#: assets/models/components.py:109
 msgid "generic components"
 msgstr "obecné komponenty"
 
-#: src/ralph/assets/models/components.py:117
+#: assets/models/components.py:117
 msgid "MAC address"
 msgstr "MAC adresa"
 
-#: src/ralph/assets/models/components.py:121
-#: src/ralph/assets/models/components.py:201
+#: assets/models/components.py:121 assets/models/components.py:201
 msgid "speed"
 msgstr "rychlost"
 
-#: src/ralph/assets/models/components.py:125
-#: src/ralph/assets/models/components.py:197
-#: src/ralph/assets/models/components.py:246
-#: src/ralph/data_center/models/physical.py:450
+#: assets/models/components.py:125 assets/models/components.py:197
+#: assets/models/components.py:249 data_center/models/physical.py:496
 msgid "firmware version"
 msgstr "verze firmware"
 
-#: src/ralph/assets/models/components.py:130
+#: assets/models/components.py:130
 msgid "ethernet"
 msgstr "ethernet"
 
-#: src/ralph/assets/models/components.py:131
+#: assets/models/components.py:131
 msgid "ethernets"
 msgstr "ethernety"
 
-#: src/ralph/assets/models/components.py:145
+#: assets/models/components.py:145
 msgid "MAC cannot be empty if record is exposed in DHCP"
 msgstr "MAC nemůže zůstat nevyplněná pokud je záznam vystaven v DHCP"
 
-#: src/ralph/assets/models/components.py:208
+#: assets/models/components.py:208
 msgid "WWN"
 msgstr "WWN"
 
-#: src/ralph/assets/models/components.py:214
+#: assets/models/components.py:214
 msgid "fibre channel cards"
 msgstr "fibre channel karty"
 
-#: src/ralph/assets/models/components.py:228
+#: assets/models/components.py:231
 msgid "processors"
 msgstr "procesory"
 
-#: src/ralph/assets/models/components.py:237
+#: assets/models/components.py:240
 msgid "size (GiB)"
 msgstr "velikost (GiB)"
 
-#: src/ralph/assets/models/components.py:239 src/ralph/supports/models.py:98
+#: assets/models/components.py:242 supports/models.py:98
 msgid "serial number"
 msgstr "sériové číslo"
 
-#: src/ralph/assets/models/components.py:243
-#: src/ralph/data_center/models/physical.py:444
+#: assets/models/components.py:246 data_center/models/physical.py:490
 msgid "slot number"
 msgstr "číslo slotu"
 
-#: src/ralph/assets/models/components.py:251
+#: assets/models/components.py:254
 msgid "disk"
 msgstr "disk"
 
-#: src/ralph/assets/models/components.py:252
+#: assets/models/components.py:255
 msgid "disks"
 msgstr "disky"
 
-#: src/ralph/assets/models/configuration.py:33
+#: assets/models/configuration.py:33
 msgid "module name (ex. directory name in puppet)"
 msgstr "název modulu (např. název složky v puppet)"
 
-#: src/ralph/assets/models/configuration.py:38
+#: assets/models/configuration.py:38
 msgid "parent module"
 msgstr "nadřazený modul"
 
-#: src/ralph/assets/models/configuration.py:47
+#: assets/models/configuration.py:47
 msgid "team"
 msgstr "tým"
 
-#: src/ralph/assets/models/configuration.py:55
+#: assets/models/configuration.py:55
 msgid "configuration module"
 msgstr "modul nastavení"
 
-#: src/ralph/assets/models/configuration.py:74
+#: assets/models/configuration.py:74
 msgid "class name"
 msgstr "název třídy"
 
-#: src/ralph/assets/models/configuration.py:76
+#: assets/models/configuration.py:76
 msgid "ex. puppet class"
 msgstr "ex. puppet trída"
 
-#: src/ralph/assets/models/configuration.py:80
+#: assets/models/configuration.py:80
 msgid "path"
 msgstr "cesta"
 
-#: src/ralph/assets/models/configuration.py:85
+#: assets/models/configuration.py:85
 msgid "path is constructed from name of module and name of class"
 msgstr "cesta je tvořena z názvu modulu a názvu třídy"
 
-#: src/ralph/assets/models/configuration.py:95
+#: assets/models/configuration.py:95
 msgid "configuration class"
 msgstr "třída nastavení"
 
-#: src/ralph/assets/views.py:18
+#: assets/views.py:18
 msgid "Components"
 msgstr "Komponenty"
 
-#: src/ralph/attachments/templates/attachments/attachments.html:12
+#: attachments/templates/attachments/attachments.html:12
 msgid "File"
 msgstr "Soubor"
 
-#: src/ralph/attachments/templates/attachments/attachments.html:13
+#: attachments/templates/attachments/attachments.html:13
 msgid "Description"
 msgstr "Popis"
 
-#: src/ralph/back_office/admin.py:42 src/ralph/data_center/admin.py:293
+#: back_office/admin.py:46 data_center/admin.py:301
 msgid "Support"
 msgstr "Podpora"
 
-#: src/ralph/back_office/admin.py:52 src/ralph/back_office/admin.py:59
-#: src/ralph/back_office/models.py:329
+#: back_office/admin.py:56 back_office/admin.py:63 back_office/models.py:345
 msgid "Licence"
 msgstr "Licence"
 
-#: src/ralph/back_office/admin.py:175
+#: back_office/admin.py:186
 msgid "Financial Info"
 msgstr "Finanční informace"
 
-#: src/ralph/back_office/admin.py:192
+#: back_office/admin.py:203
 #, fuzzy
 #| msgid "Buyout date"
 msgid "buyout date"
 msgstr "Datum odprodeje"
 
-#: src/ralph/back_office/admin.py:210
+#: back_office/admin.py:221
 msgid "licences"
 msgstr "licence"
 
-#: src/ralph/back_office/models.py:71 src/ralph/sim_cards/models.py:53
+#: back_office/models.py:71 sim_cards/models.py:56
 msgid "waiting for release"
 msgstr "čeká na vydání"
 
-#: src/ralph/back_office/models.py:73
+#: back_office/models.py:73
 msgid "loan"
 msgstr "zapůjčené"
 
-#: src/ralph/back_office/models.py:76
+#: back_office/models.py:76
 msgid "in service"
 msgstr "v servisu"
 
-#: src/ralph/back_office/models.py:77
+#: back_office/models.py:77
 msgid "installed"
 msgstr "nainstalováno"
 
-#: src/ralph/back_office/models.py:80
+#: back_office/models.py:80
 msgid "sale"
 msgstr ""
 
-#: src/ralph/back_office/models.py:81 src/ralph/sim_cards/models.py:59
+#: back_office/models.py:81 sim_cards/models.py:62
 #, fuzzy
 #| msgid "in progress"
 msgid "loan in progress"
 msgstr "v běhu"
 
-#: src/ralph/back_office/models.py:83
+#: back_office/models.py:83
 msgid "to find"
 msgstr ""
 
-#: src/ralph/back_office/models.py:94
+#: back_office/models.py:84
+msgid "sent"
+msgstr ""
+
+#: back_office/models.py:85
+#, fuzzy
+#| msgid "Buyout date"
+msgid "to buyout"
+msgstr "Datum odprodeje"
+
+#: back_office/models.py:86
+#, fuzzy
+#| msgid "in use"
+msgid "in use team"
+msgstr "v používání"
+
+#: back_office/models.py:87
+#, fuzzy
+#| msgid "in use"
+msgid "in use test"
+msgstr "v používání"
+
+#: back_office/models.py:88
+#, fuzzy
+#| msgid "in progress"
+msgid "in progress team"
+msgstr "v běhu"
+
+#: back_office/models.py:89
+#, fuzzy
+#| msgid "in progress"
+msgid "in progress test"
+msgstr "v běhu"
+
+#: back_office/models.py:90
+msgid "quarantine"
+msgstr ""
+
+#: back_office/models.py:91
+#, fuzzy
+#| msgid "finished"
+msgid "refurbished"
+msgstr "dokončeno"
+
+#: back_office/models.py:92
+#, fuzzy
+#| msgid "reserved"
+msgid "reserved to order"
+msgstr "zamluvené"
+
+#: back_office/models.py:93
+#, fuzzy
+#| msgid "department"
+msgid "replacement"
+msgstr "oddělení"
+
+#: back_office/models.py:104
 msgid "Office Infrastructure"
 msgstr "Infrastruktura kanceláře"
 
-#: src/ralph/back_office/models.py:122 src/ralph/back_office/models.py:133
+#: back_office/models.py:132 back_office/models.py:143
 msgid "requester must be specified"
 msgstr ""
 
-#: src/ralph/back_office/models.py:125
+#: back_office/models.py:135
 msgid "requester is not an owner of the asset"
 msgstr ""
 
-#: src/ralph/back_office/models.py:136
+#: back_office/models.py:146
 msgid "requester is not an user of the asset"
 msgstr ""
 
-#: src/ralph/back_office/models.py:144
+#: back_office/models.py:154
 msgid "user not assigned"
 msgstr "uživatel nepřiřazen"
 
-#: src/ralph/back_office/models.py:185 src/ralph/back_office/models.py:373
+#: back_office/models.py:195 back_office/models.py:389
 msgid "Loan end date"
 msgstr "Datum konce zápůjčky"
 
-#: src/ralph/back_office/models.py:193
+#: back_office/models.py:203
 msgid "IMEI"
 msgstr ""
 
-#: src/ralph/back_office/models.py:197
+#: back_office/models.py:207
 msgid "IMEI 2"
 msgstr ""
 
-#: src/ralph/back_office/models.py:204
+#: back_office/models.py:216
+msgid "Last status change"
+msgstr ""
+
+#: back_office/models.py:220
 msgid "Back Office Asset"
 msgstr "Majetek back office"
 
-#: src/ralph/back_office/models.py:205
+#: back_office/models.py:221
 msgid "Back Office Assets"
 msgstr "Majetky back office"
 
-#: src/ralph/back_office/models.py:227 src/ralph/back_office/models.py:231
+#: back_office/models.py:243 back_office/models.py:247
 #, python-format
 msgid "%(imei)s is not IMEI format"
 msgstr "%(imei)s není v IMEI formátu"
 
-#: src/ralph/back_office/models.py:313
+#: back_office/models.py:329
 msgid ""
 "During this transition owner will be assigned as well as new hostname might "
 "be generated for asset (only for particular model categories and only if "
@@ -2041,371 +2075,412 @@ msgstr ""
 "nový název stroje pro majetek (pouz pro konkrétní kategorie modelu a pouze "
 "pokud se změní země vlastníka)"
 
-#: src/ralph/back_office/models.py:393
-#: src/ralph/data_center/models/physical.py:737
-#: src/ralph/sim_cards/models.py:264
+#: back_office/models.py:409 data_center/models/physical.py:783
+#: sim_cards/models.py:273
 msgid "Warehouse"
 msgstr "Sklad"
 
-#: src/ralph/back_office/models.py:407
+#: back_office/models.py:423
 msgid "Office infrastructure"
 msgstr "Infrastruktura kanceláře"
 
-#: src/ralph/back_office/models.py:423
+#: back_office/models.py:439
 msgid "Remarks"
 msgstr "Poznámky"
 
-#: src/ralph/back_office/models.py:437 src/ralph/sim_cards/models.py:304
+#: back_office/models.py:453 sim_cards/models.py:313
 msgid "task URL"
 msgstr "URL úkolu"
 
-#: src/ralph/back_office/models.py:535 src/ralph/sim_cards/models.py:171
-msgid "I have read and fully understand and accept the agreement."
-msgstr ""
-
-#: src/ralph/back_office/models.py:560 src/ralph/sim_cards/models.py:186
-msgid "Release report language"
-msgstr "Jazyk výkazu o vydání"
-
-#: src/ralph/back_office/models.py:597
+#: back_office/models.py:613
 msgid "Return report language"
 msgstr "Jazyk výkazu o vrácení"
 
-#: src/ralph/back_office/models.py:619
+#: back_office/models.py:635
 msgid "Loan report language"
 msgstr "Jazyk výkazu o zápůjčce"
 
-#: src/ralph/back_office/models.py:638
+#: back_office/models.py:654
 msgid "Convert to DataCenter Asset"
 msgstr "Převést do majetku datacentra"
 
-#: src/ralph/back_office/models.py:643
+#: back_office/models.py:659
 msgid "Rack"
 msgstr "Rozvaděč"
 
-#: src/ralph/back_office/models.py:648
+#: back_office/models.py:664
 msgid "Position"
 msgstr "Pozice"
 
-#: src/ralph/back_office/models.py:651
-#: src/ralph/back_office/templates/backofficeasset/components.html:9
-#: src/ralph/data_center/templates/data_center/datacenterasset/components.html:9
+#: back_office/models.py:667
+#: back_office/templates/backofficeasset/components.html:9
+#: data_center/templates/data_center/datacenterasset/components.html:9
 msgid "Model"
 msgstr "Model"
 
-#: src/ralph/back_office/models.py:656 src/ralph/virtual/admin.py:394
+#: back_office/models.py:672 virtual/admin.py:396
 msgid "Service env"
 msgstr "Prostředí služby"
 
-#: src/ralph/back_office/templates/backofficeasset/components.html:8
-#: src/ralph/back_office/templates/backofficeasset/software.html:8
-#: src/ralph/data_center/templates/data_center/datacenterasset/components.html:8
-#: src/ralph/data_center/templates/data_center/datacenterasset/software.html:8
+#: back_office/templates/backofficeasset/components.html:8
+#: back_office/templates/backofficeasset/software.html:8
+#: data_center/templates/data_center/datacenterasset/components.html:8
+#: data_center/templates/data_center/datacenterasset/software.html:8
 msgid "Label"
 msgstr "Štítek"
 
-#: src/ralph/back_office/templates/backofficeasset/components.html:10
-#: src/ralph/data_center/templates/data_center/datacenterasset/components.html:10
+#: back_office/templates/backofficeasset/components.html:10
+#: data_center/templates/data_center/datacenterasset/components.html:10
 msgid "Serial number"
 msgstr "Sériové číslo"
 
-#: src/ralph/back_office/templates/backofficeasset/components.html:11
-#: src/ralph/data_center/templates/data_center/datacenterasset/components.html:11
+#: back_office/templates/backofficeasset/components.html:11
+#: data_center/templates/data_center/datacenterasset/components.html:11
 msgid "Speed"
 msgstr "Rychlost"
 
-#: src/ralph/back_office/templates/backofficeasset/components.html:12
-#: src/ralph/data_center/templates/data_center/datacenterasset/components.html:12
+#: back_office/templates/backofficeasset/components.html:12
+#: data_center/templates/data_center/datacenterasset/components.html:12
 msgid "Size"
 msgstr "Velikost"
 
-#: src/ralph/back_office/templates/backofficeasset/components.html:13
-#: src/ralph/dashboards/models.py:96
-#: src/ralph/data_center/templates/data_center/datacenterasset/components.html:13
+#: back_office/templates/backofficeasset/components.html:13
+#: dashboards/models.py:96
+#: data_center/templates/data_center/datacenterasset/components.html:13
 msgid "Count"
 msgstr "Počet"
 
-#: src/ralph/back_office/templates/backofficeasset/software.html:9
-#: src/ralph/data_center/templates/data_center/datacenterasset/software.html:9
+#: back_office/templates/backofficeasset/software.html:9
+#: data_center/templates/data_center/datacenterasset/software.html:9
 msgid "Version"
 msgstr "Verze"
 
-#: src/ralph/configuration_management/models.py:14
+#: configuration_management/models.py:14
 msgid "OK"
 msgstr "OK"
 
-#: src/ralph/configuration_management/models.py:15
+#: configuration_management/models.py:15
 msgid "Check failed"
 msgstr "Kontrola nedopadla dobře"
 
-#: src/ralph/configuration_management/models.py:19
+#: configuration_management/models.py:19
 msgid "Error"
 msgstr "Chyba"
 
-#: src/ralph/configuration_management/models.py:35
+#: configuration_management/models.py:35
 msgid "Last SCM check"
 msgstr "Minulá SCM kontrola"
 
-#: src/ralph/configuration_management/models.py:41
+#: configuration_management/models.py:41
 msgid "SCM check result"
 msgstr "Výsledek SCM kontroly"
 
-#: src/ralph/configuration_management/templates/configuration_management/scminfo/scm_info.html:9
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:9
 msgid "SCM status information"
 msgstr "SCM stavové informace"
 
-#: src/ralph/configuration_management/templates/configuration_management/scminfo/scm_info.html:13
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:13
 msgid "Last checked"
 msgstr "Minule zkontrolováno"
 
-#: src/ralph/configuration_management/templates/configuration_management/scminfo/scm_info.html:17
-#: src/ralph/configuration_management/views.py:94
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:17
+#: configuration_management/views.py:94
 msgid "SCM status"
 msgstr "Stav SCM"
 
-#: src/ralph/configuration_management/templates/configuration_management/scminfo/scm_info.html:21
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:21
 msgid "Details"
 msgstr "Podrobnosti"
 
-#: src/ralph/configuration_management/templates/configuration_management/scminfo/scm_info.html:27
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:27
 msgid ""
 "The status of the software configuration management for this host is unknown."
 msgstr "Stav správy nastavení software je u tohoto stroje neznámý."
 
-#: src/ralph/dashboards/admin.py:105
+#: dashboards/admin.py:105
 msgid "Graph"
 msgstr "Graf"
 
-#: src/ralph/dashboards/admin.py:113
+#: dashboards/admin.py:113
 msgid "<a href=\"{}\" target=\"_blank\">Dashboard</a>"
 msgstr "<a href=\"{}\" target=\"_blank\">Nástěnka</a>"
 
-#: src/ralph/dashboards/admin_filters.py:11
+#: dashboards/admin_filters.py:11
 msgid "Graph ID"
 msgstr "Identifikátor grafu"
 
-#: src/ralph/dashboards/models.py:97
+#: dashboards/models.py:97
 msgid "Count with zeros"
 msgstr ""
 
-#: src/ralph/dashboards/models.py:100
+#: dashboards/models.py:100
 msgid "Max"
 msgstr "Max"
 
-#: src/ralph/dashboards/models.py:101
+#: dashboards/models.py:101
 msgid "Sum"
 msgstr "Celkem"
 
-#: src/ralph/dashboards/models.py:102
+#: dashboards/models.py:102
 msgid "Sum with zeros"
 msgstr ""
 
-#: src/ralph/dashboards/models.py:105
+#: dashboards/models.py:105
 msgid "Sum boolean values"
 msgstr ""
 
-#: src/ralph/dashboards/models.py:108
+#: dashboards/models.py:108
 msgid "Sum negated boolean values"
 msgstr ""
 
-#: src/ralph/dashboards/models.py:117
+#: dashboards/models.py:117
 msgid "Ratio"
 msgstr "Poměr"
 
-#: src/ralph/dashboards/models.py:125
+#: dashboards/models.py:125
 #, fuzzy
 #| msgid "Verical Bar"
 msgid "Vertical Bar"
 msgstr "Svislý pruh"
 
-#: src/ralph/dashboards/models.py:126
+#: dashboards/models.py:126
 msgid "Horizontal Bar"
 msgstr "Vodorovný pruh"
 
-#: src/ralph/dashboards/models.py:127
+#: dashboards/models.py:127
 msgid "Pie Chart"
 msgstr "Koláčový graf"
 
-#: src/ralph/data_center/admin.py:224 src/ralph/virtual/admin.py:160
+#: data_center/admin.py:229 virtual/admin.py:162
 msgid "Base Object"
 msgstr "Základní objekt"
 
-#: src/ralph/data_center/admin.py:236
+#: data_center/admin.py:241
 msgid "Master Info"
 msgstr "Hlavní informace"
 
-#: src/ralph/data_center/admin.py:254
+#: data_center/admin.py:259
 msgid "Master info"
 msgstr "Hlavní informace"
 
-#: src/ralph/data_center/admin.py:267 src/ralph/networks/views.py:23
+#: data_center/admin.py:275 networks/views.py:23
 msgid "Terminators of"
 msgstr "Ukončovače k"
 
-#: src/ralph/data_center/admin.py:472
+#: data_center/admin.py:485
 msgid "Location Info"
 msgstr "Informace o umístění"
 
-#: src/ralph/data_center/admin.py:478
+#: data_center/admin.py:491
 msgid "Usage info"
 msgstr "Informace o využívání"
 
-#: src/ralph/data_center/admin.py:484
+#: data_center/admin.py:497
 msgid "Financial & Order Info"
 msgstr "Finanční a informace o objednávce"
 
-#: src/ralph/data_center/admin.py:513
+#: data_center/admin.py:527
 msgid "Visualization"
 msgstr "Vizualizace"
 
-#: src/ralph/data_center/admin.py:533
+#: data_center/admin.py:547
 msgid "Created at"
 msgstr "Vytvořeno"
 
-#: src/ralph/data_center/admin.py:570
+#: data_center/admin.py:584
 msgid "Server room"
 msgstr "Serverovna"
 
-#: src/ralph/data_center/forms.py:61
+#: data_center/forms.py:62
 msgid ""
 "Management IP is already assigned to <a target=\"_blank\" href=\"{}\">{}</a>"
 msgstr ""
 "IP adresa správy je už přiřazena k <a target=\"_blank\" href=\"{}\">{}</a>"
 
-#: src/ralph/data_center/forms.py:79
+#: data_center/forms.py:80
 msgid "Management hostname is already used"
 msgstr "Název stroje pro správu je už použit"
 
-#: src/ralph/data_center/forms.py:85
+#: data_center/forms.py:86
 msgid ""
-"Management hostname is already assigned to <a target=\"_blank\" href="
-"\"{}\">{}</a>"
+"Management hostname is already assigned to <a target=\"_blank\" "
+"href=\"{}\">{}</a>"
 msgstr ""
 "Správní název stroje je už přiřazen <a target=\"_blank\" href=\"{}\">{}</a>"
 
-#: src/ralph/data_center/forms.py:102
+#: data_center/forms.py:103
 msgid "Management IP could not be empty when management hostname is passed"
 msgstr ""
 "Správní IP adresa nemůže být prázdná když je zadán název stroje pro správu"
 
-#: src/ralph/data_center/models/choices.py:14 src/ralph/virtual/models.py:332
+#: data_center/models/choices.py:14 virtual/models.py:332
 msgid "to deploy"
 msgstr "k nasazení"
 
-#: src/ralph/data_center/models/choices.py:15
+#: data_center/models/choices.py:15
 msgid "cleaned"
 msgstr "vyčištěno"
 
-#: src/ralph/data_center/models/choices.py:16
+#: data_center/models/choices.py:16
 msgid "pre liquidated"
 msgstr "předzlikvidováno"
 
-#: src/ralph/data_center/models/choices.py:23
+#: data_center/models/choices.py:23
 msgid "front"
 msgstr "zpředu"
 
-#: src/ralph/data_center/models/choices.py:24
+#: data_center/models/choices.py:24
 msgid "back"
 msgstr "zezadu"
 
-#: src/ralph/data_center/models/choices.py:25
+#: data_center/models/choices.py:25
 msgid "middle"
 msgstr "střed"
 
-#: src/ralph/data_center/models/choices.py:28
-#: src/ralph/data_center/models/choices.py:51
+#: data_center/models/choices.py:28 data_center/models/choices.py:51
 msgid "left"
 msgstr "zleva"
 
-#: src/ralph/data_center/models/choices.py:29
-#: src/ralph/data_center/models/choices.py:52
+#: data_center/models/choices.py:29 data_center/models/choices.py:52
 msgid "right"
 msgstr "zprava"
 
-#: src/ralph/data_center/models/choices.py:49
+#: data_center/models/choices.py:49
 msgid "top"
 msgstr "nahoře"
 
-#: src/ralph/data_center/models/choices.py:50
+#: data_center/models/choices.py:50
 msgid "bottom"
 msgstr "dole"
 
-#: src/ralph/data_center/models/choices.py:58
+#: data_center/models/choices.py:58
 msgid "network connection"
 msgstr "síťové připojení"
 
-#: src/ralph/data_center/models/components.py:15
+#: data_center/models/components.py:15
 msgid "share identifier"
 msgstr "identifikátor sdílení"
 
-#: src/ralph/data_center/models/components.py:25
+#: data_center/models/components.py:25
 msgid "size for snapshots (MiB)"
 msgstr "velikost pro zachycené stavy (MiB)"
 
-#: src/ralph/data_center/models/components.py:28
+#: data_center/models/components.py:28
 msgid "Volume serial"
 msgstr "Sériové číslo svazku"
 
-#: src/ralph/data_center/models/components.py:37
+#: data_center/models/components.py:37
 msgid "disk shares"
 msgstr "disková sdílení"
 
-#: src/ralph/data_center/models/components.py:45
+#: data_center/models/components.py:45
 msgid "share"
 msgstr "sdílení"
 
-#: src/ralph/data_center/models/components.py:47
+#: data_center/models/components.py:47
 msgid "asset"
 msgstr "majetek"
 
-#: src/ralph/data_center/models/components.py:51
+#: data_center/models/components.py:51
 msgid "volume"
 msgstr "svazek"
 
-#: src/ralph/data_center/models/components.py:70
+#: data_center/models/components.py:70
 msgid "disk share mount"
 msgstr "připojení diskového sdílení"
 
-#: src/ralph/data_center/models/components.py:71
+#: data_center/models/components.py:71
 msgid "disk share mounts"
 msgstr "připojení diskových sdílení"
 
-#: src/ralph/data_center/models/physical.py:159
+#: data_center/models/physical.py:132
+msgid "dc"
+msgstr ""
+
+#: data_center/models/physical.py:133
+#, fuzzy
+#| msgid "Network"
+msgid "cowork"
+msgstr "Síť"
+
+#: data_center/models/physical.py:134
+#, fuzzy
+#| msgid "cost center"
+msgid "callcenter"
+msgstr "nákladové centrum"
+
+#: data_center/models/physical.py:135
+msgid "depot"
+msgstr ""
+
+#: data_center/models/physical.py:136
+#, fuzzy
+#| msgid "Warehouse"
+msgid "warehouse"
+msgstr "Sklad"
+
+#: data_center/models/physical.py:137
+#, fuzzy
+#| msgid "Details"
+msgid "retail"
+msgstr "Podrobnosti"
+
+#: data_center/models/physical.py:138
+#, fuzzy
+#| msgid "back office"
+msgid "office"
+msgstr "back office"
+
+#: data_center/models/physical.py:157
+#, fuzzy
+#| msgid "IP address"
+msgid "address"
+msgstr "IP adresa"
+
+#: data_center/models/physical.py:161
+#, fuzzy
+#| msgid "data center"
+msgid "data center type"
+msgstr "datacentrum"
+
+#: data_center/models/physical.py:165
+msgid "shortcut"
+msgstr ""
+
+#: data_center/models/physical.py:194
 msgid "visualization grid columns number"
 msgstr "počet sloupců vizualizační mřížky"
 
-#: src/ralph/data_center/models/physical.py:167
+#: data_center/models/physical.py:202
 msgid "visualization grid rows number"
 msgstr "počet řádků vizualizační mřížky"
 
-#: src/ralph/data_center/models/physical.py:183
+#: data_center/models/physical.py:218
 msgid "accessory"
 msgstr "příslušenství"
 
-#: src/ralph/data_center/models/physical.py:202
+#: data_center/models/physical.py:237
 msgid "rack accessories"
 msgstr "příslušenství rozvaděče"
 
-#: src/ralph/data_center/models/physical.py:219
-#: src/ralph/data_center/models/physical.py:224
+#: data_center/models/physical.py:254 data_center/models/physical.py:259
 msgid "server room"
 msgstr "serverovna"
 
-#: src/ralph/data_center/models/physical.py:226
-#: src/ralph/deployment/models.py:59 src/ralph/deployment/models.py:142
-#: src/ralph/operations/models.py:63
+#: data_center/models/physical.py:261 deployment/models.py:61
+#: deployment/models.py:147 operations/models.py:64
 msgid "description"
 msgstr "popis"
 
-#: src/ralph/data_center/models/physical.py:235
+#: data_center/models/physical.py:270
 msgid "column number on visualization grid"
 msgstr "počet sloupců vizualizační mřížky"
 
-#: src/ralph/data_center/models/physical.py:239
+#: data_center/models/physical.py:274
 msgid "row number on visualization grid"
 msgstr "počet řádků vizualizační mřížky"
 
-#: src/ralph/data_center/models/physical.py:246
+#: data_center/models/physical.py:281
 msgid ""
 "Uncheck if position is optional for this rack (ex. when rack has warehouse-"
 "kind role"
@@ -2413,7 +2488,7 @@ msgstr ""
 "Zrušte zaškrtnutí pokud je pozice volitelná pro tento rozvaděč (např. pokud "
 "rozvaděč plní funkci skladu"
 
-#: src/ralph/data_center/models/physical.py:253
+#: data_center/models/physical.py:288
 msgid ""
 "Check if RU numbers count from top to bottom with position 1 starting at the "
 "top of the rack. If unchecked position 1 is at the bottom of the rack"
@@ -2421,15 +2496,25 @@ msgstr ""
 "Zaškrtněte pokud počet jednotek rozvaděče odshora dolů s pozicí 1 začínající "
 "na vrcholu rozvaděče. Odškrtněte pokud pozice 1 je dole v rozvaděči"
 
-#: src/ralph/data_center/models/physical.py:257
+#: data_center/models/physical.py:292
 msgid "RU order top to bottom"
 msgstr "RU pořadí odshora dolů"
 
-#: src/ralph/data_center/models/physical.py:431
+#: data_center/models/physical.py:468
+#, fuzzy
+#| msgid "for contractor"
+msgid "Vendor contract number"
+msgstr "pro kontraktora"
+
+#: data_center/models/physical.py:473
+msgid "Leasing rate"
+msgstr ""
+
+#: data_center/models/physical.py:477
 msgid "Fill it if asset is blade server"
 msgstr "Vyplňte pokud je majetek blade server"
 
-#: src/ralph/data_center/models/physical.py:438
+#: data_center/models/physical.py:484
 msgid ""
 "Slot number should be a number from range 1-16 with an optional postfix 'A' "
 "or 'B' (e.g. '16A')"
@@ -2437,399 +2522,403 @@ msgstr ""
 "Číslo složu by mělo být číslo z rozsahu 1 až 16 s volitelnou příponou „A“ "
 "nebo „B“ (např. „16A“)"
 
-#: src/ralph/data_center/models/physical.py:456
+#: data_center/models/physical.py:502
 msgid "BIOS version"
 msgstr "Verze BIOS/UEFI"
 
-#: src/ralph/data_center/models/physical.py:468
+#: data_center/models/physical.py:514
 msgid "source"
 msgstr "zdroj"
 
-#: src/ralph/data_center/models/physical.py:486
+#: data_center/models/physical.py:532
 msgid "data center asset"
 msgstr "majetek datacentra"
 
-#: src/ralph/data_center/models/physical.py:487
+#: data_center/models/physical.py:533
 msgid "data center assets"
 msgstr "majetky datacentra"
 
-#: src/ralph/data_center/models/physical.py:716
+#: data_center/models/physical.py:762
 msgid "Change rack"
 msgstr "Změnit rozvaděč"
 
-#: src/ralph/data_center/models/physical.py:732
+#: data_center/models/physical.py:778
 msgid "Convert to BackOffice Asset"
 msgstr "Převést na majetek backoffice"
 
-#: src/ralph/data_center/models/physical.py:742
+#: data_center/models/physical.py:788
 msgid "Region"
 msgstr "Oblast"
 
-#: src/ralph/data_center/models/physical.py:774
+#: data_center/models/physical.py:820
 #, fuzzy
 #| msgid "scan status"
 msgid "Cleanup scm status"
 msgstr "stav skenu"
 
-#: src/ralph/data_center/models/physical.py:787
+#: data_center/models/physical.py:833
 msgid "Assign additional IP and hostname pair"
 msgstr ""
 
-#: src/ralph/data_center/models/physical.py:791
+#: data_center/models/physical.py:837
 #, fuzzy
 #| msgid "Parent networks"
 msgid "Select network"
 msgstr "Nadřazené sítě"
 
-#: src/ralph/data_center/models/physical.py:816
+#: data_center/models/physical.py:862
 msgid "connected to device"
 msgstr "připojeno k zařízení"
 
-#: src/ralph/data_center/models/physical.py:822
+#: data_center/models/physical.py:868
 msgid "connected device"
 msgstr "připojené zařízení"
 
-#: src/ralph/data_center/models/physical.py:828
+#: data_center/models/physical.py:874
 msgid "connection type"
 msgstr "typ připojení"
 
-#: src/ralph/data_center/models/virtual.py:27
+#: data_center/models/virtual.py:27
 msgid "database"
 msgstr "databáze"
 
-#: src/ralph/data_center/models/virtual.py:28
+#: data_center/models/virtual.py:28
 msgid "databases"
 msgstr "databáze"
 
-#: src/ralph/data_center/models/virtual.py:37
+#: data_center/models/virtual.py:37
 msgid "TCP"
 msgstr "TCP"
 
-#: src/ralph/data_center/models/virtual.py:38
+#: data_center/models/virtual.py:38
 msgid "UDP"
 msgstr "UDP"
 
-#: src/ralph/data_center/models/virtual.py:44
+#: data_center/models/virtual.py:44
 msgid "port"
 msgstr "port"
 
-#: src/ralph/data_center/models/virtual.py:46
+#: data_center/models/virtual.py:46
 msgid "protocol"
 msgstr "protokol"
 
-#: src/ralph/data_center/models/virtual.py:52
+#: data_center/models/virtual.py:52
 msgid "VIP"
 msgstr "V běhu"
 
-#: src/ralph/data_center/models/virtual.py:68
+#: data_center/models/virtual.py:68
 msgid ""
 "show master information on cluster page, ex. hostname, model, location etc."
 msgstr ""
 "zobrazit hlavní informace na stránce klastru, např. název stroje, model, "
 "umístění, atd."
 
-#: src/ralph/data_center/models/virtual.py:78
+#: data_center/models/virtual.py:78
 msgid "for deploy"
 msgstr "pro nasazení"
 
-#: src/ralph/data_center/models/virtual.py:101
+#: data_center/models/virtual.py:101
 msgid "Assigned base objects"
 msgstr "Přiřazené základní objekty"
 
-#: src/ralph/data_center/models/virtual.py:155
+#: data_center/models/virtual.py:156
 msgid "At least one of name or hostname is required"
 msgstr "Je třeba alespoň název nebo název stroje"
 
-#: src/ralph/data_center/templates/admin/data_center/dchost/change_list.html:10
+#: data_center/templates/admin/data_center/dchost/change_list.html:10
 msgid "Nothing to display. Please add some objects like:"
 msgstr "Není co zobrazit. Přidejte nějaké objekty jako:"
 
-#: src/ralph/data_center/templates/admin/data_center/network/change_form.html:9
+#: data_center/templates/admin/data_center/network/change_form.html:9
 #, python-format
 msgid "Add next IP (%(next_free_ip)s)"
 msgstr "Přidat další IP adresu (%(next_free_ip)s)"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:9
+#: data_center/templates/data_center/datacenterasset/relations.html:9
 #, fuzzy
 #| msgid "Linked object"
 msgid "Related objects"
 msgstr "Propojený objekt"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:17
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:40
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:59
-#: src/ralph/deployment/deployment.py:481
-#: src/ralph/deployment/deployment.py:549
-#: src/ralph/deployment/deployment.py:580
+#: data_center/templates/data_center/datacenterasset/relations.html:17
+#: data_center/templates/data_center/datacenterasset/relations.html:40
+#: data_center/templates/data_center/datacenterasset/relations.html:59
+#: deployment/deployment.py:481 deployment/deployment.py:549
+#: deployment/deployment.py:580
 msgid "IP Address"
 msgstr "IP adresa"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:18
+#: data_center/templates/data_center/datacenterasset/relations.html:18
 #, fuzzy
 #| msgid "Cloud projects"
 msgid "Cloud project"
 msgstr "Projekty cloudu"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:19
-#: src/ralph/virtual/admin.py:326 src/ralph/virtual/admin.py:498
-#: src/ralph/virtual/models.py:42
+#: data_center/templates/data_center/datacenterasset/relations.html:19
+#: virtual/admin.py:328 virtual/admin.py:501 virtual/models.py:42
 msgid "Cloud provider"
 msgstr "Poskytovatel cloudu"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:36
+#: data_center/templates/data_center/datacenterasset/relations.html:36
 #, fuzzy
 #| msgid "Virtual Servers"
 msgid "Virtual hosts"
 msgstr "Virtuální servery"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:55
+#: data_center/templates/data_center/datacenterasset/relations.html:55
 #, fuzzy
 #| msgid "All hosts"
 msgid "Physical hosts"
 msgstr "Všechny stroje"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:77
-#: src/ralph/dns/forms.py:23
-#: src/ralph/security/templates/security/securityinfo/security_info.html:38
+#: data_center/templates/data_center/datacenterasset/relations.html:77
+#: dns/forms.py:23
+#: security/templates/security/securityinfo/security_info.html:38
 msgid "Name"
 msgstr "Název"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:78
+#: data_center/templates/data_center/datacenterasset/relations.html:78
 #, fuzzy
 #| msgid "Types"
 msgid "Type"
 msgstr "Typy"
 
-#: src/ralph/data_center/templates/data_center/datacenterasset/relations.html:91
+#: data_center/templates/data_center/datacenterasset/relations.html:91
 msgid "No related objects found."
 msgstr ""
 
-#: src/ralph/dc_view/templates/dc_view/server_room_view.html:5
+#: dc_view/templates/dc_view/server_room_view.html:5
 msgid "Dc View"
 msgstr "Pohled datacentra"
 
-#: src/ralph/dc_view/templates/dc_view/server_room_view.html:31
+#: dc_view/templates/dc_view/server_room_view.html:31
 msgid "Server rooms"
 msgstr "Serverovny"
 
-#: src/ralph/deployment/deployment.py:49
+#: deployment/deployment.py:49
 msgid "<NEXT FREE>"
 msgstr "<PŘÍŠTÍ VOLNÁ>"
 
-#: src/ralph/deployment/deployment.py:122
-#: src/ralph/deployment/deployment.py:172 src/ralph/lib/mixins/api.py:14
-#: src/ralph/lib/mixins/forms.py:61
+#: deployment/deployment.py:122 deployment/deployment.py:172
+#: lib/mixins/api.py:14 lib/mixins/forms.py:63
 msgid "Other"
 msgstr "Ostatní"
 
-#: src/ralph/deployment/deployment.py:198
+#: deployment/deployment.py:198
 msgid "use first"
 msgstr "použít první"
 
-#: src/ralph/deployment/deployment.py:267
+#: deployment/deployment.py:267
 msgid "Non-management MAC address not found"
 msgstr "Nesprávní MAC adresa nenalezena"
 
-#: src/ralph/deployment/deployment.py:278
+#: deployment/deployment.py:278
 msgid "Network environment not found."
 msgstr "Síťové prostředí nenalezeno."
 
-#: src/ralph/deployment/deployment.py:286
+#: deployment/deployment.py:286
 msgid "Clean hostname"
 msgstr "Vyčistit název stroje"
 
-#: src/ralph/deployment/deployment.py:298
+#: deployment/deployment.py:298
 msgid "Clean DNS entries"
 msgstr "Vyčístit DNS položky"
 
-#: src/ralph/deployment/deployment.py:337
+#: deployment/deployment.py:337
 msgid "Clean IP addresses"
 msgstr "Vyčistit IP adresy"
 
-#: src/ralph/deployment/deployment.py:355
+#: deployment/deployment.py:355
 msgid "Clean DHCP entries"
 msgstr "Vyčistit DHCP položky"
 
-#: src/ralph/deployment/deployment.py:372
+#: deployment/deployment.py:372
 msgid "Remove from DHCP entries"
 msgstr "Odebrat z DHCP položek"
 
-#: src/ralph/deployment/deployment.py:375
+#: deployment/deployment.py:375
 msgid "DHCP Entry"
 msgstr "DHCP položka"
 
-#: src/ralph/deployment/deployment.py:396
+#: deployment/deployment.py:396
 msgid "Assign new hostname"
 msgstr "Přiřadit nový název stroje"
 
-#: src/ralph/deployment/deployment.py:477
+#: deployment/deployment.py:477
 msgid "Assign new IP"
 msgstr "Přiřadit novou IP adresu"
 
-#: src/ralph/deployment/deployment.py:539
+#: deployment/deployment.py:539
 msgid "You can choose only one asset"
 msgstr "Můžete zvolit pouze jeden majetek"
 
-#: src/ralph/deployment/deployment.py:545
+#: deployment/deployment.py:545
 msgid "Replace IP"
 msgstr "Nahradit IP adresu"
 
-#: src/ralph/deployment/deployment.py:556 src/ralph/networks/admin.py:305
+#: deployment/deployment.py:556 networks/admin.py:313
 msgid "Network"
 msgstr "Síť"
 
-#: src/ralph/deployment/deployment.py:576
+#: deployment/deployment.py:576
 msgid "Assign new IP address and create DHCP entries"
 msgstr "Přiřadit novou IP adresu a vytvořit DHCP položky"
 
-#: src/ralph/deployment/deployment.py:676
+#: deployment/deployment.py:676
 msgid "Wait for DHCP servers"
 msgstr "Čekat na DHCP servery"
 
-#: src/ralph/deployment/deployment.py:703
+#: deployment/deployment.py:703
 msgid "Create DNS entries"
 msgstr "Vytvořit DNS položky"
 
-#: src/ralph/deployment/deployment.py:728
+#: deployment/deployment.py:728
 msgid "Change service-env"
 msgstr "Změnit prostředí služby"
 
-#: src/ralph/deployment/deployment.py:731
+#: deployment/deployment.py:731
 msgid "Service-environment"
 msgstr "Prostředí služby"
 
-#: src/ralph/deployment/deployment.py:748
+#: deployment/deployment.py:748
 msgid "Change configuration_path"
 msgstr "Změnit cestu nastavení"
 
-#: src/ralph/deployment/deployment.py:751 src/ralph/virtual/admin.py:409
+#: deployment/deployment.py:751 virtual/admin.py:411
 msgid "Configuration path"
 msgstr "Popis umístění nastavení"
 
-#: src/ralph/deployment/deployment.py:772
+#: deployment/deployment.py:772
 msgid "Apply preboot"
 msgstr "Použít preboot"
 
-#: src/ralph/deployment/deployment.py:776
+#: deployment/deployment.py:776
 msgid "Preboot"
 msgstr "Preboot"
 
-#: src/ralph/deployment/deployment.py:798
+#: deployment/deployment.py:798
 msgid "Wait for ping"
 msgstr "Čekat na ping"
 
-#: src/ralph/deployment/models.py:26
+#: deployment/models.py:26
 msgid "kernel"
 msgstr "jádro systému"
 
-#: src/ralph/deployment/models.py:27
+#: deployment/models.py:27
 msgid "initrd"
 msgstr "initrd"
 
-#: src/ralph/deployment/models.py:28
+#: deployment/models.py:28
 msgid "netboot"
 msgstr "netboot"
 
-#: src/ralph/deployment/models.py:31
+#: deployment/models.py:31
 msgid "iPXE"
 msgstr "iPXE"
 
-#: src/ralph/deployment/models.py:32
+#: deployment/models.py:32
 msgid "kickstart"
 msgstr "kickstart"
 
-#: src/ralph/deployment/models.py:33
+#: deployment/models.py:33
 msgid "preseed"
 msgstr "přednastaveno"
 
-#: src/ralph/deployment/models.py:34
+#: deployment/models.py:34
 msgid "script"
 msgstr "skript"
 
-#: src/ralph/deployment/models.py:37
+#: deployment/models.py:35
+msgid "meta-data"
+msgstr ""
+
+#: deployment/models.py:36
+msgid "user-data"
+msgstr ""
+
+#: deployment/models.py:39
 msgid "other"
 msgstr "ostatní"
 
-#: src/ralph/deployment/models.py:102
+#: deployment/models.py:107
 msgid "configuration"
 msgstr "nastavení"
 
-#: src/ralph/deployment/models.py:109 src/ralph/deployment/models.py:110
+#: deployment/models.py:114 deployment/models.py:115
 msgid "preboot configuration"
 msgstr "nastavení preboot"
 
-#: src/ralph/deployment/models.py:123
+#: deployment/models.py:128
 msgid "file"
 msgstr "soubor"
 
-#: src/ralph/deployment/models.py:131
+#: deployment/models.py:136
 msgid "preboot file"
 msgstr "preboot soubor"
 
-#: src/ralph/deployment/models.py:132
+#: deployment/models.py:137
 msgid "preboot files"
 msgstr "preboot soubory"
 
-#: src/ralph/deployment/models.py:139
+#: deployment/models.py:144
 msgid "files"
 msgstr "soubory"
 
-#: src/ralph/deployment/models.py:150
+#: deployment/models.py:155
 msgid "preboot"
 msgstr "preboot"
 
-#: src/ralph/deployment/models.py:151
+#: deployment/models.py:156
 msgid "preboots"
 msgstr "preboot prostředí"
 
-#: src/ralph/dhcp/admin.py:22
+#: dhcp/admin.py:23
 msgid "{} ({} ago)"
 msgstr "{} (před {})"
 
-#: src/ralph/dhcp/admin.py:80
+#: dhcp/admin.py:81
 #, fuzzy
 #| msgid "networks"
 msgid "in networks"
 msgstr "sítě"
 
-#: src/ralph/dhcp/models.py:35 src/ralph/dhcp/models.py:93
-#: src/ralph/networks/admin.py:320 src/ralph/networks/models/networks.py:613
-#: src/ralph/networks/models/networks.py:628
-#: src/ralph/networks/models/networks.py:660
+#: dhcp/models.py:35 dhcp/models.py:93 networks/admin.py:328
+#: networks/models/networks.py:616 networks/models/networks.py:631
+#: networks/models/networks.py:663
 msgid "IP address"
 msgstr "IP adresa"
 
-#: src/ralph/dhcp/models.py:43
+#: dhcp/models.py:43
 msgid "DHCP Server"
 msgstr "DHCP server"
 
-#: src/ralph/dhcp/models.py:60
+#: dhcp/models.py:60
 #, fuzzy
 #| msgid "DNS Server"
 msgid "DNS Server Group"
 msgstr "DNS server"
 
-#: src/ralph/dhcp/models.py:98
+#: dhcp/models.py:98
 msgid "DNS Server"
 msgstr "DNS server"
 
-#: src/ralph/dns/dnsaas.py:25 src/ralph/dns/forms.py:10
+#: dns/dnsaas.py:24 dns/forms.py:10
 msgid "A"
 msgstr "A"
 
-#: src/ralph/dns/dnsaas.py:26 src/ralph/dns/forms.py:11
+#: dns/dnsaas.py:25 dns/forms.py:11
 msgid "TXT"
 msgstr "TXT"
 
-#: src/ralph/dns/dnsaas.py:27 src/ralph/dns/forms.py:12
+#: dns/dnsaas.py:26 dns/forms.py:12
 msgid "CNAME"
 msgstr "CNAME"
 
-#: src/ralph/dns/dnsaas.py:219
+#: dns/dnsaas.py:228
 msgid "Service is required for record {}"
 msgstr ""
 
-#: src/ralph/dns/forms.py:26
+#: dns/forms.py:26
 msgid ""
 "Actual name of a record. Must not end in a '.' and be fully qualified - it "
 "is not relative to the name of the domain!"
@@ -2837,168 +2926,166 @@ msgstr ""
 "Skutečný název záznamu. Nemůže končit na „.“ (tečku) a je třeba, aby se "
 "jednalo o úplný doménový název – není relativní k názvu domény!"
 
-#: src/ralph/dns/forms.py:32
+#: dns/forms.py:32
 msgid "Record type"
 msgstr "Typ záznamu"
 
-#: src/ralph/dns/forms.py:36
+#: dns/forms.py:36
 msgid "Content"
 msgstr "Obsah"
 
-#: src/ralph/dns/forms.py:39
+#: dns/forms.py:39
 msgid ""
 "The 'right hand side' of a DNS record. For an A record, this is the IP "
 "address"
 msgstr "Pravá strana DNS záznamu. Pro A záznam je toto IP adresa"
 
-#: src/ralph/dns/forms.py:45
+#: dns/forms.py:45
 msgid "PTR"
 msgstr "PTR"
 
-#: src/ralph/dns/forms.py:57
+#: dns/forms.py:57
 msgid "Only A type record can be PTR"
 msgstr "Pouze záznam typu A může být PTR"
 
-#: src/ralph/dns/templates/dns/dns_edit.html:7
+#: dns/templates/dns/dns_edit.html:7
 msgid "DNS edit"
 msgstr "Úprava DNS"
 
-#: src/ralph/dns/templates/dns/dns_edit.html:40
+#: dns/templates/dns/dns_edit.html:40
 msgid "Are you sure to delete?"
 msgstr "Opravdu smazat?"
 
-#: src/ralph/dns/templates/dns/dns_edit.html:50
+#: dns/templates/dns/dns_edit.html:50
 msgid "Add at least one IP address to fetch DNS records."
 msgstr "Pro získání DNS záznamů zadejte alespoň jednu IP adresu."
 
-#: src/ralph/dns/views.py:104
+#: dns/views.py:104
 msgid "DNS record has been deleted."
 msgstr "DNS záznam byl smazán."
 
-#: src/ralph/dns/views.py:112
+#: dns/views.py:112
 msgid "DNS record has been updated."
 msgstr "DNS záznam byl aktualizován."
 
-#: src/ralph/dns/views.py:120
+#: dns/views.py:120
 msgid "DNS record has been created."
 msgstr "DNS záznam byl vytvořen."
 
-#: src/ralph/domains/admin.py:54 src/ralph/ssl_certificates/admin.py:41
-#: src/ralph/trade_marks/admin.py:79
+#: domains/admin.py:55 ssl_certificates/admin.py:42 trade_marks/admin.py:121
+#: trade_marks/admin.py:201
 msgid "Ownership info"
 msgstr "Informace o vlastnictví"
 
-#: src/ralph/domains/admin.py:96 src/ralph/licences/admin.py:130
+#: domains/admin.py:97 licences/admin.py:134
 msgid "Financial info"
 msgstr "Finanční informace"
 
-#: src/ralph/domains/forms.py:22
+#: domains/forms.py:22
 msgid "Price for domain renewal for given period"
 msgstr "Cena za obnovení domény v daném období"
 
-#: src/ralph/domains/models/domains.py:33
+#: domains/models/domains.py:33
 msgid "Active"
 msgstr "Aktivní"
 
-#: src/ralph/domains/models/domains.py:34
+#: domains/models/domains.py:34
 msgid "Pending lapse"
 msgstr "Nevyřízeno"
 
-#: src/ralph/domains/models/domains.py:35
+#: domains/models/domains.py:35
 msgid "Pending transfer away"
 msgstr "Čekající převod pryč"
 
-#: src/ralph/domains/models/domains.py:36
+#: domains/models/domains.py:36
 msgid "Lapsed (inactive)"
 msgstr "Zaniklé (neaktivní)"
 
-#: src/ralph/domains/models/domains.py:37
+#: domains/models/domains.py:37
 msgid "Transfered away"
 msgstr "Přeneseno pryč"
 
-#: src/ralph/domains/models/domains.py:43
+#: domains/models/domains.py:43
 msgid "None"
 msgstr "Žádné"
 
-#: src/ralph/domains/models/domains.py:44
+#: domains/models/domains.py:44
 msgid "Redirect"
 msgstr "Přesměrovat"
 
-#: src/ralph/domains/models/domains.py:45
+#: domains/models/domains.py:45
 msgid "Direct"
 msgstr "Přímo"
 
-#: src/ralph/domains/models/domains.py:51
+#: domains/models/domains.py:51
 msgid "Business"
 msgstr "Podnikání"
 
-#: src/ralph/domains/models/domains.py:52
+#: domains/models/domains.py:52
 msgid "Business security"
 msgstr "Zabezpečení podnikání"
 
-#: src/ralph/domains/models/domains.py:53
+#: domains/models/domains.py:53
 msgid "Technical"
 msgstr "Technické"
 
-#: src/ralph/domains/models/domains.py:87
-#: src/ralph/ssl_certificates/models.py:28
+#: domains/models/domains.py:87 ssl_certificates/models.py:28
 msgid "domain name"
 msgstr "doménový název"
 
-#: src/ralph/domains/models/domains.py:88
-#: src/ralph/ssl_certificates/models.py:30
+#: domains/models/domains.py:88 ssl_certificates/models.py:30
 msgid "Full domain name"
 msgstr "Úplný doménový název"
 
-#: src/ralph/domains/models/domains.py:98
+#: domains/models/domains.py:98
 msgid "Business segment for a domain"
 msgstr "Obchodní segment pro doménu"
 
-#: src/ralph/domains/models/domains.py:105
+#: domains/models/domains.py:105
 msgid "Business contact person for a domain"
 msgstr "Obchodní kontaktní osoba pro doménu"
 
-#: src/ralph/domains/models/domains.py:112
+#: domains/models/domains.py:112
 msgid "Technical contact person for a domain"
 msgstr "Technická kontaktní osoba pro doménu"
 
-#: src/ralph/domains/models/domains.py:118
+#: domains/models/domains.py:118
 msgid "Company which receives invoice for the domain"
 msgstr "Společnost které chodí faktury za doménu"
 
-#: src/ralph/domains/models/domains.py:127
+#: domains/models/domains.py:127
 msgid "Type of website which domain refers to."
 msgstr "Typ webové stránky na kterou doména odkazuje."
 
-#: src/ralph/domains/models/domains.py:131
+#: domains/models/domains.py:131
 msgid "Website url which website type refers to."
 msgstr "URL adresa webové stránky na kterou typ stránky odkazuje."
 
-#: src/ralph/domains/models/domains.py:138
+#: domains/models/domains.py:138
 msgid "Provider which keeps domain's DNS"
 msgstr "Poskytovatel který uchovává DNS domény"
 
-#: src/ralph/domains/models/domains.py:156
+#: domains/models/domains.py:156
 msgid "Website url should be empty for this website type"
 msgstr "URL adresa by pro tento typ webové stránky měla být prázdná"
 
-#: src/ralph/domains/models/domains.py:165
+#: domains/models/domains.py:165
 msgid "Website url should be filled for this website type"
 msgstr "URL by pro tento typ webové stránky měla být vyplněná"
 
-#: src/ralph/lib/api/exceptions.py:9
+#: lib/api/exceptions.py:9
 msgid "State of the resource is in conflict with the request."
 msgstr ""
 
-#: src/ralph/lib/custom_fields/forms.py:37
+#: lib/custom_fields/forms.py:37
 msgid "Only users from {} group can set this custom field."
 msgstr ""
 
-#: src/ralph/lib/custom_fields/forms.py:49
+#: lib/custom_fields/forms.py:49
 msgid "Clear children values?"
 msgstr "Vyčistit podřízené hodnoty?"
 
-#: src/ralph/lib/custom_fields/forms.py:110
+#: lib/custom_fields/forms.py:110
 msgid ""
 "Please correct the duplicate data for custom fields (only one value for "
 "particular custom field is possible)."
@@ -3006,159 +3093,155 @@ msgstr ""
 "Opravte duplicitní data pro uživatelem určené kolonky (je možná pouze jedna "
 "hodnota pro konkrétní uživatelem určenou kolonku)."
 
-#: src/ralph/lib/custom_fields/models.py:57
+#: lib/custom_fields/models.py:57
 msgid "field name used in API. It's slugged name of the field"
 msgstr "název kolonky použitý v API. Je to slugged název kolonky"
 
-#: src/ralph/lib/custom_fields/models.py:66
+#: lib/custom_fields/models.py:66
 msgid "choices"
 msgstr "volby"
 
-#: src/ralph/lib/custom_fields/models.py:67
+#: lib/custom_fields/models.py:67
 msgid "available choices for `choices list` separated by |"
 msgstr "možné volby pro `choices list` oddělované znakem |"
 
-#: src/ralph/lib/custom_fields/models.py:71
+#: lib/custom_fields/models.py:71
 msgid "for boolean use \"true\" or \"false\""
 msgstr "pro boolean použijte „true“ nebo „false“"
 
-#: src/ralph/lib/custom_fields/models.py:79
+#: lib/custom_fields/models.py:79
 msgid ""
 "When set, only members of the specified group will be allowed to set, change "
 "or unset values of this custom field for objects."
 msgstr ""
 
-#: src/ralph/lib/custom_fields/models.py:87
+#: lib/custom_fields/models.py:87
 msgid ""
-"When set, this variable will be exposed in API in \"configuration_variables"
-"\" section. You could use this later in configuration management tool like "
-"Puppet or Ansible."
+"When set, this variable will be exposed in API in "
+"\"configuration_variables\" section. You could use this later in "
+"configuration management tool like Puppet or Ansible."
 msgstr ""
 "Pokud je nastaveno, tato proměnná bude exponována v API v sekci "
 "„configuration_variables“. Tu je dále možné použít v nástroji pro správu "
 "nastavení jako Puppet nebo Ansible."
 
-#: src/ralph/lib/custom_fields/models.py:127
+#: lib/custom_fields/models.py:127
 msgid "key"
 msgstr "klíč"
 
-#: src/ralph/lib/custom_fields/models.py:177
+#: lib/custom_fields/models.py:177
 msgid "Custom field of the same type already exists for this object."
 msgstr "Uživatelem určená kolonka stejného typu už pro tento objekt existuje."
 
-#: src/ralph/lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:64
+#: lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:64
 msgid "summary"
 msgstr "souhrn"
 
-#: src/ralph/lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:68
+#: lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:68
 msgid "Custom field"
 msgstr "Vlastní kolonka"
 
-#: src/ralph/lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:69
-#: src/ralph/lib/transitions/templates/transitions/run_transition.html:27
+#: lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:69
+#: lib/transitions/templates/transitions/run_transition.html:27
 msgid "Value"
 msgstr "Hodnota"
 
-#: src/ralph/lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:70
+#: lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:70
 msgid "Inherited from"
 msgstr "Převzato z"
 
-#: src/ralph/lib/error_pages/views.py:8
+#: lib/error_pages/views.py:8
 msgid "Not Found"
 msgstr ""
 
-#: src/ralph/lib/error_pages/views.py:9
+#: lib/error_pages/views.py:9
 msgid "The requested resource was not found on this server."
 msgstr ""
 
-#: src/ralph/lib/external_services/models.py:39
+#: lib/external_services/models.py:39
 msgid "queued"
 msgstr "zařazeno do fronty"
 
-#: src/ralph/lib/external_services/models.py:40
-#: src/ralph/lib/transitions/models.py:640
+#: lib/external_services/models.py:40 lib/transitions/models.py:645
 msgid "finished"
 msgstr "dokončeno"
 
-#: src/ralph/lib/external_services/models.py:41
-#: src/ralph/lib/transitions/models.py:641
+#: lib/external_services/models.py:41 lib/transitions/models.py:646
 msgid "failed"
 msgstr "nezdařilo se"
 
-#: src/ralph/lib/external_services/models.py:42
-#: src/ralph/lib/transitions/models.py:639
+#: lib/external_services/models.py:42 lib/transitions/models.py:644
 msgid "started"
 msgstr "spuštěno"
 
-#: src/ralph/lib/external_services/models.py:43
+#: lib/external_services/models.py:43
 msgid "frozen"
 msgstr "zmrazeno"
 
-#: src/ralph/lib/external_services/models.py:44
+#: lib/external_services/models.py:44
 msgid "killed"
 msgstr "vynuceně ukončeno"
 
-#: src/ralph/lib/external_services/models.py:80
+#: lib/external_services/models.py:80
 msgid "job status"
 msgstr "stav úkolu"
 
-#: src/ralph/lib/mixins/fields.py:135 src/ralph/operations/admin.py:157
-#: src/ralph/operations/views.py:46
+#: lib/mixins/fields.py:145 operations/admin.py:157 operations/views.py:46
 msgid "ticket ID"
 msgstr "identif. požadavku"
 
-#: src/ralph/lib/mixins/fields.py:136
+#: lib/mixins/fields.py:146
 msgid "External system ticket identifier"
 msgstr "Identifikátor požadavku v externím systému"
 
-#: src/ralph/lib/mixins/fields.py:281
+#: lib/mixins/fields.py:291
 #, python-format
 msgid "'%(value)s' is not a valid MAC address."
 msgstr "„%(value)s“ není platná MAC adresa."
 
-#: src/ralph/lib/mixins/models.py:38
+#: lib/mixins/models.py:39
 msgid "date created"
 msgstr "datum vytvoření"
 
-#: src/ralph/lib/mixins/models.py:42
+#: lib/mixins/models.py:43
 msgid "last modified"
 msgstr "naposledy upraveno"
 
-#: src/ralph/lib/mixins/models.py:56
+#: lib/mixins/models.py:57
 msgid "last seen"
 msgstr "naposledy viděno"
 
-#: src/ralph/lib/permissions/api.py:115
+#: lib/permissions/api.py:117
 msgid "You cannot update readonly field."
 msgstr "Není možné upravit kolonku, která je pouze pro čtení."
 
-#: src/ralph/lib/permissions/models.py:166
+#: lib/permissions/models.py:166
 msgid "Can view {} field"
 msgstr "Může zobrazit {} kolonku"
 
-#: src/ralph/lib/permissions/models.py:172
+#: lib/permissions/models.py:172
 msgid "Can change {} field"
 msgstr "Může změnit kolonku {}"
 
-#: src/ralph/lib/transitions/forms.py:78
+#: lib/transitions/forms.py:78
 #, fuzzy
 #| msgid "is default"
 msgid "Default"
 msgstr "je výchozí"
 
-#: src/ralph/lib/transitions/forms.py:119
+#: lib/transitions/forms.py:119
 msgid "Please provide async service name for asynchronous transition"
 msgstr "Zadejte název asynchronní služby pro asynchronní převody"
 
-#: src/ralph/lib/transitions/forms.py:123
+#: lib/transitions/forms.py:123
 msgid " (At least one of chosen actions is asynchronous)"
 msgstr "(Přinejmenším jedna ze zvolených akcí je asynchronní)"
 
-#: src/ralph/lib/transitions/models.py:187
+#: lib/transitions/models.py:187
 msgid "wrong source status"
 msgstr "chybný stav zdroje"
 
-#: src/ralph/lib/transitions/models.py:525
+#: lib/transitions/models.py:530
 msgid ""
 "Run this transition in the background (this could be enforced if you choose "
 "at least one asynchronous action)"
@@ -3166,7 +3249,7 @@ msgstr ""
 "Spustit tento převod na pozadí (toto by mohlo být vynuceno pokud zvolíte "
 "alespoň jednu asynchronní akci)"
 
-#: src/ralph/lib/transitions/models.py:532
+#: lib/transitions/models.py:537
 msgid ""
 "Name of asynchronous (internal) service to run this transition. Fill this "
 "field only if you want to run this transition in the background."
@@ -3174,270 +3257,268 @@ msgstr ""
 "Název asynchronní (interní) služby pod kterou spustit tento převod. Tuto "
 "kolonku vyplňujte pouze pokud chcete tento převod spustit na pozadí."
 
-#: src/ralph/lib/transitions/models.py:723
+#: lib/transitions/models.py:728
 msgid "transition action status"
 msgstr "stav akce převodu"
 
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table.html:5
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:5
 msgid "Job"
 msgstr "Úloha"
 
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table.html:8
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:22
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:8
+#: lib/transitions/templates/transitions/current_transitions.html:22
 msgid "Object"
 msgstr "Objekt"
 
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table.html:10
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:24
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:10
+#: lib/transitions/templates/transitions/current_transitions.html:24
 msgid "Status"
 msgstr "Stav"
 
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table.html:11
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:25
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:11
+#: lib/transitions/templates/transitions/current_transitions.html:25
 msgid "Transition actions"
 msgstr "Akce převodu"
 
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table.html:33
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table_body.html:42
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:33
+#: lib/transitions/templates/transitions/_transition_jobs_table_body.html:42
 msgid "Are you sure you want to kill transition job?"
 msgstr "Opravdu chcete vynutit ukončení této úlohy převodu?"
 
-#: src/ralph/lib/transitions/templates/transitions/_transition_jobs_table_body.html:7
+#: lib/transitions/templates/transitions/_transition_jobs_table_body.html:7
 msgid "Created date"
 msgstr "Datum vytvoření"
 
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:32
+#: lib/transitions/templates/transitions/current_transitions.html:32
 msgid "Current transition"
 msgstr "Stávající převody"
 
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:39
+#: lib/transitions/templates/transitions/current_transitions.html:39
 msgid "Nothing to do."
 msgstr "Není co dělat."
 
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:45
+#: lib/transitions/templates/transitions/current_transitions.html:45
 msgid "Finished transitions"
 msgstr "Dokončené převody"
 
-#: src/ralph/lib/transitions/templates/transitions/current_transitions.html:52
+#: lib/transitions/templates/transitions/current_transitions.html:52
 msgid "Nothing to display"
 msgstr "Není co zobrazit"
 
-#: src/ralph/lib/transitions/templates/transitions/run_transition.html:5
-#: src/ralph/lib/transitions/templates/transitions/run_transition.html:10
+#: lib/transitions/templates/transitions/run_transition.html:5
+#: lib/transitions/templates/transitions/run_transition.html:10
 msgid "Tranisition"
 msgstr "Převody"
 
-#: src/ralph/lib/transitions/templates/transitions/run_transition.html:26
+#: lib/transitions/templates/transitions/run_transition.html:26
 msgid "Option"
 msgstr "Volba"
 
-#: src/ralph/lib/transitions/templates/transitions/run_transition.html:38
+#: lib/transitions/templates/transitions/run_transition.html:38
 msgid "Cancel transition"
 msgstr "Zrušit převod"
 
-#: src/ralph/lib/transitions/templates/transitions/run_transition.html:43
+#: lib/transitions/templates/transitions/run_transition.html:43
 msgid "Run transition"
 msgstr "Zahájit převod"
 
-#: src/ralph/lib/transitions/templates/transitions/templatetags/available_transitions.html:15
+#: lib/transitions/templates/transitions/templatetags/available_transitions.html:15
 msgid "This transition will be run without any confirmation."
 msgstr "Tento převod bude spuštěn bez požadování potvrzení."
 
-#: src/ralph/lib/transitions/views.py:204
+#: lib/transitions/views.py:205
 msgid "Transitions performed successfully"
 msgstr "Převod úspěšně proveden"
 
-#: src/ralph/lib/transitions/views.py:226
+#: lib/transitions/views.py:227
 msgid "Some assets are not valid"
 msgstr "Některé majetky nejsou platné"
 
-#: src/ralph/licences/admin.py:25 src/ralph/licences/admin.py:33
-#: src/ralph/supports/admin.py:22 src/ralph/supports/admin.py:30
+#: licences/admin.py:29 licences/admin.py:37 supports/admin.py:26
+#: supports/admin.py:34
 msgid "Assignments"
 msgstr "Přiřazení"
 
-#: src/ralph/licences/admin.py:32 src/ralph/supports/admin.py:29
+#: licences/admin.py:36 supports/admin.py:33
 msgid "assignments"
 msgstr "přiřazení"
 
-#: src/ralph/licences/models.py:72
+#: licences/models.py:72
 msgid "software categories"
 msgstr "kategorie software"
 
-#: src/ralph/licences/models.py:159
+#: licences/models.py:159
 msgid "Should be like 'per processor' or 'per machine' and so on. "
 msgstr "Mělo by být jako „na procesor“ nebo „na stroj“ atd. "
 
-#: src/ralph/licences/models.py:176
+#: licences/models.py:176
 msgid "SN / key"
 msgstr "sériové číslo / klíč"
 
-#: src/ralph/licences/models.py:188 src/ralph/supports/models.py:109
+#: licences/models.py:188 supports/models.py:109
 msgid "invoice date"
 msgstr "datum faktury"
 
-#: src/ralph/licences/models.py:216
+#: licences/models.py:216
 msgid "Any value to help your accounting department identify this licence"
 msgstr ""
 "Libovolná hodnota která vašemu účetnímu oddělení pomůže identifikovat tuto "
 "licenci"
 
-#: src/ralph/licences/models.py:222
+#: licences/models.py:222
 msgid "assigned base objects"
 msgstr "přiřazené základní objekty"
 
-#: src/ralph/licences/models.py:236
+#: licences/models.py:236
 msgid "license details"
 msgstr "podrobnosti licence"
 
-#: src/ralph/licences/models.py:322 src/ralph/supports/models.py:178
+#: licences/models.py:322 supports/models.py:178
 msgid "Asset"
 msgstr "Majetek"
 
-#: src/ralph/licences/models.py:349
+#: licences/models.py:349
 msgid "Asset region is in a different region than licence."
 msgstr "Oblast majetku je jiná než ve které se nachází licence."
 
-#: src/ralph/networks/admin.py:40
+#: networks/admin.py:41
 msgid "Hostnames"
 msgstr "Názvy strojů"
 
-#: src/ralph/networks/admin.py:81 src/ralph/networks/admin.py:326
+#: networks/admin.py:83 networks/admin.py:334
 msgid "Linked object"
 msgstr "Propojený objekt"
 
-#: src/ralph/networks/admin.py:136
+#: networks/admin.py:138
 msgid "Network added to <a href=\"{}\" _target=\"blank\">{}</a>"
 msgstr "Síť přidána do <a href=\"{}\" _target=\"blank\">{}</a>"
 
-#: src/ralph/networks/admin.py:137
+#: networks/admin.py:139
 msgid ""
 "Network reassigned from network <a href=\"{}\" target=\"_blank\">{}</a> to "
 "<a href=\"{}\" target=\"_blank\">{}</a>"
 msgstr ""
-"Síť přeřazena ze sítě <a href=\"{}\" target=\"_blank\">{}</a> to <a href="
-"\"{}\" target=\"_blank\">{}</a>"
+"Síť přeřazena ze sítě <a href=\"{}\" target=\"_blank\">{}</a> to <a "
+"href=\"{}\" target=\"_blank\">{}</a>"
 
-#: src/ralph/networks/admin.py:173
+#: networks/admin.py:181
 msgid "Network address"
 msgstr "Síťová adresa"
 
-#: src/ralph/networks/admin.py:178
+#: networks/admin.py:186
 msgid "Subnetworks count"
 msgstr "Počet podsítí"
 
-#: src/ralph/networks/admin.py:183
+#: networks/admin.py:191
 msgid "IPAddress count"
 msgstr "Počet IP adres"
 
-#: src/ralph/networks/admin.py:196
+#: networks/admin.py:204
 msgid "Parent networks"
 msgstr "Nadřazené sítě"
 
-#: src/ralph/networks/admin.py:204
+#: networks/admin.py:212
 msgid "First free IP"
 msgstr "První volná IP adresa"
 
-#: src/ralph/networks/admin.py:217
+#: networks/admin.py:225
 msgid "Subnetworks"
 msgstr "Podsítě"
 
-#: src/ralph/networks/admin.py:238
+#: networks/admin.py:246
 msgid "Addresses"
 msgstr "Adresy"
 
-#: src/ralph/networks/admin.py:292
+#: networks/admin.py:300
 msgid "IP added to <a href=\"{}\" _target=\"blank\">{}</a>"
 msgstr "IP adresa přidáno do <a href=\"{}\" _target=\"blank\">{}</a>"
 
-#: src/ralph/networks/admin.py:293
+#: networks/admin.py:301
 msgid ""
 "IP reassigned from network <a href=\"{}\" target=\"_blank\">{}</a> to <a "
 "href=\"{}\" target=\"_blank\">{}</a>"
 msgstr ""
-"IP přeřazena ze sítě <a href=\"{}\" target=\"_blank\">{}</a> to <a href="
-"\"{}\" target=\"_blank\">{}</a>"
+"IP přeřazena ze sítě <a href=\"{}\" target=\"_blank\">{}</a> to <a "
+"href=\"{}\" target=\"_blank\">{}</a>"
 
-#: src/ralph/networks/filters.py:42
+#: networks/filters.py:42
 msgid "IP range"
 msgstr "Rozsah IP adres"
 
-#: src/ralph/networks/filters.py:64
+#: networks/filters.py:64
 msgid "Network range"
 msgstr "Síťový rozsah"
 
-#: src/ralph/networks/filters.py:82
+#: networks/filters.py:82
 msgid "Private"
 msgstr "Soukromý"
 
-#: src/ralph/networks/filters.py:83
+#: networks/filters.py:83
 msgid "Public"
 msgstr "Veřejný"
 
-#: src/ralph/networks/filters.py:98 src/ralph/networks/filters.py:105
+#: networks/filters.py:98 networks/filters.py:105
 msgid "Contains IP address"
 msgstr "Obsahuje IP adresu"
 
-#: src/ralph/networks/forms.py:120
+#: networks/forms.py:125
 #, python-format
 msgid "Address %(ip)s already exist."
 msgstr "Adresa %(ip)s už existuje."
 
-#: src/ralph/networks/forms.py:166
+#: networks/forms.py:171
 msgid "Cannot expose in DHCP without IP address"
 msgstr "Bez IP adresy není možné exponovat v DHCP"
 
-#: src/ralph/networks/forms.py:170
+#: networks/forms.py:175
 msgid "Cannot expose in DHCP without hostname"
 msgstr "Bez názvu stroje není možné exponovat v DHCP"
 
-#: src/ralph/networks/forms.py:174
+#: networks/forms.py:179
 msgid "Cannot expose in DHCP without MAC address"
 msgstr "Bez MAC adresy není možné exponovat v DHCP"
 
-#: src/ralph/networks/forms.py:185
+#: networks/forms.py:190
 msgid "At least one of {} is required"
 msgstr "Je třeba alespoň jedno z {}"
 
-#: src/ralph/networks/forms.py:233 src/ralph/networks/models/networks.py:655
+#: networks/forms.py:238 networks/models/networks.py:658
 msgid "Expose in DHCP"
 msgstr "Exponovat v DHCP"
 
-#: src/ralph/networks/models/choices.py:7
+#: networks/models/choices.py:7
 msgid "used (fixed address in DHCP)"
 msgstr "použito (pevná adresa v DHCP)"
 
-#: src/ralph/networks/models/choices.py:8
+#: networks/models/choices.py:8
 msgid "Exclude from DHCP"
 msgstr "Vynechat z DHCP"
 
-#: src/ralph/networks/models/networks.py:45
-#: src/ralph/networks/models/networks.py:306
+#: networks/models/networks.py:48 networks/models/networks.py:309
 msgid "network kind"
 msgstr "druh sítě"
 
-#: src/ralph/networks/models/networks.py:46
+#: networks/models/networks.py:49
 msgid "network kinds"
 msgstr "druhy sítí"
 
-#: src/ralph/networks/models/networks.py:62
-#: src/ralph/networks/models/networks.py:569
+#: networks/models/networks.py:65 networks/models/networks.py:572
 msgid "discovery queue"
 msgstr "fronta objevování"
 
-#: src/ralph/networks/models/networks.py:68
+#: networks/models/networks.py:71
 msgid "hostname template counter length"
 msgstr "Délka čítače šablony názvu stroje"
 
-#: src/ralph/networks/models/networks.py:72
+#: networks/models/networks.py:75
 msgid "hostname template prefix"
 msgstr "předpona šablony názvu stroje"
 
-#: src/ralph/networks/models/networks.py:76
+#: networks/models/networks.py:79
 msgid "hostname template postfix"
 msgstr "přípona šablony názvu stroje"
 
-#: src/ralph/networks/models/networks.py:79
+#: networks/models/networks.py:82
 msgid ""
 "This value will be used as a postfix when generating new hostname in this "
 "network environment. For example, when prefix is \"s1\", postfix is \".mydc."
@@ -3449,65 +3530,63 @@ msgstr ""
 "net“ a délka čítače je 4, budou vytvořeny následující název strojů: s10000."
 "mydc.net, s10001.mydc.net, až s19999.mydc.net."
 
-#: src/ralph/networks/models/networks.py:87
+#: networks/models/networks.py:90
 msgid "domain"
 msgstr "doména"
 
-#: src/ralph/networks/models/networks.py:91
+#: networks/models/networks.py:94
 msgid "Used in DHCP configuration."
 msgstr "Použito v nastavení DHCP."
 
-#: src/ralph/networks/models/networks.py:94
-#: src/ralph/networks/models/networks.py:262
+#: networks/models/networks.py:97 networks/models/networks.py:265
 msgid "remarks"
 msgstr "poznámky"
 
-#: src/ralph/networks/models/networks.py:95
-#: src/ralph/networks/models/networks.py:263
+#: networks/models/networks.py:98 networks/models/networks.py:266
 msgid "Additional information."
 msgstr "Další informace."
 
-#: src/ralph/networks/models/networks.py:252
+#: networks/models/networks.py:255
 msgid "network address"
 msgstr "síťová adresa"
 
-#: src/ralph/networks/models/networks.py:253
+#: networks/models/networks.py:256
 msgid "Presented as string (e.g. 192.168.0.0/24)"
 msgstr "Přítomné jako řetězec (např. 192.168.0.0/24)"
 
-#: src/ralph/networks/models/networks.py:256
+#: networks/models/networks.py:259
 msgid "Network Class"
 msgstr "Třída sítě"
 
-#: src/ralph/networks/models/networks.py:258
+#: networks/models/networks.py:261
 msgid "Gateway address"
 msgstr "Adresa brány"
 
-#: src/ralph/networks/models/networks.py:270
+#: networks/models/networks.py:273
 msgid "network terminators"
 msgstr "ukončovače sítě"
 
-#: src/ralph/networks/models/networks.py:274
+#: networks/models/networks.py:277
 msgid "VLAN number"
 msgstr "číslo VLAN"
 
-#: src/ralph/networks/models/networks.py:281
+#: networks/models/networks.py:284
 msgid "racks"
 msgstr "rozvaděče"
 
-#: src/ralph/networks/models/networks.py:293
+#: networks/models/networks.py:296
 msgid "smallest IP number"
 msgstr "nejnižší počet IP adres"
 
-#: src/ralph/networks/models/networks.py:299
+#: networks/models/networks.py:302
 msgid "largest IP number"
 msgstr "nejvyšší počet IP adres"
 
-#: src/ralph/networks/models/networks.py:312
+#: networks/models/networks.py:315
 msgid "Broadcast in DHCP configuration"
 msgstr "Všesměrové vysílání v nastavení DHCP"
 
-#: src/ralph/networks/models/networks.py:329
+#: networks/models/networks.py:332
 msgid ""
 "Number of addresses to be omitted in DHCP automatic assignmentcounted from "
 "the first IP in range (excluding network address)"
@@ -3515,7 +3594,7 @@ msgstr ""
 "Počet adres které vynechat z automatického DHCP přidělování počítáno od "
 "první IP v rozsahu (vyjma adresy sítě)"
 
-#: src/ralph/networks/models/networks.py:336
+#: networks/models/networks.py:339
 msgid ""
 "Number of addresses to be omitted in DHCP automatic assignmentcounted from "
 "the last IP in range (excluding broadcast address)"
@@ -3523,620 +3602,819 @@ msgstr ""
 "Počet adres které vynechat z automatického DHCP přidělování počítáno od "
 "poslední IP v rozsahu (vyjma adresy všeměrového vysílání)"
 
-#: src/ralph/networks/models/networks.py:400
+#: networks/models/networks.py:403
 msgid "network"
 msgstr "síť"
 
-#: src/ralph/networks/models/networks.py:401
+#: networks/models/networks.py:404
 msgid "networks"
 msgstr "sítě"
 
-#: src/ralph/networks/models/networks.py:570
+#: networks/models/networks.py:573
 msgid "discovery queues"
 msgstr "fronty objevování"
 
-#: src/ralph/networks/models/networks.py:614
+#: networks/models/networks.py:617
 msgid "Presented as string."
 msgstr "Přítomno jako řetězec."
 
-#: src/ralph/networks/models/networks.py:629
+#: networks/models/networks.py:632
 msgid "Presented as int."
 msgstr "Přítomno jako celé číslo."
 
-#: src/ralph/networks/models/networks.py:637
+#: networks/models/networks.py:640
 msgid "Is management address"
 msgstr "Je správní adresa"
 
-#: src/ralph/networks/models/networks.py:641
+#: networks/models/networks.py:644
 msgid "Is public"
 msgstr "Je veřejná"
 
-#: src/ralph/networks/models/networks.py:646
+#: networks/models/networks.py:649
 msgid "Is gateway"
 msgstr "Je brána"
 
-#: src/ralph/networks/models/networks.py:661
+#: networks/models/networks.py:664
 msgid "IP addresses"
 msgstr "IP adresy"
 
-#: src/ralph/networks/views.py:60
+#: networks/views.py:60
 msgid "Available networks"
 msgstr "Sítě k dispozici"
 
-#: src/ralph/operations/admin.py:93
+#: operations/admin.py:93
 #, fuzzy
 #| msgid "My services"
 msgid "services"
 msgstr "Moje služby"
 
-#: src/ralph/operations/migrations/0010_auto_20170410_1031.py:15
+#: operations/migrations/0010_auto_20170410_1031.py:15
 msgid "open"
 msgstr "otevřít"
 
-#: src/ralph/operations/migrations/0010_auto_20170410_1031.py:17
+#: operations/migrations/0010_auto_20170410_1031.py:17
 msgid "resolved"
 msgstr "vyřešeno"
 
-#: src/ralph/operations/migrations/0010_auto_20170410_1031.py:18
+#: operations/migrations/0010_auto_20170410_1031.py:18
 msgid "closed"
 msgstr "zavřeno"
 
-#: src/ralph/operations/migrations/0010_auto_20170410_1031.py:19
+#: operations/migrations/0010_auto_20170410_1031.py:19
 msgid "reopened"
 msgstr "opětovně otevřeno"
 
-#: src/ralph/operations/migrations/0010_auto_20170410_1031.py:20
+#: operations/migrations/0010_auto_20170410_1031.py:20
 msgid "todo"
 msgstr "k udělání"
 
-#: src/ralph/operations/migrations/0010_auto_20170410_1031.py:21
+#: operations/migrations/0010_auto_20170410_1031.py:21
 msgid "blocked"
 msgstr "blokováno"
 
-#: src/ralph/operations/models.py:43
+#: operations/models.py:23
+#, fuzzy
+#| msgid "Operations"
+msgid "Operation statuses"
+msgstr "Operace"
+
+#: operations/models.py:44
 msgid "change"
 msgstr "změna"
 
-#: src/ralph/operations/models.py:46
+#: operations/models.py:47
 msgid "incident"
 msgstr "incident"
 
-#: src/ralph/operations/models.py:49
+#: operations/models.py:50
 msgid "problem"
 msgstr "problém"
 
-#: src/ralph/operations/models.py:52
+#: operations/models.py:53
 msgid "failure"
 msgstr "selhání"
 
-#: src/ralph/operations/models.py:53
+#: operations/models.py:54
 msgid "hardware failure"
 msgstr "selhání hardware"
 
-#: src/ralph/operations/models.py:60
+#: operations/models.py:61
 msgid "title"
 msgstr "nadpis"
 
-#: src/ralph/operations/models.py:67 src/ralph/supports/models.py:90
+#: operations/models.py:68 supports/models.py:90
 msgid "status"
 msgstr "stav"
 
-#: src/ralph/operations/models.py:75
+#: operations/models.py:76
 msgid "assignee"
 msgstr "přiřazeno"
 
-#: src/ralph/operations/models.py:83
+#: operations/models.py:84
 msgid "reporter"
 msgstr "nahlásil"
 
-#: src/ralph/operations/models.py:88
+#: operations/models.py:89
 msgid "ticket id"
 msgstr "identif. požadavku"
 
-#: src/ralph/operations/models.py:90
+#: operations/models.py:91
 msgid "created date"
 msgstr "datum vytvoření"
 
-#: src/ralph/operations/models.py:93
+#: operations/models.py:94
 msgid "updated date"
 msgstr "datum aktualizace"
 
-#: src/ralph/operations/models.py:96
+#: operations/models.py:97
 msgid "resolved date"
 msgstr "datum vyřešení"
 
-#: src/ralph/operations/models.py:99
+#: operations/models.py:100
 msgid "objects"
 msgstr "objekty"
 
-#: src/ralph/operations/views.py:15
+#: operations/views.py:15
 msgid "Operation"
 msgstr "Operace"
 
-#: src/ralph/operations/views.py:29
+#: operations/views.py:29
 msgid "Existing Operations"
 msgstr "Existující operace"
 
-#: src/ralph/operations/views.py:51
+#: operations/views.py:51
 msgid "Add new Operation"
 msgstr "Přidat novou operaci"
 
-#: src/ralph/reports/forms.py:16
+#: reports/forms.py:16
 msgid "Please select exactly one default item."
 msgstr "Vyberte právě jednu výchozí položku."
 
-#: src/ralph/reports/helpers.py:46
+#: reports/helpers.py:52
 msgid "Document autogenerated by {} transition."
 msgstr "Dokument automaticky vytvořen převodem {}."
 
-#: src/ralph/reports/models.py:36
+#: reports/models.py:36
 msgid "Only one language can be default."
 msgstr "Pouze jeden z jazyků může být výchozím."
 
-#: src/ralph/reports/templates/reports/report_detail.html:13
+#: reports/templates/reports/report_detail.html:13
 msgid "Last update:"
 msgstr "Poslední aktualizace:"
 
-#: src/ralph/reports/templates/reports/report_detail.html:18
+#: reports/templates/reports/report_detail.html:18
 msgid "Filter"
 msgstr "Filtrovat"
 
-#: src/ralph/reports/templates/reports/report_relations.html:7
+#: reports/templates/reports/report_relations.html:7
 msgid "download report"
 msgstr "stáhnout výkaz"
 
-#: src/ralph/reports/views.py:81
+#: reports/views.py:81
 msgid "Only data center"
 msgstr "Pouze datacentrum"
 
-#: src/ralph/reports/views.py:86
+#: reports/views.py:86
 msgid "Only back office"
 msgstr "Pouze back office"
 
-#: src/ralph/reports/views.py:193
+#: reports/views.py:193
 msgid "Category - model"
 msgstr "Kategorie – model"
 
-#: src/ralph/reports/views.py:194
+#: reports/views.py:194
 msgid "Number of assets in each model category."
 msgstr "Počet položek majetku v každé z kategorií modelu."
 
-#: src/ralph/reports/views.py:216
+#: reports/views.py:216
 msgid "Category - model - status"
 msgstr "Kategorie – model – stav"
 
-#: src/ralph/reports/views.py:217
+#: reports/views.py:217
 msgid "Number of assets in each status in the model category."
 msgstr "Počet majetků v každém stavu v kategorii modelu."
 
-#: src/ralph/reports/views.py:247
+#: reports/views.py:247
 msgid "Manufactured - category - model"
 msgstr "Vyrobeno – kategorie – model"
 
-#: src/ralph/reports/views.py:248
+#: reports/views.py:248
 msgid "Number of assets in each manufacturer."
 msgstr "Počet majetků v každém z výrobců."
 
-#: src/ralph/reports/views.py:284
+#: reports/views.py:284
 msgid "Status - model"
 msgstr "Stav – model"
 
-#: src/ralph/reports/views.py:285
+#: reports/views.py:285
 msgid "Number of assets in each the asset status."
 msgstr "Počet majetků v každém ze stavů majetku."
 
-#: src/ralph/reports/views.py:320
+#: reports/views.py:320
 msgid "Asset list of information about the user, owner, model."
 msgstr "Seznam majetku s informacemi o uživateli, vlastníkovi a modelu."
 
-#: src/ralph/reports/views.py:378
+#: reports/views.py:378
 msgid "Asset - supports"
 msgstr "Majetek – podpory"
 
-#: src/ralph/reports/views.py:379
+#: reports/views.py:379
 msgid "Assets with assigned supports"
 msgstr "Majetky s přiřazenými podporami"
 
-#: src/ralph/reports/views.py:485
+#: reports/views.py:485
 msgid "List of licenses assigned to assets and users."
 msgstr "Seznam licencí přiřazených k majetkům a uživatelům"
 
-#: src/ralph/reports/views.py:589
+#: reports/views.py:589
 msgid "Failure types for each manufacturer."
 msgstr "Typy selhání pro každého z výrobců."
 
-#: src/ralph/security/models.py:24
+#: security/models.py:24
 msgid "ok"
 msgstr "ok"
 
-#: src/ralph/security/models.py:25
+#: security/models.py:25
 msgid "fail"
 msgstr "nezdar"
 
-#: src/ralph/security/models.py:26
+#: security/models.py:26
 msgid "error"
 msgstr "chyba"
 
-#: src/ralph/security/models.py:32
+#: security/models.py:32
 msgid "low"
 msgstr "nízké"
 
-#: src/ralph/security/models.py:33
+#: security/models.py:33
 msgid "medium"
 msgstr "střední"
 
-#: src/ralph/security/models.py:34
+#: security/models.py:34
 msgid "high"
 msgstr "vysoké"
 
-#: src/ralph/security/models.py:52
+#: security/models.py:52
 #, fuzzy
 #| msgid "model name"
 msgid "display name"
 msgstr "název modelu"
 
-#: src/ralph/security/models.py:61
+#: security/models.py:61
 msgid "Id of vulnerability from external system"
 msgstr "Identif. zranitelnosti z externího systému"
 
-#: src/ralph/security/models.py:89
+#: security/models.py:89
 msgid "Rescan url"
 msgstr "URL opětovného skenu"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:9
-#: src/ralph/security/views.py:44
+#: security/templates/security/securityinfo/security_info.html:9
+#: security/views.py:44
 msgid "Security scan"
 msgstr "Sken zabezpečení"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:13
+#: security/templates/security/securityinfo/security_info.html:13
 msgid "last scan date"
 msgstr "datum minulého skenu"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:17
+#: security/templates/security/securityinfo/security_info.html:17
 msgid "scan status"
 msgstr "stav skenu"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:21
+#: security/templates/security/securityinfo/security_info.html:21
 msgid "next scan date"
 msgstr "datum příštího skenu"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:25
+#: security/templates/security/securityinfo/security_info.html:25
 msgid "details"
 msgstr "podrobnosti"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:29
+#: security/templates/security/securityinfo/security_info.html:29
 msgid "request for a scan"
 msgstr "požádat o sken"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:34
+#: security/templates/security/securityinfo/security_info.html:34
 msgid "Vulnerabilities"
 msgstr "Zranitelnosti"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:39
+#: security/templates/security/securityinfo/security_info.html:39
 msgid "Risk"
 msgstr "Riziko"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:40
+#: security/templates/security/securityinfo/security_info.html:40
 msgid "Patch deadline"
 msgstr "Termín záplaty"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:57
+#: security/templates/security/securityinfo/security_info.html:57
 msgid "No vulnerabilities found for this scan"
 msgstr "Při tomto skenu nenalezeny žádné zranitelnosti"
 
-#: src/ralph/security/templates/security/securityinfo/security_info.html:61
+#: security/templates/security/securityinfo/security_info.html:61
 msgid "No scan so far"
 msgstr "Doposud žádné skeny"
 
-#: src/ralph/security/transitions.py:18
+#: security/transitions.py:18
 #, fuzzy
 #| msgid "Security scan"
 msgid "Cleanup security scans"
 msgstr "Sken zabezpečení"
 
-#: src/ralph/sim_cards/admin.py:38
+#: settings/base.py:200
+msgid "English"
+msgstr ""
+
+#: settings/base.py:201
+msgid "Korean"
+msgstr ""
+
+#: settings/base.py:202
+#, fuzzy
+#| msgid "Version"
+msgid "Persian"
+msgstr "Verze"
+
+#: settings/base.py:203
+msgid "Czech"
+msgstr ""
+
+#: settings/base.py:204
+msgid "Polish"
+msgstr ""
+
+#: sim_cards/admin.py:52
 #, fuzzy
 #| msgid "Master Info"
 msgid "SIM Card Info"
 msgstr "Hlavní informace"
 
-#: src/ralph/sim_cards/models.py:34 src/ralph/sim_cards/models.py:43
-#: src/ralph/sim_cards/models.py:80 src/ralph/sim_cards/models.py:84
-#: src/ralph/sim_cards/models.py:89 src/ralph/sim_cards/models.py:94
-#: src/ralph/sim_cards/models.py:106
+#: sim_cards/models.py:37 sim_cards/models.py:46 sim_cards/models.py:83
+#: sim_cards/models.py:87 sim_cards/models.py:92 sim_cards/models.py:97
+#: sim_cards/models.py:109
 msgid "Required numeric characters only."
 msgstr ""
 
-#: src/ralph/sim_cards/models.py:61
+#: sim_cards/models.py:64
 msgid "in quarantine"
 msgstr ""
 
-#: src/ralph/sim_cards/models.py:111
+#: sim_cards/models.py:114
 msgid "ex. +2920181234"
 msgstr ""
 
-#: src/ralph/sim_cards/models.py:139
+#: sim_cards/models.py:142
 msgid "End of quarantine date."
 msgstr ""
 
-#: src/ralph/sim_cards/models.py:147
+#: sim_cards/models.py:156
 msgid "SIM Card: {}"
 msgstr ""
 
-#: src/ralph/ssl_certificates/models.py:13
+#: sim_cards/models.py:331
+msgid "pin1"
+msgstr ""
+
+#: sim_cards/models.py:334
+msgid "puk1"
+msgstr ""
+
+#: sim_cards/models.py:347
+#, fuzzy
+#| msgid "order number"
+msgid "card number"
+msgstr "číslo objednávky"
+
+#: ssl_certificates/models.py:13
 msgid "EV"
 msgstr ""
 
-#: src/ralph/ssl_certificates/models.py:14
+#: ssl_certificates/models.py:14
 msgid "OV"
 msgstr ""
 
-#: src/ralph/ssl_certificates/models.py:15
+#: ssl_certificates/models.py:15
 msgid "DV"
 msgstr ""
 
-#: src/ralph/ssl_certificates/models.py:16
+#: ssl_certificates/models.py:16
 msgid "Wildcard"
 msgstr ""
 
-#: src/ralph/ssl_certificates/models.py:17
+#: ssl_certificates/models.py:17
 msgid "Multisan"
 msgstr ""
 
-#: src/ralph/ssl_certificates/models.py:18
+#: ssl_certificates/models.py:18
 msgid "CA ENT"
 msgstr ""
 
-#: src/ralph/ssl_certificates/models.py:23
+#: ssl_certificates/models.py:23
 msgid "certificate name"
 msgstr ""
 
-#: src/ralph/ssl_certificates/models.py:24
+#: ssl_certificates/models.py:24
 #, fuzzy
 #| msgid "Full name"
 msgid "Full certificate name"
 msgstr "Celé jméno"
 
-#: src/ralph/ssl_certificates/models.py:47
+#: ssl_certificates/models.py:38
+#, fuzzy
+#| msgid "Full name"
+msgid "certificate repository"
+msgstr "Celé jméno"
+
+#: ssl_certificates/models.py:40
+msgid "Certificate source repository"
+msgstr ""
+
+#: ssl_certificates/models.py:53
 msgid "All Subject Alternative Names"
 msgstr ""
 
-#: src/ralph/supports/admin.py:96
+#: supports/admin.py:100
 msgid "Contract info"
 msgstr "Informace o smlouvě"
 
-#: src/ralph/supports/admin.py:181
+#: supports/admin.py:185
 msgid "support type"
 msgstr "typ podpory"
 
-#: src/ralph/supports/admin.py:187
+#: supports/admin.py:191
 msgid "support contract id"
 msgstr "identif. smlouvy o podpoře"
 
-#: src/ralph/supports/admin.py:192
+#: supports/admin.py:196
 msgid "support name"
 msgstr "název podpory"
 
-#: src/ralph/supports/admin.py:197
+#: supports/admin.py:201
 msgid "support price"
 msgstr "cena podpory"
 
-#: src/ralph/supports/admin.py:202
+#: supports/admin.py:206
 msgid "support date from"
 msgstr "datum podpory od"
 
-#: src/ralph/supports/admin.py:207
+#: supports/admin.py:211
 msgid "support date to"
 msgstr "datum podpory do"
 
-#: src/ralph/supports/admin.py:216
+#: supports/admin.py:220
 msgid "asset hostname"
 msgstr "název stroje majetku"
 
-#: src/ralph/supports/admin.py:222
+#: supports/admin.py:226
 msgid "asset service env"
 msgstr "prostředí služby majetku"
 
-#: src/ralph/supports/models.py:78
+#: supports/models.py:78
 msgid "contract ID"
 msgstr "identif. smlouvy"
 
-#: src/ralph/tests/admin.py:36
+#: tests/admin.py:37
 msgid "Bars"
 msgstr "Pruhy"
 
-#: src/ralph/tests/models.py:25
+#: tests/models.py:25
 msgid "to_send"
 msgstr "k_odeslani"
 
-#: src/ralph/tests/models.py:26
+#: tests/models.py:26
 msgid "sended"
 msgstr "odesláno"
 
-#: src/ralph/trade_marks/admin.py:29
+#: trade_marks/admin.py:45
 #, fuzzy
 #| msgid "Assigned to users"
 msgid "Assigned to domain"
 msgstr "Přiřazeno uživatelům"
 
-#: src/ralph/trade_marks/admin.py:107
+#: trade_marks/admin.py:138
+#, fuzzy
+#| msgid "Databases"
+msgid "Database link"
+msgstr "Databáze"
+
+#: trade_marks/admin.py:153
 #, fuzzy
 #| msgid "damaged"
 msgid "Image"
 msgstr "poškozené"
 
-#: src/ralph/trade_marks/models.py:25
-msgid "Word"
-msgstr ""
-
-#: src/ralph/trade_marks/models.py:26
-#, fuzzy
-#| msgid "configuration"
-msgid "Figurative"
-msgstr "nastavení"
-
-#: src/ralph/trade_marks/models.py:27
-msgid "Word - Figurative"
-msgstr ""
-
-#: src/ralph/trade_marks/models.py:46
+#: trade_marks/models.py:47
 msgid "Application filed"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:47
+#: trade_marks/models.py:48
 msgid "Application refused"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:48
+#: trade_marks/models.py:49
 msgid "Application withdrawn"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:49
+#: trade_marks/models.py:50
 msgid "Application opposed"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:50
+#: trade_marks/models.py:51
 #, fuzzy
 #| msgid "Registrants"
 msgid "Registered"
 msgstr "Registrovaní"
 
-#: src/ralph/trade_marks/models.py:51
+#: trade_marks/models.py:52
 msgid "Registration invalidated"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:52
+#: trade_marks/models.py:53
 msgid "Registration expired"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:69
+#: trade_marks/models.py:70
 msgid "trade mark country"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:86
-msgid "Trade Mark name"
-msgstr ""
-
-#: src/ralph/trade_marks/models.py:91
+#: trade_marks/models.py:162
 #, fuzzy
-#| msgid "Registrants"
-msgid "Registrant number"
-msgstr "Registrovaní"
+#| msgid "remarks"
+msgid "Trade Mark Name"
+msgstr "poznámky"
 
-#: src/ralph/trade_marks/models.py:97
-msgid "Trade Mark type"
-msgstr ""
-
-#: src/ralph/trade_marks/models.py:107
+#: trade_marks/models.py:162
 #, fuzzy
-#| msgid "Registrants"
-msgid "Registrant class"
-msgstr "Registrovaní"
+#| msgid "order number"
+msgid "Trade Mark number"
+msgstr "číslo objednávky"
 
-#: src/ralph/trade_marks/models.py:135
-msgid "Trade Mark holder"
-msgstr ""
-
-#: src/ralph/trade_marks/models.py:140
+#: trade_marks/models.py:163
 msgid "Trade Mark status"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:170
+#: trade_marks/models.py:163
+msgid "Trade Mark holder"
+msgstr ""
+
+#: trade_marks/models.py:164 trade_marks/models.py:211
+#: trade_marks/models.py:251 trade_marks/models.py:292
+#, fuzzy
+#| msgid "Relations"
+msgid "Representation"
+msgstr "Vztahy"
+
+#: trade_marks/models.py:169
+msgid "Trade Mark type"
+msgstr ""
+
+#: trade_marks/models.py:190
 msgid "Trade Marks Linked Domain"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:171
+#: trade_marks/models.py:191
 msgid "Trade Marks Linked Domains"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:184
+#: trade_marks/models.py:204
 msgid "Trade Mark Additional Country"
 msgstr ""
 
-#: src/ralph/trade_marks/models.py:185
+#: trade_marks/models.py:205
 msgid "Trade Mark Additional Countries"
 msgstr ""
 
-#: src/ralph/virtual/admin.py:60
+#: trade_marks/models.py:210
+msgid "Patent Name"
+msgstr ""
+
+#: trade_marks/models.py:210
+#, fuzzy
+#| msgid "inventory number"
+msgid "Patent number"
+msgstr "inventární číslo"
+
+#: trade_marks/models.py:210
+#, fuzzy
+#| msgid "scan status"
+msgid "Patent status"
+msgstr "stav skenu"
+
+#: trade_marks/models.py:211
+#, fuzzy
+#| msgid "Asset holder"
+msgid "Patent holder"
+msgstr "Výplň majetku"
+
+#: trade_marks/models.py:230
+msgid "Patent Linked Domain"
+msgstr ""
+
+#: trade_marks/models.py:231
+msgid "Patent Linked Domains"
+msgstr ""
+
+#: trade_marks/models.py:244
+#, fuzzy
+#| msgid "Additional info"
+msgid "Patent Additional Country"
+msgstr "Další informace"
+
+#: trade_marks/models.py:245
+msgid "Patent Additional Countries"
+msgstr ""
+
+#: trade_marks/models.py:250
+msgid "Design Name"
+msgstr ""
+
+#: trade_marks/models.py:250
+#, fuzzy
+#| msgid "serial number"
+msgid "Design number"
+msgstr "sériové číslo"
+
+#: trade_marks/models.py:250
+#, fuzzy
+#| msgid "scan status"
+msgid "Design status"
+msgstr "stav skenu"
+
+#: trade_marks/models.py:251
+#, fuzzy
+#| msgid "Asset holder"
+msgid "Design holder"
+msgstr "Výplň majetku"
+
+#: trade_marks/models.py:270
+#, fuzzy
+#| msgid "Assigned to users"
+msgid "Design Linked Domain"
+msgstr "Přiřazeno uživatelům"
+
+#: trade_marks/models.py:271
+#, fuzzy
+#| msgid "Assigned to users"
+msgid "Design Linked Domains"
+msgstr "Přiřazeno uživatelům"
+
+#: trade_marks/models.py:284
+#, fuzzy
+#| msgid "Additional info"
+msgid "Design Additional Country"
+msgstr "Další informace"
+
+#: trade_marks/models.py:285
+msgid "Design Additional Countries"
+msgstr ""
+
+#: trade_marks/models.py:290
+msgid "Utility Model Name"
+msgstr ""
+
+#: trade_marks/models.py:290
+#, fuzzy
+#| msgid "order number"
+msgid "Utility Model number"
+msgstr "číslo objednávky"
+
+#: trade_marks/models.py:291
+#, fuzzy
+#| msgid "Category model status"
+msgid "Utility Model status"
+msgstr "Stav modelu kategorie"
+
+#: trade_marks/models.py:291
+msgid "Utility Model holder"
+msgstr ""
+
+#: trade_marks/models.py:292
+msgid "IPC Classification"
+msgstr ""
+
+#: trade_marks/models.py:303
+msgid "Utility Model Additional Country"
+msgstr ""
+
+#: trade_marks/models.py:304
+msgid "Utility Model Additional Countries"
+msgstr ""
+
+#: trade_marks/models.py:317
+msgid "Utility Model Linked Domain"
+msgstr ""
+
+#: trade_marks/models.py:318
+msgid "Utility Model Linked Domains"
+msgstr ""
+
+#: virtual/admin.py:62
 msgid "Hypervisor must be one of DataCenterAsset or CloudHost"
 msgstr ""
 
-#: src/ralph/virtual/admin.py:82 src/ralph/virtual/admin.py:209
-#: src/ralph/virtual/admin.py:345
+#: virtual/admin.py:84 virtual/admin.py:211 virtual/admin.py:347
 msgid "Hypervisor"
 msgstr "Hypervizor"
 
-#: src/ralph/virtual/admin.py:179
+#: virtual/admin.py:181
 msgid "Parent"
 msgstr "Nadřazené"
 
-#: src/ralph/virtual/admin.py:201 src/ralph/virtual/admin.py:339
+#: virtual/admin.py:203 virtual/admin.py:341
 msgid "Not set"
 msgstr "Nenastaveno"
 
-#: src/ralph/virtual/admin.py:355
+#: virtual/admin.py:357
 msgid "Cloud Flavor"
 msgstr "Varianta cloudu"
 
-#: src/ralph/virtual/admin.py:379
+#: virtual/admin.py:381
 msgid "Cloud Project"
 msgstr "Projekt cloudu"
 
-#: src/ralph/virtual/admin.py:415 src/ralph/virtual/admin.py:458
+#: virtual/admin.py:417 virtual/admin.py:460
 msgid "vCPU cores"
 msgstr "jader virt. procesorů"
 
-#: src/ralph/virtual/admin.py:419 src/ralph/virtual/admin.py:462
+#: virtual/admin.py:421 virtual/admin.py:464
 msgid "RAM size (MiB)"
 msgstr "Velikost operační paměti (MiB)"
 
-#: src/ralph/virtual/admin.py:423 src/ralph/virtual/admin.py:466
+#: virtual/admin.py:425 virtual/admin.py:468
 msgid "Disk size (GiB)"
 msgstr "Velikost disku (GiB)"
 
-#: src/ralph/virtual/admin.py:470 src/ralph/virtual/admin.py:503
+#: virtual/admin.py:472 virtual/admin.py:506
 msgid "instances count"
 msgstr "počet instancí"
 
-#: src/ralph/virtual/api.py:193
+#: virtual/api.py:192
 msgid ""
 "Cloud flavor is in use and hence is not deletable. Use {\"force\": true} to "
 "force deletion."
 msgstr ""
 
-#: src/ralph/virtual/api.py:220
+#: virtual/api.py:219
 msgid ""
 "Cloud provider is in use and hence is not deletable. Use {\"force\": true} "
 "to force deletion."
 msgstr ""
 
-#: src/ralph/virtual/forms.py:28
+#: virtual/forms.py:28
 msgid "Client configuration must be a valid JSON text."
 msgstr ""
 
-#: src/ralph/virtual/models.py:157
+#: virtual/models.py:157
 msgid "project ID"
 msgstr "identif. projektu"
 
-#: src/ralph/virtual/models.py:169
+#: virtual/models.py:169
 msgid "image ID"
 msgstr ""
 
-#: src/ralph/virtual/models.py:211
+#: virtual/models.py:211
 msgid "host ID"
 msgstr "identif. stroje"
 
-#: src/ralph/virtual/models.py:223
+#: virtual/models.py:223
 msgid "Cloud host"
 msgstr "Hostitel cloudu"
 
-#: src/ralph/virtual/models.py:408
+#: virtual/models.py:408
 msgid "Virtual server (VM)"
 msgstr "Virt. server (VM)"
 
-#: src/ralph/virtual/models.py:409
+#: virtual/models.py:409
 msgid "Virtual servers (VM)"
 msgstr "Virt. servery (VM)"
+
+#, fuzzy
+#~| msgid "Manufacturer"
+#~ msgid "Accessory manufacturer"
+#~ msgstr "Výrobce"
+
+#, fuzzy
+#~| msgid "accessory"
+#~ msgid "Accessory type"
+#~ msgstr "příslušenství"
+
+#, fuzzy
+#~| msgid "Assigned to users"
+#~ msgid "Assigned SIM cards"
+#~ msgstr "Přiřazeno uživatelům"
+
+#, fuzzy
+#~| msgid "configuration"
+#~ msgid "Figurative"
+#~ msgstr "nastavení"
+
+#, fuzzy
+#~| msgid "Registrants"
+#~ msgid "Registrant number"
+#~ msgstr "Registrovaní"
+
+#, fuzzy
+#~| msgid "Registrants"
+#~ msgid "Registrant class"
+#~ msgstr "Registrovaní"
 
 #~ msgid "go to asset"
 #~ msgstr "jít na majetek"
