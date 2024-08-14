@@ -17,6 +17,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AlterUniqueTogether(
             name='importedobjects',
-            unique_together=set([('content_type', 'object_pk', 'old_object_pk')]),
+            unique_together=set(),
         ),
     ]
