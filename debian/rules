@@ -6,7 +6,6 @@ export DH_VIRTUALENV_INSTALL_ROOT=/opt/ralph
 	dh $@ --with python-virtualenv
 
 override_dh_virtualenv:
-	/usr/bin/python3.7 -m  pip install typing_extensions
 	dh_virtualenv --python /usr/bin/python3.7 --requirements requirements/prod.txt --verbose
 
 override_dh_shlibdeps:

@@ -47,5 +47,10 @@ gbp dch --ignore-branch --git-author --spawn-editor=never --new-version $VERSION
 
 export PIP_CACHE_DIR="pip_cache/"
 mkdir -p $PIP_CACHE_DIR
+python3.7 -m pip install typing_extensions==4.4.* django==1.10.*
+cd src/ralph/
+python3.7 -m django makemessages -a
+python3.7 -m django compilemessages
+cd ../..
 dpkg-buildpackage -us -uc
 move_files
