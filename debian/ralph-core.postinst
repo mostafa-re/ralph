@@ -3,7 +3,19 @@ set -e
 
 . /usr/share/debconf/confmodule
 
-collect_static () {
+initialize_ralph() {
+    echo "# Migrating database..."
+    /opt/ralph/ralph-core/bin/ralph makemigrations
+    /opt/ralph/ralph-core/bin/ralph migrate
+    echo "# Creating sitetree..."
+    /opt/ralph/ralph-core/bin/ralph sitetree_resync_apps
+    echo "# Starting service..."
+    systemctl enable ralph.service
+    systemctl start ralph.service
+    echo "DONE."
+}
+
+collect_static() {
     set -a
     . /etc/ralph/ralph.conf
     set +a
@@ -11,14 +23,13 @@ collect_static () {
     /opt/ralph/ralph-core/bin/ralph collectstatic --noinput > /dev/null
     echo "Static files collected successfuly."
 }
-fix_ownerships () {
+
+fix_ownerships() {
     chown -R ralphsrv:ralphsrv /var/log/ralph /var/local/ralph/media
 }
 
-db_configuration () {
+db_configuration() {
     if [ ! -e "/etc/ralph/conf.d/database.conf" ] ; then
-
-        DATABASE_ENGINE_DRIVER=transaction_hooks.backends.mysql
 
         db_get ralphsrv/use_default
         if [ "$RET" = "false" ] ; then
@@ -34,17 +45,17 @@ db_configuration () {
             DATABASE_PORT=$RET
             db_get ralphsrv/database_name
             DATABASE_NAME=$RET
-
-            if [ $DATABASE_ENGINE = "postgresql" ] ; then
-                DATABASE_ENGINE_DRIVER=transaction_hooks.backends.postgresql_psycopg2
-            fi
-
         else
             DATABASE_HOST=127.0.0.1
             DATABASE_PORT=3306
             DATABASE_NAME=ralph_ng
             DATABASE_USER=ralph_ng
             DATABASE_PASSWORD=ralph_ng
+        fi
+
+        DATABASE_ENGINE_DRIVER=django.db.backends.mysql
+        if [ "$DATABASE_ENGINE" = "postgresql" ]; then
+            DATABASE_ENGINE_DRIVER=django.db.backends.postgresql_psycopg2
         fi
 
         cat << EOF > /etc/ralph/conf.d/database.conf
@@ -59,26 +70,23 @@ EOF
     fi
 }
 
-
 case "$1" in
-  install)
-    fix_ownerships
-      ;;
-  configure)
-    db_configuration
-    collect_static
-    fix_ownerships
-      ;;
+    install)
+        fix_ownerships
+        ;;
 
-  abort-upgrade|abort-remove|abort-deconfigure)
-      ;;	
+    configure)
+        db_configuration
+        collect_static
+        fix_ownerships
+        initialize_ralph
+        ;;
 
-  *)
-    echo "postinst called with unknown argument \`$1'" >&2
-    exit 1
-      ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+        ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+        ;;
 esac
-
-#DEBHELPER#
-
-exit 0

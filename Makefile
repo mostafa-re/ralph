@@ -27,13 +27,13 @@ commit-changelog-tag:
 # build release version of the package. It is mainly used for testing.
 build-release-package:
 	docker build -f docker/Dockerfile-deb-packer -t ralph-deb-packer:latest .
-	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -t ralph-deb-packer:latest release
+	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -it ralph-deb-packer:latest release
 
 # build-snapshot-package generates a snapshot changelog and uses it to
 # build snapshot version of the package. It is mainly used for testing.
 build-snapshot-package:
 	docker build -f docker/Dockerfile-deb-packer -t ralph-deb-packer:latest .
-	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -t ralph-deb-packer:latest snapshot
+	docker run --rm -v $(shell pwd):${RALPH_DIR} --network="host" -it ralph-deb-packer:latest snapshot
 
 build-docker-image:
 	docker build \
