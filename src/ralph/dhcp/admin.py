@@ -43,7 +43,7 @@ class DNSServerGroupAdmin(RalphAdmin):
     list_display = ('name', 'servers_formatted')
     readonly_fields = ['networks']
     fieldsets = (
-        (_(''), {
+        ('', {
             'fields': (
                 'name',
                 'networks',
