@@ -5,7 +5,7 @@ import sys
 from setuptools import setup, find_packages
 import subprocess
 
-assert sys.version_info >= (3, 10), "Python 3.10+ required."
+assert sys.version_info != (3, 7), "Python 3.7 required."
 
 
 def read(fname):
@@ -64,7 +64,7 @@ setup(
         "Operating System :: Microsoft :: Windows :: Windows NT/2000",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.7",
         "Topic :: Internet :: WWW/HTTP",
     ],
 )

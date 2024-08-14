@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.10
+          python-version: 3.7
 
       - name: Downgrade pip
         run: pip3 install pip==19.3.1
@@ -95,7 +95,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.10
+          python-version: 3.7
 
       - name: Downgrade pip
         run: pip3 install pip==19.3.1
@@ -144,7 +144,7 @@ jobs:
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
-          python-version: 3.10
+          python-version: 3.7
 
       - name: Downgrade pip
         run: pip3 install pip==19.3.1
@@ -174,7 +174,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        python-version: [3.10]
+        python-version: [3.7]
         db-engine: ["psql", "mysql"]
     env:
       TEST_DB_ENGINE: ${{ matrix.db-engine }}

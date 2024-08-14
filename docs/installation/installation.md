@@ -12,7 +12,7 @@ This is a quick introduction on how to install Ralph on Ubuntu 22.04 Jammy.
 
 We introduced some changes in the Ubuntu 22.04 Jammy package:
 
-  * Ralph now uses Python 3.10
+  * Ralph now uses Python 3.7
   * settings are located in /etc/ralph
   * database settings are configured via debconf prompts during a fresh
   installation
