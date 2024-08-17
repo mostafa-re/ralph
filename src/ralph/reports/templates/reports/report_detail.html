@@ -14,7 +14,7 @@
     <p>{{ report.description }}</p>
     <br />
     {% if report.with_modes %}
-      <dl class="sub-nav">
+      <dl class="sub-nav flex">
         <dt>{% trans "Filter" %}:</dt>
         {% for report_mode in modes %}
           <dd{% if mode == report_mode.name %} class="active"{% endif %}>
@@ -27,7 +27,7 @@
     {% endif %}
 
     {% if report.with_datacenters and mode == 'dc' %}
-      <dl class="sub-nav">
+      <dl class="sub-nav flex">
         {% for report_datacenter in datacenters %}
           <dd{% if dc == report_datacenter.id %} class="active"{% endif %}>
             <a href="?asset_type=dc&dc={{ report_datacenter.id }}">
