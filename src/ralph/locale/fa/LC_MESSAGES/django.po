@@ -1,0 +1,4175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-17 14:47+0000\n"
+"PO-Revision-Date: 2024-08-17 17:04+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: access_cards/admin.py:26
+msgid "Access Card Info"
+msgstr "اطلاعات کارت اعطای دسترسی"
+
+#: access_cards/admin.py:33 accessories/admin.py:48 back_office/admin.py:181
+#: sim_cards/admin.py:59
+msgid "User Info"
+msgstr "اطلاعات کاربر"
+
+#: access_cards/admin.py:40 admin/sitetrees.py:324
+msgid "Access Zones"
+msgstr "مناطق قابل دسترس"
+
+#: access_cards/admin.py:54
+msgid "Employee ID"
+msgstr "شناسه کارمند"
+
+#: access_cards/admin.py:62
+msgid "Employee Company"
+msgstr "شرکت کارمند"
+
+#: access_cards/admin.py:72
+msgid "Access Zone"
+msgstr "منطقه قابل دسترس"
+
+#: access_cards/models.py:27 accessories/models.py:59 back_office/models.py:69
+#: data_center/models/choices.py:9 sim_cards/models.py:54 supports/models.py:31
+#: tests/models.py:24 virtual/models.py:330
+msgid "new"
+msgstr "جدید"
+
+#: access_cards/models.py:28 accessories/models.py:60 back_office/models.py:70
+#: operations/migrations/0010_auto_20170410_1031.py:16 sim_cards/models.py:55
+msgid "in progress"
+msgstr "در حال پردازش"
+
+#: access_cards/models.py:29 accessories/models.py:61
+msgid "lost"
+msgstr "گم شده"
+
+#: access_cards/models.py:30 accessories/models.py:62 back_office/models.py:74
+#: data_center/models/choices.py:12 sim_cards/models.py:58
+msgid "damaged"
+msgstr "آسیب دیده"
+
+#: access_cards/models.py:31 accessories/models.py:63 back_office/models.py:72
+#: data_center/models/choices.py:10 data_center/models/virtual.py:77
+#: sim_cards/models.py:57 virtual/models.py:331
+msgid "in use"
+msgstr "درحال استفاده"
+
+#: access_cards/models.py:32 accessories/models.py:64 back_office/models.py:78
+#: data_center/models/choices.py:11 sim_cards/models.py:60
+msgid "free"
+msgstr "آزاد"
+
+#: access_cards/models.py:33 accessories/models.py:65 back_office/models.py:82
+#: sim_cards/models.py:63
+msgid "return in progress"
+msgstr "در فرآیند بازگشت"
+
+#: access_cards/models.py:34 accessories/models.py:66 back_office/models.py:75
+#: data_center/models/choices.py:13 sim_cards/models.py:59
+#: virtual/models.py:333
+msgid "liquidated"
+msgstr "منحل شده"
+
+#: access_cards/models.py:35 accessories/models.py:67 back_office/models.py:79
+#: networks/models/choices.py:8 sim_cards/models.py:61
+msgid "reserved"
+msgstr "رزرو شده"
+
+#: access_cards/models.py:39 assets/models/configuration.py:31
+#: data_center/models/components.py:18 data_center/models/virtual.py:42
+#: data_center/models/virtual.py:90 lib/mixins/models.py:16
+#: lib/mixins/models.py:27 security/models.py:47 virtual/models.py:59
+msgid "name"
+msgstr "نام"
+
+#: access_cards/models.py:51
+msgid "Optional description"
+msgstr "توضیحات اختیاری"
+
+#: access_cards/models.py:74
+msgid "Number visible on the access card"
+msgstr "شناسه کتبی که روی کارت چاپ شده"
+
+#: access_cards/models.py:81
+msgid "Internal number in the access system"
+msgstr "شناسه داخلی که در سیستم ثبت شده"
+
+#: access_cards/models.py:86
+msgid "Date of issue to the User"
+msgstr "تاریخ ابلاغ به کاربر"
+
+#: access_cards/models.py:91
+msgid "Optional notes"
+msgstr "یادداشت‌های اختیاری"
+
+#: access_cards/models.py:98
+msgid "User of the card"
+msgstr "کاربر کارت"
+
+#: access_cards/models.py:114
+msgid "Access card status"
+msgstr "وضعیت کارت اعطای دسترسی"
+
+#: access_cards/models.py:123
+msgid "Access Card: {}"
+msgstr "کارت اعطای دسترسی: {}"
+
+#: access_cards/models.py:144 accessories/models.py:155
+#: admin/templates/admin/object_history.html:13
+#: admin/templates/reversion/object_history.html:15 back_office/admin.py:295
+#: back_office/models.py:307 back_office/models.py:496
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:6
+#: sim_cards/models.py:162 sim_cards/models.py:362
+msgid "User"
+msgstr "کاربر"
+
+#: access_cards/models.py:159 back_office/models.py:323
+#: back_office/models.py:500 sim_cards/models.py:241 sim_cards/models.py:366
+msgid "Owner"
+msgstr "مالک"
+
+#: access_cards/models.py:164 sim_cards/models.py:246
+msgid "assign owner"
+msgstr "انتساب مالک"
+
+#: access_cards/models.py:190
+msgid "notes"
+msgstr "یادداشت‌ها"
+
+#: access_cards/models.py:216 back_office/models.py:551 sim_cards/models.py:180
+msgid "I have read and fully understand and accept the agreement."
+msgstr "من توافق‌نامه را خوانده‌ام و کاملا متوجه شده و می‌پذیرم."
+
+#: access_cards/models.py:231 back_office/models.py:576 sim_cards/models.py:195
+msgid "Release report language"
+msgstr "زبان انتشار گزارش"
+
+#: accessories/admin.py:13 licences/admin.py:46
+msgid "Assigned to users"
+msgstr "تخصیص به کاربران"
+
+#: accessories/admin.py:39
+msgid "Accessory Info"
+msgstr "اطلاعات تجهیزات جانبی"
+
+#: accessories/models.py:87
+msgid "Accessory name"
+msgstr "نام تجهیزات جانبی"
+
+#: accessories/models.py:94
+msgid "Number of accessories"
+msgstr "تعداد تجهیزات جانبی"
+
+#: accessories/models.py:106
+msgid "Accessory owner"
+msgstr "مالک تجهیزات جانبی"
+
+#: accessories/models.py:114
+msgid "Accessory status"
+msgstr "وضعیت تجهیزات جانبی"
+
+#: accessories/models.py:117 licences/models.py:173
+msgid "number of purchased items"
+msgstr "تعداد موارد خریداری شده"
+
+#: accessories/models.py:129
+msgid "restock"
+msgstr "خرید مجدد اقلام"
+
+#: accessories/models.py:142
+msgid "accessory_send"
+msgstr "فرستادن تجهیز جانبی"
+
+#: accessories/models.py:159
+msgid "Quantity"
+msgstr "تعداد"
+
+#: accounts/admin.py:107
+msgid "Buyout date"
+msgstr "تاریخ خرید"
+
+#: accounts/admin.py:187
+msgid "<div class=\"small-12 columns label alert\">missing</div>"
+msgstr "<div class=\"small-12 columns label alert\">گم شده</div>"
+
+#: accounts/admin.py:191
+msgid "<div class=\"small-12 columns label success\">confirmed</div>"
+msgstr "<div class=\"small-12 columns label success\">تایید شده</div>"
+
+#: accounts/admin.py:201
+msgid "yes"
+msgstr "بله"
+
+#: accounts/admin.py:206
+msgid "no"
+msgstr "خیر"
+
+#: accounts/admin.py:209
+msgid "<i>Only asset's user can confirm.</i>"
+msgstr "<i>تنها کاربر دارایی می‌تواند تایید کند.</i>"
+
+#: accounts/admin.py:210
+msgid "Do you have it?"
+msgstr "آیا این مورد را دارید؟"
+
+#: accounts/admin.py:267 deployment/admin.py:29 deployment/admin.py:47
+#: deployment/admin.py:67 networks/admin.py:292
+msgid "Additional info"
+msgstr "اطلاعات اضافه"
+
+#: accounts/admin.py:277
+#: admin/templates/admin/templatetags/transition_history.html:7
+msgid "Transition history"
+msgstr "تاریخچه تراکنش"
+
+#: accounts/admin.py:303 accounts/templates/ralphuser/user_profile.html:14
+msgid "Personal info"
+msgstr "اطلاعات شخصی"
+
+#: accounts/admin.py:306
+msgid "Permissions"
+msgstr "مجوزها"
+
+#: accounts/admin.py:312
+msgid "Important dates"
+msgstr "تاریخ‌های مهم"
+
+#: accounts/admin.py:315 accounts/templates/ralphuser/user_profile.html:34
+msgid "Profile"
+msgstr "پروفایل"
+
+#: accounts/admin.py:320 accounts/templates/ralphuser/user_profile.html:48
+msgid "Job info"
+msgstr "اطلاعات شغلی"
+
+#: accounts/admin.py:366
+msgid "LDAP mapping"
+msgstr "نگاشت LDAP"
+
+#: accounts/admin.py:376 admin/sitetrees.py:321
+msgid "Users list"
+msgstr "لیست کاربران"
+
+#: accounts/apps.py:9
+msgid "Accounts"
+msgstr "حساب‌های کاربری"
+
+#: accounts/models.py:33 accounts/models.py:74
+#: data_center/models/physical.py:149 trade_marks/admin.py:222
+#: trade_marks/admin.py:259 trade_marks/admin.py:295 trade_marks/admin.py:347
+msgid "country"
+msgstr "کشور"
+
+#: accounts/models.py:79 data_center/models/physical.py:155
+msgid "city"
+msgstr "شهر"
+
+#: accounts/models.py:84 data_center/models/physical.py:147
+msgid "company"
+msgstr "شرکت"
+
+#: accounts/models.py:89
+msgid "employee id"
+msgstr "شناسه کارمند"
+
+#: accounts/models.py:94
+msgid "profit center"
+msgstr "مرکز سودآور"
+
+#: accounts/models.py:99
+msgid "cost center"
+msgstr "مرکز هزینه‌بر"
+
+#: accounts/models.py:104
+msgid "department"
+msgstr "دپارتمان"
+
+#: accounts/models.py:109
+msgid "manager"
+msgstr "مدیر"
+
+#: accounts/models.py:114
+msgid "location"
+msgstr "موقعیت مکانی"
+
+#: accounts/models.py:119
+msgid "segment"
+msgstr "بخش"
+
+#: accounts/templates/ralphuser/inventory_tag_confirmation.html:5
+msgid "Asset possession confirmation"
+msgstr "تایید مالکیت دارایی"
+
+#: accounts/templates/ralphuser/inventory_tag_confirmation.html:12
+msgid "Are you sure you have following item?"
+msgstr "آیا اطمینان دارید که موارد زیر را دارید؟"
+
+#: accounts/templates/ralphuser/inventory_tag_confirmation.html:14
+msgid "Are you sure you don't have this item?"
+msgstr "آیا اطمینان دارید که موارد زیر را ندارید؟"
+
+#: accounts/templates/ralphuser/my_equipment.html:16
+#: accounts/templates/ralphuser/user_additional_info.html:7
+msgid "Assigned assets"
+msgstr "دارایی‌های واگذار شده"
+
+#: accounts/templates/ralphuser/my_equipment.html:19
+#: accounts/templates/ralphuser/user_additional_info.html:10
+msgid "Assigned licences"
+msgstr "لایسنس‌های واگذار شده"
+
+#: accounts/templates/ralphuser/partials/accept_assets.html:18
+msgid "Nothing to accept."
+msgstr "موردی برای پذیرفتن نیست."
+
+#: accounts/templates/ralphuser/partials/accept_assets.html:23
+#, python-format
+msgid ""
+"\n"
+"        Acceptance mechanism is enabled but a transition having ID "
+"%(acceptance_transition_id)s doesn't exist. Please add a transition with "
+"this ID or run DB migrations.\n"
+"      "
+msgstr ""
+"\n"
+"        مکانیزم قبول انتقال فعال شده ولی انتقال با شناسه "
+"%(acceptance_transition_id)s موجود نیست. لطفا انتقال با این شناسه را "
+"بیافزایید و یا پایگاه داده را بروزرسانی نمایید.\n"
+"      "
+
+#: accounts/templates/ralphuser/user_profile.html:5
+#: accounts/templates/ralphuser/user_profile.html:9
+#: admin/templates/admin/partials/userlinks.html:3
+msgid "My profile"
+msgstr "پروفایل من"
+
+#: accounts/templates/ralphuser/user_profile.html:18
+msgid "Username"
+msgstr "نام کاربری"
+
+#: accounts/templates/ralphuser/user_profile.html:20
+msgid "Full name"
+msgstr "نام و نام خانوادگی"
+
+#: accounts/templates/ralphuser/user_profile.html:26
+msgid "API Token"
+msgstr "توکن API"
+
+#: accounts/templates/ralphuser/user_profile.html:38 back_office/models.py:471
+msgid "Country"
+msgstr "کشور"
+
+#: accounts/templates/ralphuser/user_profile.html:40
+msgid "City"
+msgstr "شهر"
+
+#: accounts/templates/ralphuser/user_profile.html:52
+msgid "Company"
+msgstr "شرکت"
+
+#: accounts/templates/ralphuser/user_profile.html:54 admin/sitetrees.py:307
+msgid "Profit center"
+msgstr "مرکز سودآور"
+
+#: accounts/templates/ralphuser/user_profile.html:56
+msgid "Cost center"
+msgstr "مرکز هزینه‌بر"
+
+#: accounts/templates/ralphuser/user_profile.html:58
+msgid "Department"
+msgstr "دپارتمان"
+
+#: accounts/templates/ralphuser/user_profile.html:64
+msgid "Manager"
+msgstr "مدیر"
+
+#: accounts/templates/ralphuser/user_profile.html:66 data_center/admin.py:532
+#: data_center/admin.py:730
+msgid "Location"
+msgstr "موقعیت مکانی"
+
+#: accounts/templates/ralphuser/user_profile.html:68
+msgid "Segment"
+msgstr "بخش"
+
+#: accounts/templates/ralphuser/user_profile.html:77
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: accounts/templates/ralphuser/user_profile.html:88
+msgid "Change language"
+msgstr "تغییر زبان"
+
+#: accounts/templates/ralphuser/user_transition_history.html:5
+msgid "User transition history"
+msgstr "تاریخچه انتقالات کاربر"
+
+#: accounts/views.py:61 accounts/views.py:186
+msgid "Barcode / Inventory Number"
+msgstr "بارکد/شماره دارایی"
+
+#: accounts/views.py:63 accounts/views.py:188
+msgid "Serial Number"
+msgstr "شماره سریال"
+
+#: accounts/views.py:116
+msgid "Successfully tagged asset"
+msgstr "دارایی با موفقیت تگ‌گذاری شد"
+
+#: accounts/views.py:204
+msgid "Inventory Number"
+msgstr "شماره دارایی"
+
+#: accounts/views.py:217
+msgid "Phone Number"
+msgstr "شماره تلفن"
+
+#: accounts/views.py:218
+msgid "Card Number"
+msgstr "شماره کارت"
+
+#: accounts/views.py:219 sim_cards/models.py:331
+msgid "PIN 1"
+msgstr "PIN 1"
+
+#: admin/fields.py:29
+msgid ""
+"Field can't be empty. Please put the item OR items separated by new line or "
+"comma."
+msgstr ""
+"فیلد نمی‌تواند خالی باشد. لطفا مورد یا مواردی را که با ویروگول یا خط جدید جدا "
+"شده‌اند بیافزایید."
+
+#: admin/fields.py:39
+msgid "There are duplicates in field."
+msgstr "موارد تکراری در فیلد وجود دارند."
+
+#: admin/fields.py:57
+msgid "Enter a valid number."
+msgstr "یک شماره معتبر وارد کنید."
+
+#: admin/fields.py:119
+#, python-format
+msgid "Fill at least on of %(v)s in each row"
+msgstr "حداقل %(v)s مورد در حد ردیف پر کنید"
+
+#: admin/fields.py:146
+msgid "Following items already exist: "
+msgstr "موارد زیر از قبل موجود هستند: "
+
+#: admin/filters.py:57 admin/filters.py:512 networks/filters.py:32
+#, python-format
+msgid "Incorrect value in \"%(field_name)s\" filter"
+msgstr "مقادیر موجود در فیلتر \"%(field_name)s\" نامعتبر هستند"
+
+#: admin/filters.py:136 admin/sitetrees.py:281 admin/widgets.py:93
+#: reports/views.py:76
+msgid "All"
+msgstr "همه"
+
+#: admin/filters.py:156
+msgid "Yes"
+msgstr "بله"
+
+#: admin/filters.py:157
+msgid "No"
+msgstr "خیر"
+
+#: admin/filters.py:310 admin/filters.py:317 virtual/admin.py:324
+#: virtual/admin.py:456
+msgid "Tags"
+msgstr "تگ‌ها"
+
+#: admin/filters.py:522 admin/filters.py:528
+msgid "IP"
+msgstr "IP"
+
+#: admin/filters.py:552 admin/filters.py:558 deployment/deployment.py:589
+msgid "MAC Address"
+msgstr "آدرس MAC"
+
+#: admin/filters.py:584 admin/filters.py:594
+msgid "show liquidated"
+msgstr "نمایش موارد منحل شده"
+
+#: admin/filters.py:614 admin/filters.py:629 data_center/admin.py:127
+#: data_center/admin.py:150 data_center/admin.py:714
+#: data_center/templates/data_center/datacenterasset/relations.html:16
+#: data_center/templates/data_center/datacenterasset/relations.html:39
+#: data_center/templates/data_center/datacenterasset/relations.html:58
+#: deployment/deployment.py:400 virtual/admin.py:198 virtual/admin.py:336
+msgid "Hostname"
+msgstr "Hostname"
+
+#. Translators: Model verbose name and instance
+#. representation, suitable to be an item in a
+#. list.
+#: admin/m2m.py:272
+#, python-format
+msgid "%(class_name)s %(instance)s"
+msgstr "%(class_name)s %(instance)s"
+
+#: admin/m2m.py:279
+msgid "and"
+msgstr "و"
+
+#: admin/m2m.py:282
+#, python-format
+msgid ""
+"Deleting %(class_name)s %(instance)s would require deleting the following "
+"protected related objects: %(related_objects)s"
+msgstr ""
+"حذف کردن %(class_name)s %(instance)s نیازمند حذف کردن اشیای مرتبط که دارای "
+"محافظت‌اند می‌باشد: %(related_objects)s"
+
+#: admin/mixins.py:158
+msgid "Found exactly one result."
+msgstr "تنها یک نتیجه یافت شد."
+
+#: admin/sitetrees.py:66
+msgid "Add {}"
+msgstr "افزودن {}"
+
+#: admin/sitetrees.py:92 data_center/admin.py:589
+msgid "Data Center"
+msgstr "مرکز داده"
+
+#: admin/sitetrees.py:97
+msgid "All hosts"
+msgstr "تمامی میزبان‌ها"
+
+#: admin/sitetrees.py:99
+msgid "DC Visualization"
+msgstr "بصری‌سازی مرکز داده"
+
+#: admin/sitetrees.py:103 admin/sitetrees.py:142
+msgid "Hardware"
+msgstr "سخت‌افزار"
+
+#: admin/sitetrees.py:104
+msgid "Virtual Servers"
+msgstr "سرورهای مجازی"
+
+#: admin/sitetrees.py:105
+#: data_center/templates/data_center/datacenterasset/relations.html:74
+msgid "Clusters"
+msgstr "کلاسترها"
+
+#: admin/sitetrees.py:106
+msgid "Data Centers"
+msgstr "مراکز داده"
+
+#: admin/sitetrees.py:107
+msgid "Racks"
+msgstr "رک‌ها"
+
+#: admin/sitetrees.py:108
+msgid "Rack accessories"
+msgstr "تجهیزات رک‌ها"
+
+#: admin/sitetrees.py:109 data_center/models/physical.py:219
+msgid "accessories"
+msgstr "تجهیزات"
+
+#: admin/sitetrees.py:110
+msgid "Databases"
+msgstr "پایگاه داده"
+
+#: admin/sitetrees.py:111
+msgid "Disk Shares"
+msgstr "اشتراک دیسک"
+
+#: admin/sitetrees.py:112
+msgid "Server Rooms"
+msgstr "اتاق سرور"
+
+#: admin/sitetrees.py:113 data_center/models/virtual.py:53
+msgid "VIPs"
+msgstr "اختصاصی"
+
+#: admin/sitetrees.py:114
+msgid "Preboots"
+msgstr "پیش بوت"
+
+#: admin/sitetrees.py:116
+msgid "Preboot configuration"
+msgstr "پیکره‌بندی پیش بوت"
+
+#: admin/sitetrees.py:119
+msgid "Preboot files"
+msgstr "فایل‌های پیش بوت"
+
+#: admin/sitetrees.py:123
+msgid "Cloud"
+msgstr "خدمات ابری"
+
+#: admin/sitetrees.py:128
+#: data_center/templates/data_center/datacenterasset/relations.html:13
+#: virtual/models.py:224
+msgid "Cloud hosts"
+msgstr "میزبان ابری"
+
+#: admin/sitetrees.py:129
+msgid "Cloud projects"
+msgstr "پروژه ابری"
+
+#: admin/sitetrees.py:130
+msgid "Cloud flavors"
+msgstr ""
+
+#: admin/sitetrees.py:131 virtual/models.py:43
+msgid "Cloud providers"
+msgstr "تامین‌کنندگان ابری"
+
+#: admin/sitetrees.py:132
+msgid "Cloud images"
+msgstr "ایمیج ابری"
+
+#: admin/sitetrees.py:136
+msgid "Back Office"
+msgstr "داخل سازمانی"
+
+#: admin/sitetrees.py:141
+msgid "Access Cards"
+msgstr "کارت اعطای دسترسی"
+
+#: admin/sitetrees.py:143
+msgid "SIM Cards"
+msgstr "سیم‌کارت‌ها"
+
+#: admin/sitetrees.py:144
+msgid "Accessory"
+msgstr "تجهیزات"
+
+#: admin/sitetrees.py:148 admin/sitetrees.py:153
+msgid "Networks"
+msgstr "شبکه‌ها"
+
+#: admin/sitetrees.py:155
+msgid "Network environments"
+msgstr "محیط شبکه"
+
+#: admin/sitetrees.py:157
+msgid "Network kind"
+msgstr "نوع شبکه"
+
+#: admin/sitetrees.py:158 virtual/admin.py:221 virtual/admin.py:370
+msgid "IP Addresses"
+msgstr "آدرس IP"
+
+#: admin/sitetrees.py:159 dhcp/models.py:44
+msgid "DHCP Servers"
+msgstr "سرور‌ DHCP"
+
+#: admin/sitetrees.py:160 dhcp/models.py:61
+msgid "DNS Server Groups"
+msgstr "گروه سرور DNS"
+
+#: admin/sitetrees.py:161 dhcp/models.py:99
+msgid "DNS Servers"
+msgstr "سرور DNS"
+
+#: admin/sitetrees.py:165
+msgid "Licenses"
+msgstr "لایسنس‌ها"
+
+#: admin/sitetrees.py:170 data_center/admin.py:182 data_center/admin.py:310
+#: licences/models.py:317 virtual/admin.py:98
+msgid "Licences"
+msgstr "لایسنس"
+
+#: admin/sitetrees.py:171 admin/sitetrees.py:202 admin/sitetrees.py:282
+msgid "Types"
+msgstr "انواع"
+
+#: admin/sitetrees.py:172
+msgid "Software"
+msgstr "نرم‌افزار"
+
+#: admin/sitetrees.py:176
+msgid "Intellectual Property"
+msgstr "مالکیت معنوی"
+
+#: admin/sitetrees.py:181
+msgid "Trade Marks"
+msgstr "علامت تجاری"
+
+#: admin/sitetrees.py:182
+msgid "Designs"
+msgstr "طرح"
+
+#: admin/sitetrees.py:183
+msgid "Patents"
+msgstr "ثبت اختراع"
+
+#: admin/sitetrees.py:184
+msgid "Utility Models"
+msgstr "مدل کاربردی"
+
+#: admin/sitetrees.py:185
+msgid "Domains"
+msgstr "دامنه‌ها"
+
+#: admin/sitetrees.py:186
+msgid "Contracts"
+msgstr "قراردادها"
+
+#: admin/sitetrees.py:187
+msgid "Registrants"
+msgstr "پذیرندگان"
+
+#: admin/sitetrees.py:188
+msgid "Owners"
+msgstr "مالکان"
+
+#: admin/sitetrees.py:189
+msgid "DNS Providers"
+msgstr "تامین‌کنندگان DNS"
+
+#: admin/sitetrees.py:190
+msgid "Domain Categories"
+msgstr "دسته‌بندی‌های دامنه"
+
+#: admin/sitetrees.py:191
+msgid "SSL Certificates"
+msgstr "گواهینامه‌های SSL"
+
+#: admin/sitetrees.py:196 admin/sitetrees.py:201 back_office/admin.py:39
+#: data_center/admin.py:294 supports/models.py:172
+msgid "Supports"
+msgstr "پشتیبانی"
+
+#: admin/sitetrees.py:203
+msgid "Assets supports"
+msgstr "پشتیبانی دارایی‌ها"
+
+#: admin/sitetrees.py:207 reports/templates/reports/report_detail.html:5
+msgid "Reports"
+msgstr "گزارش‌ها"
+
+#: admin/sitetrees.py:213
+msgid "Category model"
+msgstr "مدل دسته‌بندی"
+
+#: admin/sitetrees.py:220
+msgid "Category model status"
+msgstr "وضعیت مدل دسته‌بندی"
+
+#: admin/sitetrees.py:227
+msgid "Manufacturer category model"
+msgstr "مدل دسته‌بندی سازندگان"
+
+#: admin/sitetrees.py:235
+msgid "Status model"
+msgstr "مدل وضعیت"
+
+#: admin/sitetrees.py:242 reports/views.py:319
+msgid "Asset - relations"
+msgstr "دارایی - رابطه‌ها"
+
+#: admin/sitetrees.py:249 reports/views.py:483
+msgid "Licence - relations"
+msgstr "لایسنس - رابطه‌ها"
+
+#: admin/sitetrees.py:256
+msgid "Assets - supports"
+msgstr "دارایی - پشتیبانی"
+
+#: admin/sitetrees.py:263 admin/sitetrees.py:280 reports/views.py:588
+msgid "Failures"
+msgstr "شکست‌ها"
+
+#: admin/sitetrees.py:272 operations/views.py:63
+msgid "Operations"
+msgstr "عملیات"
+
+#: admin/sitetrees.py:277
+msgid "Changes"
+msgstr "تغییرات"
+
+#: admin/sitetrees.py:278
+msgid "Problems"
+msgstr "مشکلات"
+
+#: admin/sitetrees.py:279
+msgid "Incidents"
+msgstr "سوانح"
+
+#: admin/sitetrees.py:283
+msgid "Statuses"
+msgstr "وضعیت‌ها"
+
+#: admin/sitetrees.py:287 admin/sitetrees.py:292
+msgid "Dashboards"
+msgstr "داشبوردها"
+
+#: admin/sitetrees.py:293
+msgid "Graphs"
+msgstr "گراف‌ها"
+
+#: admin/sitetrees.py:297
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/sitetrees.py:302
+msgid "Asset model"
+msgstr "مدل دارایی"
+
+#: admin/sitetrees.py:303
+msgid "Asset category"
+msgstr "دسته‌بندی دارایی"
+
+#: admin/sitetrees.py:304
+msgid "Manufacturer"
+msgstr "شرکت سازنده"
+
+#: admin/sitetrees.py:305
+msgid "Manufacturer Kind"
+msgstr "نوع شرکت سازنده"
+
+#: admin/sitetrees.py:306
+msgid "Business segment"
+msgstr "بخش کسب‌وکار"
+
+#: admin/sitetrees.py:308
+#: admin/templates/admin/templatetags/my_services.html:12
+msgid "Service"
+msgstr "سرویس"
+
+#: admin/sitetrees.py:309
+#: admin/templates/admin/templatetags/my_services.html:13
+msgid "Environment"
+msgstr "محیط"
+
+#: admin/sitetrees.py:310 assets/models/assets.py:351
+msgid "Budget info"
+msgstr "اطلاعات بودجه"
+
+#: admin/sitetrees.py:312
+msgid "Service Environment"
+msgstr "محیط سرویس"
+
+#: admin/sitetrees.py:315
+msgid "Configuration modules"
+msgstr "ماژول‌های پیکره‌بندی"
+
+#: admin/sitetrees.py:318
+msgid "Configuration classes"
+msgstr "کلاس‌های پیکره‌بندی"
+
+#: admin/sitetrees.py:320
+msgid "Asset holder"
+msgstr "مالک دارایی"
+
+#: admin/sitetrees.py:322
+msgid "Groups list"
+msgstr "لیست گروه‌ها"
+
+#: admin/sitetrees.py:323
+msgid "Regions"
+msgstr "نواحی مکانی"
+
+#: admin/sitetrees.py:325
+#: lib/transitions/templates/transitions/templatetags/available_transitions.html:7
+msgid "Transitions"
+msgstr "انتقالات"
+
+#: admin/sitetrees.py:326
+msgid "Report template"
+msgstr "قالب گزارش"
+
+#: admin/sitetrees.py:327
+msgid "Custom fields"
+msgstr "فیلد سفارشی"
+
+#: admin/sitetrees.py:328
+msgid "Warehouses"
+msgstr "انبارها"
+
+#: admin/sitetrees.py:330 back_office/models.py:105
+msgid "Office Infrastructures"
+msgstr "زیرساخت سازمان"
+
+#: admin/templates/admin/actions.html:5
+#: admin/templates/admin/templatetags/transition_history.html:18
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:12
+#: lib/transitions/templates/transitions/current_transitions.html:27
+msgid "Actions"
+msgstr "اقدامات"
+
+#: admin/templates/admin/actions.html:10
+msgid "Run the selected action"
+msgstr "اجرای اقدام انتخاب شده"
+
+#: admin/templates/admin/actions.html:11
+msgid "Go"
+msgstr "انجام"
+
+#: admin/templates/admin/change_form.html:13
+#: admin/templates/admin/multi_add.html:53
+msgid "Add"
+msgstr "افزودن"
+
+#: admin/templates/admin/change_form.html:27
+msgid "History"
+msgstr "تاریخچه"
+
+#: admin/templates/admin/change_form.html:61
+#: admin/templates/admin/change_list.html:73
+#: admin/templates/admin/login.html:28
+msgid "Please correct the error below."
+msgstr "لطفا خطای پایین را اصلاح نمایید."
+
+#: admin/templates/admin/change_form.html:63
+#: admin/templates/admin/change_list.html:75
+#: admin/templates/admin/login.html:28
+msgid "Please correct the errors below."
+msgstr "لطفا خطاهای پایین را اصلاح نمایید."
+
+#: admin/templates/admin/change_list.html:34
+msgid "Back to list"
+msgstr "بازگشت به لیست"
+
+#: admin/templates/admin/change_list.html:40
+#, python-format
+msgid ""
+"\n"
+"                  <i class=\"fa fa-plus\" aria-hidden=\"true\"></i> Add "
+"%(name)s\n"
+"                "
+msgstr ""
+"\n"
+"                  <i class=\"fa fa-plus\" aria-hidden=\"true\"></i> افزودن "
+"%(name)s\n"
+"                "
+
+#: admin/templates/admin/change_list.html:47
+msgid "Other actions"
+msgstr "سایر اقدامات"
+
+#: admin/templates/admin/change_list.html:56
+#, python-format
+msgid ""
+"\n"
+"                            Recover deleted %(name)s\n"
+"                          "
+msgstr ""
+"\n"
+"                            بازیابی موارد حذف شده از %(name)s\n"
+"                          "
+
+#: admin/templates/admin/change_list_results.html:32
+msgid "Remove from sorting"
+msgstr "پاک کردن از مرتب‌سازی"
+
+#: admin/templates/admin/change_list_results.html:63
+msgid "Nothing to display."
+msgstr "چیزی برای نمایش وجود ندارد."
+
+#: admin/templates/admin/change_list_results.html:65
+#, python-format
+msgid ""
+"\n"
+"        You can <a href=\"%(add_url)s\">add first %(name)s</a>.\n"
+"      "
+msgstr ""
+"\n"
+"        شما می‌توانید <a href=\"%(add_url)s\">نخستین %(name)s را بیافزایید</"
+"a>.\n"
+"      "
+
+#: admin/templates/admin/delete_confirmation.html:8
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+"حذف کردن %(object_name)s '%(escaped_object)s' منجر به حذف کردن اشیای مرتبط "
+"خواهد شد ولی حساب کاربری شما اجازه حذف کردن این نوع از اشیا را ندارد:"
+
+#: admin/templates/admin/delete_confirmation.html:15
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+
+#: admin/templates/admin/delete_confirmation.html:23
+#, python-format
+msgid ""
+"\n"
+"        Are you sure you want to delete the %(object_name)s "
+"\"%(escaped_object)s\"? All of the following related items will be deleted:\n"
+"      "
+msgstr ""
+
+#: admin/templates/admin/delete_confirmation.html:29
+#: admin/templates/admin/delete_selected_confirmation.html:30
+#: assets/admin.py:153 operations/admin.py:144
+msgid "Objects"
+msgstr ""
+
+#: admin/templates/admin/delete_confirmation.html:36
+#: admin/templates/admin/delete_selected_confirmation.html:41
+msgid "Yes, I'm sure"
+msgstr "بله، مطمئن هستم"
+
+#: admin/templates/admin/delete_confirmation.html:37
+#: admin/templates/admin/delete_selected_confirmation.html:42
+msgid "No, take me back"
+msgstr "نه، برگرد به مرحله قبل"
+
+#: admin/templates/admin/delete_selected_confirmation.html:7
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: admin/templates/admin/delete_selected_confirmation.html:14
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: admin/templates/admin/delete_selected_confirmation.html:22
+#, python-format
+msgid ""
+"\n"
+"      Are you sure you want to delete the selected %(objects_name)s? All of "
+"the following objects and their related items will be deleted:\n"
+"      "
+msgstr ""
+
+#: admin/templates/admin/edit_inline/tabular.html:8
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: admin/templates/admin/edit_inline/tabular.html:8
+msgid "Remove"
+msgstr "پاک کردن"
+
+#: admin/templates/admin/edit_inline/tabular.html:26
+msgid "Delete?"
+msgstr "حذف؟"
+
+#: admin/templates/admin/edit_inline/tabular.html:67
+msgid "Change"
+msgstr "تغییر"
+
+#: admin/templates/admin/edit_inline/tabular_m2m.html:5
+msgid "Delete assignment?"
+msgstr "حذف کردن انتساب؟"
+
+#: admin/templates/admin/filters/_filter_base.html:7
+#, python-format
+msgid ""
+"\n"
+"        %(filter_title)s\n"
+"      "
+msgstr ""
+"\n"
+"        %(filter_title)s\n"
+"      "
+
+#: admin/templates/admin/import_export/change_list_import_export.html:8
+msgid "Import"
+msgstr "وارد کردن به سیستم"
+
+#: admin/templates/admin/import_export/change_list_import_export.html:14
+#: admin/templates/admin/import_export/export.html:7
+#: admin/templates/admin/import_export/export.html:11
+msgid "Export"
+msgstr "خروجی گرفتن از سیستم"
+
+#: admin/templates/admin/import_export/export.html:14
+msgid ""
+"To avoid wrong calculations in the report, make sure all exported items' "
+"prices are expressed in the same currency."
+msgstr ""
+"برای جلوگیری از محاسبات اشتباه در گزارش، اطمینان حاصل کنید که قیمت تمامی "
+"موارد با واحد ارزی یکسان وارد شده است."
+
+#: admin/templates/admin/import_export/export.html:38
+msgid "Submit"
+msgstr "ثبت"
+
+#: admin/templates/admin/includes/object_delete_summary.html:3
+msgid "Summary"
+msgstr "خلاصه"
+
+#: admin/templates/admin/index.html:19
+msgid "My Recent Actions"
+msgstr "اقدامات اخیر من"
+
+#: admin/templates/admin/index.html:23
+msgid "None available"
+msgstr "چیزی موجود نیست"
+
+#: admin/templates/admin/index.html:37
+msgid "Unknown content"
+msgstr "محتوای ناشناخته"
+
+#: admin/templates/admin/index.html:40
+#: lib/transitions/templates/transitions/_transition_jobs_table_body.html:7
+msgid "ago"
+msgstr "پیش"
+
+#: admin/templates/admin/login.html:51
+msgid "Please login"
+msgstr "لطفا وارد شوید"
+
+#: admin/templates/admin/login.html:53
+msgid "Log in"
+msgstr "ورود"
+
+#: admin/templates/admin/login.html:59
+msgid "Forgotten your password or username?"
+msgstr "آیا نام کاربری یا گذرواژه خود را فراموش کرده‌اید؟"
+
+#: admin/templates/admin/multi_add.html:5
+msgid "Bulk adding:"
+msgstr "درحال افزودن دسته‌ای:"
+
+#: admin/templates/admin/multi_add.html:12
+msgid "This object will be multiplied"
+msgstr ""
+
+#: admin/templates/admin/multi_add.html:17
+msgid "Please add multiple values separated with comma, new line or pipe"
+msgstr ""
+
+#: admin/templates/admin/multi_add.html:47
+msgid "Cancel"
+msgstr "لغو"
+
+#: admin/templates/admin/object_history.html:12
+#: admin/templates/reversion/object_history.html:14
+msgid "Date/time"
+msgstr "تاریخ/زمان"
+
+#: admin/templates/admin/object_history.html:14
+#: back_office/templates/backofficeasset/components.html:14
+#: data_center/templates/data_center/datacenterasset/components.html:14
+msgid "Action"
+msgstr "اقدام"
+
+#: admin/templates/admin/object_history.html:28
+#: admin/templates/reversion/object_history.html:37
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+"این شی تاریخچه تغییر ندارد. احتمالا از به وسیله این سیستم مدیریتی افزوده "
+"نشده است."
+
+#: admin/templates/admin/pagination.html:21
+msgid "Show all"
+msgstr "نمایش همه"
+
+#: admin/templates/admin/pagination.html:26
+#: admin/templates/admin/submit_line.html:28 dns/templates/dns/dns_edit.html:36
+msgid "Save"
+msgstr "ذخیره"
+
+#: admin/templates/admin/partials/userlinks.html:6
+#: admin/templatetags/dashboard_tags.py:46
+msgid "My equipment"
+msgstr "تجهیزات من"
+
+#: admin/templates/admin/partials/userlinks.html:10
+msgid "Change password"
+msgstr "تغییر گذرواژه"
+
+#: admin/templates/admin/partials/userlinks.html:14
+msgid "Log out"
+msgstr "خروج از حساب"
+
+#: admin/templates/admin/popup_response.html:3
+msgid "Popup closing..."
+msgstr "درحال بستن پنجره..."
+
+#: admin/templates/admin/related_widget_wrapper.html:9
+#, python-format
+msgid "Change selected %(model)s"
+msgstr "تغییر %(model)s انتخاب شده"
+
+#: admin/templates/admin/related_widget_wrapper.html:16
+#, python-format
+msgid "Add another %(model)s"
+msgstr "افزودن %(model)s دیگر"
+
+#: admin/templates/admin/search_form.html:7
+#, python-format
+msgid "Search %(verbose_name)s by"
+msgstr "جستجو در %(verbose_name)s بر اساس"
+
+#: admin/templates/admin/submit_line.html:8
+#: attachments/templates/attachments/attachments.html:15
+#: dns/templates/dns/dns_edit.html:40
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/templates/admin/submit_line.html:18
+msgid "Duplicate"
+msgstr "ایجاد کپی"
+
+#: admin/templates/admin/submit_line.html:22
+msgid "Bulk add"
+msgstr "افزودن دسته‌ای"
+
+#: admin/templates/admin/templatetags/my_services.html:9
+msgid "My services"
+msgstr "سرویس‌های من"
+
+#: admin/templates/admin/templatetags/my_services.html:14 assets/admin.py:283
+msgid "Assets count"
+msgstr "تعداد دارایی"
+
+#: admin/templates/admin/templatetags/tabs.html:13
+#: admin/templates/admin/templatetags/tabs.html:14 assets/admin.py:80
+#: back_office/admin.py:173 data_center/admin.py:204 data_center/admin.py:478
+#: deployment/admin.py:24 deployment/admin.py:42 deployment/admin.py:62
+#: domains/admin.py:48 domains/admin.py:92
+#: lib/transitions/templates/transitions/current_transitions.html:18
+#: licences/admin.py:127 networks/admin.py:35 networks/admin.py:142
+#: networks/admin.py:287 operations/admin.py:137 ssl_certificates/admin.py:35
+#: supports/admin.py:93 trade_marks/admin.py:113 trade_marks/admin.py:193
+msgid "Basic info"
+msgstr "اطلاعات پایه"
+
+#: admin/templates/admin/templatetags/transition_history.html:13
+#: attachments/templates/attachments/attachments.html:14
+msgid "Date"
+msgstr "تاریخ"
+
+#: admin/templates/admin/templatetags/transition_history.html:14
+#: lib/transitions/templates/transitions/current_transitions.html:19
+msgid "Author"
+msgstr "نویسنده"
+
+#: admin/templates/admin/templatetags/transition_history.html:15
+#: lib/transitions/templates/transitions/current_transitions.html:20
+msgid "Transition"
+msgstr "انتقال"
+
+#: admin/templates/admin/templatetags/transition_history.html:16
+msgid "Source"
+msgstr "منبع"
+
+#: admin/templates/admin/templatetags/transition_history.html:17
+msgid "Target"
+msgstr "هدف"
+
+#: admin/templates/admin/templatetags/transition_history.html:19
+#: lib/transitions/templates/transitions/current_transitions.html:26
+msgid "Data"
+msgstr "داده‌ها"
+
+#: admin/templates/admin/templatetags/transition_history.html:20
+msgid "Attachment"
+msgstr "پیوست"
+
+#: admin/templates/admin/templatetags/transition_history.html:65
+msgid "Transition history is empty"
+msgstr "تاریخچه انتقال خالی است"
+
+#: admin/templates/reversion/object_history.html:7
+msgid ""
+"Choose a date from the list below to revert to a previous version of this "
+"object."
+msgstr ""
+
+#: admin/templates/reversion/object_history.html:16
+msgid "Comment"
+msgstr "نظر"
+
+#: admin/templatetags/dashboard_tags.py:60 admin/tests/test_templatetags.py:21
+msgid "Hardware pick up"
+msgstr "سپردن سخت‌افزار"
+
+#: admin/templatetags/dashboard_tags.py:72 admin/tests/test_templatetags.py:45
+msgid "SIM Card pick up"
+msgstr "سپردن سیم‌کارت"
+
+#: admin/templatetags/dashboard_tags.py:84
+msgid "Access Card pick up"
+msgstr "سپردن کارت اعطای دسترسی"
+
+#: admin/templatetags/dashboard_tags.py:96 admin/tests/test_templatetags.py:29
+msgid "Hardware loan"
+msgstr "قرض دادن سخت‌افزار"
+
+#: admin/templatetags/dashboard_tags.py:108 admin/tests/test_templatetags.py:37
+msgid "Hardware return"
+msgstr "پس گرفتن سخت‌افزار"
+
+#: admin/templatetags/dashboard_tags.py:120
+msgid "Team hardware pick up"
+msgstr ""
+
+#: admin/templatetags/dashboard_tags.py:132
+msgid "Test hardware pick up"
+msgstr ""
+
+#: admin/templatetags/dashboard_tags.py:189
+msgid "<strong>Free U:</strong> {} ({} in total)"
+msgstr "<strong>واحدهای آزاد:</strong> {} ({} در کل)"
+
+#: admin/views/multiadd.py:142
+#, python-format
+msgid "Saved %(count)d object(s): %(objects)s"
+msgstr ""
+
+#: assets/admin.py:62
+msgid "Objects count"
+msgstr ""
+
+#: assets/admin.py:85 networks/admin.py:150
+msgid "Relations"
+msgstr "روابط با سایر شبکه‌ها"
+
+#: assets/admin.py:102
+msgid "Children modules"
+msgstr ""
+
+#: assets/admin.py:113
+msgid "Children classes"
+msgstr ""
+
+#: assets/admin.py:141
+msgid "Go to object"
+msgstr ""
+
+#: assets/admin.py:143 dashboards/admin.py:116
+msgid "Link"
+msgstr ""
+
+#: assets/admin.py:147
+msgid "object"
+msgstr ""
+
+#: assets/admin.py:168 assets/models/assets.py:176 deployment/models.py:101
+#: deployment/models.py:123 operations/models.py:58
+msgid "type"
+msgstr "نوع"
+
+#: assets/admin.py:169 networks/models/networks.py:289
+msgid "environment"
+msgstr ""
+
+#: assets/admin.py:249
+msgid "Services count"
+msgstr "تعداد سرویس‌ها"
+
+#: assets/invoice_report.py:47
+msgid "Invoice report"
+msgstr ""
+
+#: assets/invoice_report.py:87
+msgid "Selected items have different"
+msgstr ""
+
+#: assets/models/assets.py:153
+msgid "manufacturer kind"
+msgstr "نوع شرکت سازنده"
+
+#: assets/models/assets.py:185
+msgid "Power consumption"
+msgstr "مصرف انرژی"
+
+#: assets/models/assets.py:189
+msgid "Height of device"
+msgstr "ارتفاع دستگاه"
+
+#: assets/models/assets.py:194
+msgid "Cores count"
+msgstr "تعداد هسته‌های پردازشی"
+
+#: assets/models/assets.py:198
+msgid "visualization layout of front side"
+msgstr "نمای جلویی طرح بصری"
+
+#: assets/models/assets.py:204
+msgid "visualization layout of back side"
+msgstr "نمای پشتی طرح بصری"
+
+#: assets/models/assets.py:213 assets/models/components.py:83
+msgid "model"
+msgstr "مدل"
+
+#: assets/models/assets.py:214
+msgid "models"
+msgstr "مدل‌ها"
+
+#: assets/models/assets.py:262 assets/models/assets.py:420
+#: licences/models.py:205
+msgid ""
+"This value is in percentage. For example value: \"100\" means it depreciates "
+"during a year. Value: \"25\" means it depreciates during 4 years, and so "
+"on... ."
+msgstr ""
+
+#: assets/models/assets.py:270 deployment/deployment.py:256
+msgid "category"
+msgstr "دسته‌بندی"
+
+#: assets/models/assets.py:271
+msgid "categories"
+msgstr "دسته‌بندی‌ها"
+
+#: assets/models/assets.py:352
+msgid "Budgets info"
+msgstr "اطلاعات بودجه‌ها"
+
+#: assets/models/assets.py:369 data_center/models/virtual.py:96
+#: networks/models/networks.py:623 virtual/models.py:216 virtual/models.py:355
+msgid "hostname"
+msgstr "hostname"
+
+#: assets/models/assets.py:375 virtual/models.py:360
+msgid "SN"
+msgstr "شماره سریال"
+
+#: assets/models/assets.py:384
+msgid "barcode"
+msgstr "بارکد"
+
+#: assets/models/assets.py:391 licences/models.py:182
+msgid "inventory number"
+msgstr "شماره دارایی"
+
+#: assets/models/assets.py:396
+msgid "order number"
+msgstr ""
+
+#: assets/models/assets.py:402 supports/models.py:103
+msgid "invoice number"
+msgstr ""
+
+#: assets/models/assets.py:527
+msgid "SN or BARCODE field is required"
+msgstr "وارد کردن فیلد شماره سریال یا بارکد اجباری است"
+
+#: assets/models/base.py:87 operations/admin.py:98
+msgid "configuration path"
+msgstr "مسیر پیکره‌بندی"
+
+#: assets/models/base.py:89
+msgid "path to configuration for this object, for example path to puppet class"
+msgstr ""
+
+#: assets/models/choices.py:9
+msgid "for contractor"
+msgstr ""
+
+#: assets/models/choices.py:10
+msgid "sectional"
+msgstr ""
+
+#: assets/models/choices.py:11
+msgid "for dashboards"
+msgstr ""
+
+#: assets/models/choices.py:12
+msgid "for events"
+msgstr ""
+
+#: assets/models/choices.py:13
+msgid "for tests"
+msgstr ""
+
+#: assets/models/choices.py:14
+msgid "others"
+msgstr ""
+
+#: assets/models/choices.py:20
+msgid "shipment"
+msgstr ""
+
+#: assets/models/choices.py:21
+msgid "salvaged"
+msgstr ""
+
+#: assets/models/choices.py:27
+msgid "back office"
+msgstr "داخل سازمانی"
+
+#: assets/models/choices.py:28 data_center/models/physical.py:190
+#: data_center/models/physical.py:192 networks/models/networks.py:61
+msgid "data center"
+msgstr "مرکز داده"
+
+#: assets/models/choices.py:29
+msgid "part"
+msgstr ""
+
+#: assets/models/choices.py:30
+msgid "all"
+msgstr "همه"
+
+#: assets/models/choices.py:36
+msgid "N/A"
+msgstr "N/A"
+
+#: assets/models/choices.py:37
+msgid "1 row x 2 columns"
+msgstr "1 ردیف × 2 ستون"
+
+#: assets/models/choices.py:38
+msgid "2 rows x 8 columns"
+msgstr "2 ردیف × 8 ستون"
+
+#: assets/models/choices.py:39
+msgid "2 rows x 16 columns (A/B)"
+msgstr "2 ردیف × 16 ستون (A/B)"
+
+#: assets/models/choices.py:42
+msgid "4 rows x 2 columns"
+msgstr "4 ردیف × 2 ستون"
+
+#: assets/models/choices.py:43
+msgid "2 rows x 4 columns"
+msgstr "2 ردیف × 4 ستون"
+
+#: assets/models/choices.py:44
+msgid "2 rows x 2 columns"
+msgstr "2 ردیف × 2 ستون"
+
+#: assets/models/choices.py:45
+msgid "1 rows x 14 columns"
+msgstr "1 ردیف × 14 ستون"
+
+#: assets/models/choices.py:46
+msgid "2 rows x 1 columns"
+msgstr "2 ردیف × 1 ستون"
+
+#: assets/models/choices.py:52 assets/models/components.py:230
+msgid "processor"
+msgstr "پردازنده"
+
+#: assets/models/choices.py:53 assets/models/components.py:188
+#: assets/models/components.py:189
+msgid "memory"
+msgstr "حافظه اصلی"
+
+#: assets/models/choices.py:54
+msgid "disk drive"
+msgstr "دیسک درایو"
+
+#: assets/models/choices.py:55
+msgid "ethernet card"
+msgstr "کارت شبکه"
+
+#: assets/models/choices.py:56
+msgid "expansion card"
+msgstr "کارت توسعه"
+
+#: assets/models/choices.py:57 assets/models/components.py:213
+msgid "fibre channel card"
+msgstr "کارت فیبر چنل"
+
+#: assets/models/choices.py:58 data_center/models/components.py:36
+msgid "disk share"
+msgstr "اشتراک دیسک"
+
+#: assets/models/choices.py:59
+msgid "unknown"
+msgstr "ناشناخته"
+
+#: assets/models/choices.py:60
+msgid "management"
+msgstr "مدیریت"
+
+#: assets/models/choices.py:61
+msgid "power module"
+msgstr "ماژول تغذیه"
+
+#: assets/models/choices.py:62
+msgid "cooling device"
+msgstr "دستگاه خنک‌کننده"
+
+#: assets/models/choices.py:63
+msgid "media tray"
+msgstr ""
+
+#: assets/models/choices.py:64
+msgid "chassis"
+msgstr "شاسی"
+
+#: assets/models/choices.py:65
+msgid "backup"
+msgstr "نسخه پشتیبان"
+
+#: assets/models/choices.py:66
+msgid "software"
+msgstr "نرم‌افزار"
+
+#: assets/models/choices.py:67
+msgid "operating system"
+msgstr "سیستم‌عامل"
+
+#: assets/models/choices.py:73
+msgid "10 Mbps"
+msgstr "10 مگابیت بر ثانیه"
+
+#: assets/models/choices.py:74
+msgid "100 Mbps"
+msgstr "100 مگابیت بر ثانیه"
+
+#: assets/models/choices.py:75
+msgid "1 Gbps"
+msgstr "1 گیگابیت بر ثانیه"
+
+#: assets/models/choices.py:76
+msgid "10 Gbps"
+msgstr "10 گیگابیت بر ثانیه"
+
+#: assets/models/choices.py:77
+msgid "40 Gbps"
+msgstr "40 گیگابیت بر ثانیه"
+
+#: assets/models/choices.py:78
+msgid "100 Gbps"
+msgstr "100 گیگابیت بر ثانیه"
+
+#: assets/models/choices.py:81 assets/models/choices.py:95
+msgid "unknown speed"
+msgstr "سرعت ناشناخته"
+
+#: assets/models/choices.py:87
+msgid "1 Gbit"
+msgstr "1 گیگابیت"
+
+#: assets/models/choices.py:88
+msgid "2 Gbit"
+msgstr "2 گیگابیت"
+
+#: assets/models/choices.py:89
+msgid "4 Gbit"
+msgstr "4 گیگابیت"
+
+#: assets/models/choices.py:90
+msgid "8 Gbit"
+msgstr "8 گیگابیت"
+
+#: assets/models/choices.py:91
+msgid "16 Gbit"
+msgstr "16 گیگابیت"
+
+#: assets/models/choices.py:92
+msgid "32 Gbit"
+msgstr "32 گیگابیت"
+
+#: assets/models/components.py:39 assets/models/components.py:184
+#: assets/models/components.py:222
+msgid "speed (MHz)"
+msgstr "سرعت (MHz)"
+
+#: assets/models/components.py:44
+msgid "number of cores"
+msgstr "تعداد هسته‌های پردازشی"
+
+#: assets/models/components.py:49 assets/models/components.py:182
+#: data_center/models/components.py:22 data_center/models/components.py:55
+msgid "size (MiB)"
+msgstr "اندازه (MiB)"
+
+#: assets/models/components.py:54
+msgid "component type"
+msgstr "نوع قطعه"
+
+#: assets/models/components.py:70
+msgid "component model"
+msgstr "مدل قطعه"
+
+#: assets/models/components.py:71
+msgid "component models"
+msgstr "مدل‌های قطعه"
+
+#: assets/models/components.py:90
+msgid "model name"
+msgstr "نام مدل"
+
+#: assets/models/components.py:99 assets/models/components.py:114
+msgid "label"
+msgstr "برچسب"
+
+#: assets/models/components.py:103
+msgid "vendor SN"
+msgstr "شماره سریال فروشنده"
+
+#: assets/models/components.py:108
+msgid "generic component"
+msgstr "قطعه (از هر نوع)"
+
+#: assets/models/components.py:109
+msgid "generic components"
+msgstr "قطعات (از هر نوع)"
+
+#: assets/models/components.py:117
+msgid "MAC address"
+msgstr "آدرس MAC"
+
+#: assets/models/components.py:121 assets/models/components.py:201
+msgid "speed"
+msgstr "سرعت"
+
+#: assets/models/components.py:125 assets/models/components.py:197
+#: assets/models/components.py:249 data_center/models/physical.py:496
+msgid "firmware version"
+msgstr "ورژن firmware"
+
+#: assets/models/components.py:130
+msgid "ethernet"
+msgstr "اترنت"
+
+#: assets/models/components.py:131
+msgid "ethernets"
+msgstr "اترنت"
+
+#: assets/models/components.py:145
+msgid "MAC cannot be empty if record is exposed in DHCP"
+msgstr ""
+
+#: assets/models/components.py:208
+msgid "WWN"
+msgstr "WWN"
+
+#: assets/models/components.py:214
+msgid "fibre channel cards"
+msgstr ""
+
+#: assets/models/components.py:231
+msgid "processors"
+msgstr "پردازنده‌ها"
+
+#: assets/models/components.py:240
+msgid "size (GiB)"
+msgstr "اندازه (GiB)"
+
+#: assets/models/components.py:242 supports/models.py:98
+msgid "serial number"
+msgstr "شماره سریال"
+
+#: assets/models/components.py:246 data_center/models/physical.py:490
+msgid "slot number"
+msgstr "شماره اسلات"
+
+#: assets/models/components.py:254
+msgid "disk"
+msgstr "دیسک"
+
+#: assets/models/components.py:255
+msgid "disks"
+msgstr "دیسک‌ها"
+
+#: assets/models/configuration.py:33
+msgid "module name (ex. directory name in puppet)"
+msgstr ""
+
+#: assets/models/configuration.py:38
+msgid "parent module"
+msgstr "ماژول والد"
+
+#: assets/models/configuration.py:47
+msgid "team"
+msgstr "تیم"
+
+#: assets/models/configuration.py:55
+msgid "configuration module"
+msgstr "ماژول پیکره‌بندی"
+
+#: assets/models/configuration.py:74
+msgid "class name"
+msgstr "نام کلاس"
+
+#: assets/models/configuration.py:76
+msgid "ex. puppet class"
+msgstr "مثال: کلاس گربه"
+
+#: assets/models/configuration.py:80
+msgid "path"
+msgstr "مسیر"
+
+#: assets/models/configuration.py:85
+msgid "path is constructed from name of module and name of class"
+msgstr ""
+
+#: assets/models/configuration.py:95
+msgid "configuration class"
+msgstr "کلاس پیکره‌بندی"
+
+#: assets/views.py:18
+msgid "Components"
+msgstr "اجزا"
+
+#: attachments/templates/attachments/attachments.html:12
+msgid "File"
+msgstr "فایل"
+
+#: attachments/templates/attachments/attachments.html:13
+msgid "Description"
+msgstr "توضیحات"
+
+#: back_office/admin.py:46 data_center/admin.py:301 supports/models.py:171
+msgid "Support"
+msgstr "پشتیبانی"
+
+#: back_office/admin.py:56 back_office/admin.py:63 back_office/models.py:345
+#: licences/models.py:316
+msgid "Licence"
+msgstr "لایسنس"
+
+#: back_office/admin.py:186
+msgid "Financial Info"
+msgstr "اطلاعات مالی"
+
+#: back_office/admin.py:203
+msgid "buyout date"
+msgstr ""
+
+#: back_office/admin.py:221
+msgid "licences"
+msgstr "لایسنس‌ها"
+
+#: back_office/models.py:71 sim_cards/models.py:56
+msgid "waiting for release"
+msgstr "در انتظار آزادسازی"
+
+#: back_office/models.py:73
+msgid "loan"
+msgstr "قرض داده شده"
+
+#: back_office/models.py:76
+msgid "in service"
+msgstr "در حال بکارگیری"
+
+#: back_office/models.py:77
+msgid "installed"
+msgstr "نصب شده"
+
+#: back_office/models.py:80
+msgid "sale"
+msgstr "فروش رفته"
+
+#: back_office/models.py:81 sim_cards/models.py:62
+msgid "loan in progress"
+msgstr "در فرآیند قرض دادن"
+
+#: back_office/models.py:83
+msgid "to find"
+msgstr "درحال یافتن"
+
+#: back_office/models.py:84
+msgid "sent"
+msgstr "فرستاده شده"
+
+#: back_office/models.py:85
+msgid "to buyout"
+msgstr "برای خرید"
+
+#: back_office/models.py:86
+msgid "in use team"
+msgstr "در استفاده تیم"
+
+#: back_office/models.py:87
+msgid "in use test"
+msgstr "در استفاده تستی"
+
+#: back_office/models.py:88
+msgid "in progress team"
+msgstr ""
+
+#: back_office/models.py:89
+msgid "in progress test"
+msgstr ""
+
+#: back_office/models.py:90
+msgid "quarantine"
+msgstr "قرنطینه"
+
+#: back_office/models.py:91
+msgid "refurbished"
+msgstr "مرمت شده"
+
+#: back_office/models.py:92
+msgid "reserved to order"
+msgstr "رزرو شده برای سفارش"
+
+#: back_office/models.py:93
+msgid "replacement"
+msgstr ""
+
+#: back_office/models.py:104
+msgid "Office Infrastructure"
+msgstr ""
+
+#: back_office/models.py:132 back_office/models.py:143
+msgid "requester must be specified"
+msgstr "درخواست‌کننده باید مشخص شود"
+
+#: back_office/models.py:135
+msgid "requester is not an owner of the asset"
+msgstr "درخواست‌کننده مالک دارایی نیست"
+
+#: back_office/models.py:146
+msgid "requester is not an user of the asset"
+msgstr "درخواست‌کننده کاربر دارایی نیست"
+
+#: back_office/models.py:154
+msgid "user not assigned"
+msgstr "به کاربر واگذار نشد"
+
+#: back_office/models.py:195 back_office/models.py:389
+msgid "Loan end date"
+msgstr "تاریخ سررسید وام"
+
+#: back_office/models.py:203
+msgid "IMEI"
+msgstr "IMEI"
+
+#: back_office/models.py:207
+msgid "IMEI 2"
+msgstr "IMEI 2"
+
+#: back_office/models.py:216
+msgid "Last status change"
+msgstr "آخرین تغییر وضعیت"
+
+#: back_office/models.py:220
+msgid "Back Office Asset"
+msgstr "دارایی داخل سازمانی"
+
+#: back_office/models.py:221
+msgid "Back Office Assets"
+msgstr "دارایی داخل سازمانی"
+
+#: back_office/models.py:243 back_office/models.py:247
+#, python-format
+msgid "%(imei)s is not IMEI format"
+msgstr "%(imei)s یک فرمت صحیح IMEI نیست"
+
+#: back_office/models.py:329
+msgid ""
+"During this transition owner will be assigned as well as new hostname might "
+"be generated for asset (only for particular model categories and only if "
+"owner's country has changed)"
+msgstr ""
+
+#: back_office/models.py:409 data_center/models/physical.py:783
+#: sim_cards/models.py:273
+msgid "Warehouse"
+msgstr "انبار"
+
+#: back_office/models.py:423
+msgid "Office infrastructure"
+msgstr ""
+
+#: back_office/models.py:439
+msgid "Remarks"
+msgstr "ملاحظات"
+
+#: back_office/models.py:453 sim_cards/models.py:313
+msgid "task URL"
+msgstr ""
+
+#: back_office/models.py:613
+msgid "Return report language"
+msgstr ""
+
+#: back_office/models.py:635
+msgid "Loan report language"
+msgstr ""
+
+#: back_office/models.py:654
+msgid "Convert to DataCenter Asset"
+msgstr ""
+
+#: back_office/models.py:659
+msgid "Rack"
+msgstr "رک"
+
+#: back_office/models.py:664
+msgid "Position"
+msgstr "جایگاه"
+
+#: back_office/models.py:667
+#: back_office/templates/backofficeasset/components.html:9
+#: data_center/templates/data_center/datacenterasset/components.html:9
+msgid "Model"
+msgstr "مدل"
+
+#: back_office/models.py:672 virtual/admin.py:396
+msgid "Service env"
+msgstr "سرویس و محیط اجرا"
+
+#: back_office/templates/backofficeasset/components.html:8
+#: back_office/templates/backofficeasset/software.html:8
+#: data_center/templates/data_center/datacenterasset/components.html:8
+#: data_center/templates/data_center/datacenterasset/software.html:8
+msgid "Label"
+msgstr "برچسب"
+
+#: back_office/templates/backofficeasset/components.html:10
+#: data_center/templates/data_center/datacenterasset/components.html:10
+msgid "Serial number"
+msgstr "شماره سریال"
+
+#: back_office/templates/backofficeasset/components.html:11
+#: data_center/templates/data_center/datacenterasset/components.html:11
+msgid "Speed"
+msgstr "سرعت"
+
+#: back_office/templates/backofficeasset/components.html:12
+#: data_center/templates/data_center/datacenterasset/components.html:12
+msgid "Size"
+msgstr "اندازه"
+
+#: back_office/templates/backofficeasset/components.html:13
+#: dashboards/models.py:96
+#: data_center/templates/data_center/datacenterasset/components.html:13
+msgid "Count"
+msgstr "تعداد"
+
+#: back_office/templates/backofficeasset/software.html:9
+#: data_center/templates/data_center/datacenterasset/software.html:9
+msgid "Version"
+msgstr "ورژن"
+
+#: configuration_management/models.py:14
+msgid "OK"
+msgstr "بدون اشکال"
+
+#: configuration_management/models.py:15
+msgid "Check failed"
+msgstr "بررسی با شکست مواجه شد"
+
+#: configuration_management/models.py:19
+msgid "Error"
+msgstr "وجود خطا"
+
+#: configuration_management/models.py:35
+msgid "Last SCM check"
+msgstr "آخرین بررسی SCM"
+
+#: configuration_management/models.py:41
+msgid "SCM check result"
+msgstr "نتیجه بررسی SCM"
+
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:9
+msgid "SCM status information"
+msgstr "اطلاعات وضعیت SCM"
+
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:13
+msgid "Last checked"
+msgstr "آخرین بررسی"
+
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:17
+#: configuration_management/views.py:94
+msgid "SCM status"
+msgstr "وضعیت SCM"
+
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:21
+msgid "Details"
+msgstr "جزییات"
+
+#: configuration_management/templates/configuration_management/scminfo/scm_info.html:27
+msgid ""
+"The status of the software configuration management for this host is unknown."
+msgstr "وضعیت مدیریت پیکره‌بندی نرم‌افزار برای این میزبان نامشخص است."
+
+#: dashboards/admin.py:105
+msgid "Graph"
+msgstr "گراف"
+
+#: dashboards/admin.py:113
+msgid "<a href=\"{}\" target=\"_blank\">Dashboard</a>"
+msgstr "<a href=\"{}\" target=\"_blank\">داشبورد</a>"
+
+#: dashboards/admin_filters.py:11
+msgid "Graph ID"
+msgstr "شناسه گراف"
+
+#: dashboards/models.py:97
+msgid "Count with zeros"
+msgstr "تعداد با صفرها"
+
+#: dashboards/models.py:100
+msgid "Max"
+msgstr "بیشینه"
+
+#: dashboards/models.py:101
+msgid "Sum"
+msgstr "جمع"
+
+#: dashboards/models.py:102
+msgid "Sum with zeros"
+msgstr "مجموع با صفرها"
+
+#: dashboards/models.py:105
+msgid "Sum boolean values"
+msgstr "مجموع مقادیر بولین"
+
+#: dashboards/models.py:108
+msgid "Sum negated boolean values"
+msgstr "مجموع مقادیر بولین منفی"
+
+#: dashboards/models.py:117
+msgid "Ratio"
+msgstr "نسبت"
+
+#: dashboards/models.py:125
+msgid "Vertical Bar"
+msgstr "نمودار میله‌ای عمودی"
+
+#: dashboards/models.py:126
+msgid "Horizontal Bar"
+msgstr "نمودار میله‌ای افقی"
+
+#: dashboards/models.py:127
+msgid "Pie Chart"
+msgstr "نمودار دایره‌ای"
+
+#: data_center/admin.py:229 virtual/admin.py:162
+msgid "Base Object"
+msgstr ""
+
+#: data_center/admin.py:241
+msgid "Master Info"
+msgstr "اطلاعات اصلی"
+
+#: data_center/admin.py:259
+msgid "Master info"
+msgstr "اطلاعات اصلی"
+
+#: data_center/admin.py:275 networks/views.py:23
+msgid "Terminators of"
+msgstr ""
+
+#: data_center/admin.py:485
+msgid "Location Info"
+msgstr "اطلاعات موقعیت مکانی"
+
+#: data_center/admin.py:491
+msgid "Usage info"
+msgstr "اطلاعات مصرف داده"
+
+#: data_center/admin.py:497
+msgid "Financial & Order Info"
+msgstr "اطلاعات مالی و سفارشات"
+
+#: data_center/admin.py:527
+msgid "Visualization"
+msgstr "بصری‌سازی"
+
+#: data_center/admin.py:547
+msgid "Created at"
+msgstr "ساخته شده در"
+
+#: data_center/admin.py:584
+msgid "Server room"
+msgstr "اتاق سرور"
+
+#: data_center/forms.py:62
+msgid ""
+"Management IP is already assigned to <a target=\"_blank\" href=\"{}\">{}</a>"
+msgstr ""
+"مقدار IP مدیریت قبلا به <a target=\"_blank\" href=\"{}\">{}</a> منتسب شده"
+
+#: data_center/forms.py:80
+msgid "Management hostname is already used"
+msgstr "مقدار hostname مدیریت قبلا استفاده شده"
+
+#: data_center/forms.py:86
+msgid ""
+"Management hostname is already assigned to <a target=\"_blank\" "
+"href=\"{}\">{}</a>"
+msgstr ""
+"مقدار hostname مدیریت قبلا به <a target=\"_blank\" href=\"{}\">{}</a> منتسب "
+"شده"
+
+#: data_center/forms.py:103
+msgid "Management IP could not be empty when management hostname is passed"
+msgstr "هنگامی که hostname مدیریت وارد شده است IP مدیریت نمی‌تواند خالی باشد"
+
+#: data_center/models/choices.py:14 virtual/models.py:332
+msgid "to deploy"
+msgstr ""
+
+#: data_center/models/choices.py:15
+msgid "cleaned"
+msgstr "پاک شده"
+
+#: data_center/models/choices.py:16
+msgid "pre liquidated"
+msgstr "پیش از منحل شدن"
+
+#: data_center/models/choices.py:23
+msgid "front"
+msgstr "جلو"
+
+#: data_center/models/choices.py:24
+msgid "back"
+msgstr "پشت"
+
+#: data_center/models/choices.py:25
+msgid "middle"
+msgstr "میانه"
+
+#: data_center/models/choices.py:28 data_center/models/choices.py:51
+msgid "left"
+msgstr "چپ"
+
+#: data_center/models/choices.py:29 data_center/models/choices.py:52
+msgid "right"
+msgstr "راست"
+
+#: data_center/models/choices.py:49
+msgid "top"
+msgstr "بالا"
+
+#: data_center/models/choices.py:50
+msgid "bottom"
+msgstr "پایین"
+
+#: data_center/models/choices.py:58
+msgid "network connection"
+msgstr "اتصال شبکه"
+
+#: data_center/models/components.py:15
+msgid "share identifier"
+msgstr "شناسه اشتراک"
+
+#: data_center/models/components.py:25
+msgid "size for snapshots (MiB)"
+msgstr "اندازه اسنپ‌شات‌ها (MiB)"
+
+#: data_center/models/components.py:28
+msgid "Volume serial"
+msgstr ""
+
+#: data_center/models/components.py:37
+msgid "disk shares"
+msgstr "اشتراک دیسک"
+
+#: data_center/models/components.py:45
+msgid "share"
+msgstr "اشتراک"
+
+#: data_center/models/components.py:47
+msgid "asset"
+msgstr "دارایی"
+
+#: data_center/models/components.py:51
+msgid "volume"
+msgstr "حجم"
+
+#: data_center/models/components.py:70
+msgid "disk share mount"
+msgstr "اتصال اشتراک دیسک"
+
+#: data_center/models/components.py:71
+msgid "disk share mounts"
+msgstr "اتصال‌های اشتراک دیسک"
+
+#: data_center/models/physical.py:132
+msgid "dc"
+msgstr "مرکز داده"
+
+#: data_center/models/physical.py:133
+msgid "cowork"
+msgstr ""
+
+#: data_center/models/physical.py:134
+msgid "callcenter"
+msgstr "تلفن‌خانه"
+
+#: data_center/models/physical.py:135
+msgid "depot"
+msgstr "مخزن"
+
+#: data_center/models/physical.py:136
+msgid "warehouse"
+msgstr "انبار"
+
+#: data_center/models/physical.py:137
+msgid "retail"
+msgstr "خرده فروشی"
+
+#: data_center/models/physical.py:138
+msgid "office"
+msgstr "دفتر"
+
+#: data_center/models/physical.py:157
+msgid "address"
+msgstr "آدرس"
+
+#: data_center/models/physical.py:161
+msgid "data center type"
+msgstr "نوع مرکز داده"
+
+#: data_center/models/physical.py:165
+msgid "shortcut"
+msgstr "میانبر"
+
+#: data_center/models/physical.py:194
+msgid "visualization grid columns number"
+msgstr "تعداد ستون‌های نمای بصری"
+
+#: data_center/models/physical.py:202
+msgid "visualization grid rows number"
+msgstr "تعداد ردیف‌های نمای بصری"
+
+#: data_center/models/physical.py:218
+msgid "accessory"
+msgstr "تجهیزات"
+
+#: data_center/models/physical.py:237
+msgid "rack accessories"
+msgstr "تجهیزات رک"
+
+#: data_center/models/physical.py:254 data_center/models/physical.py:259
+msgid "server room"
+msgstr "اتاق سرور"
+
+#: data_center/models/physical.py:261 deployment/models.py:61
+#: deployment/models.py:147 operations/models.py:64
+msgid "description"
+msgstr "توضیحات"
+
+#: data_center/models/physical.py:270
+msgid "column number on visualization grid"
+msgstr "شماره ستون در فضای بصری‌سازی"
+
+#: data_center/models/physical.py:274
+msgid "row number on visualization grid"
+msgstr "شماره ردیف در فضای بصری‌سازی"
+
+#: data_center/models/physical.py:281
+msgid ""
+"Uncheck if position is optional for this rack (ex. when rack has warehouse-"
+"kind role"
+msgstr ""
+
+#: data_center/models/physical.py:288
+msgid ""
+"Check if RU numbers count from top to bottom with position 1 starting at the "
+"top of the rack. If unchecked position 1 is at the bottom of the rack"
+msgstr ""
+
+#: data_center/models/physical.py:292
+msgid "RU order top to bottom"
+msgstr ""
+
+#: data_center/models/physical.py:468
+msgid "Vendor contract number"
+msgstr "شماره تماس فروشنده"
+
+#: data_center/models/physical.py:473
+msgid "Leasing rate"
+msgstr ""
+
+#: data_center/models/physical.py:477
+msgid "Fill it if asset is blade server"
+msgstr ""
+
+#: data_center/models/physical.py:484
+msgid ""
+"Slot number should be a number from range 1-16 with an optional postfix 'A' "
+"or 'B' (e.g. '16A')"
+msgstr ""
+
+#: data_center/models/physical.py:502
+msgid "BIOS version"
+msgstr "نسخه BIOS"
+
+#: data_center/models/physical.py:514
+msgid "source"
+msgstr "منبع"
+
+#: data_center/models/physical.py:532
+msgid "data center asset"
+msgstr "دارایی مرکز داده"
+
+#: data_center/models/physical.py:533
+msgid "data center assets"
+msgstr "دارایی مرکز داده"
+
+#: data_center/models/physical.py:762
+msgid "Change rack"
+msgstr "تغییر رک"
+
+#: data_center/models/physical.py:778
+msgid "Convert to BackOffice Asset"
+msgstr "تبدیل به دارایی داخل سازمانی"
+
+#: data_center/models/physical.py:788
+msgid "Region"
+msgstr "ناحیه مکانی"
+
+#: data_center/models/physical.py:820
+msgid "Cleanup scm status"
+msgstr "پاک کردن وضعیت SCM"
+
+#: data_center/models/physical.py:833
+msgid "Assign additional IP and hostname pair"
+msgstr "زوج دیگری از IP و hostname انتساب دهید"
+
+#: data_center/models/physical.py:837
+msgid "Select network"
+msgstr "گزینش شبکه"
+
+#: data_center/models/physical.py:862
+msgid "connected to device"
+msgstr "متصل شده به دستگاه"
+
+#: data_center/models/physical.py:868
+msgid "connected device"
+msgstr "دستگاه متصل"
+
+#: data_center/models/physical.py:874
+msgid "connection type"
+msgstr "نوع اتصال"
+
+#: data_center/models/virtual.py:27
+msgid "database"
+msgstr "پایگاه داده"
+
+#: data_center/models/virtual.py:28
+msgid "databases"
+msgstr "پایگاه‌های داده"
+
+#: data_center/models/virtual.py:37
+msgid "TCP"
+msgstr "TCP"
+
+#: data_center/models/virtual.py:38
+msgid "UDP"
+msgstr "UDP"
+
+#: data_center/models/virtual.py:44
+msgid "port"
+msgstr "پورت"
+
+#: data_center/models/virtual.py:46
+msgid "protocol"
+msgstr "پروتکل"
+
+#: data_center/models/virtual.py:52
+msgid "VIP"
+msgstr "اختصاصی"
+
+#: data_center/models/virtual.py:68
+msgid ""
+"show master information on cluster page, ex. hostname, model, location etc."
+msgstr ""
+"نمایش اطلاعات اصلی در صفحه کلاستر. مثال: hostname، مدل، موقعیت مکانی و غیره."
+
+#: data_center/models/virtual.py:78
+msgid "for deploy"
+msgstr "برای استقرار"
+
+#: data_center/models/virtual.py:101
+msgid "Assigned base objects"
+msgstr "اشیای پایه منتسب شده"
+
+#: data_center/models/virtual.py:156
+msgid "At least one of name or hostname is required"
+msgstr "حداقل یک نام یا hostname نیاز است"
+
+#: data_center/templates/admin/data_center/dchost/change_list.html:10
+msgid "Nothing to display. Please add some objects like:"
+msgstr "چیزی برای نمایش نیست. لطفا تعدادی شی بیافزایید مانند:"
+
+#: data_center/templates/admin/data_center/network/change_form.html:9
+#, python-format
+msgid "Add next IP (%(next_free_ip)s)"
+msgstr "آدرس IP بعدی را بیافزایید (%(next_free_ip)s)"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:9
+msgid "Related objects"
+msgstr "اشیای مرتبط"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:17
+#: data_center/templates/data_center/datacenterasset/relations.html:40
+#: data_center/templates/data_center/datacenterasset/relations.html:59
+#: deployment/deployment.py:481 deployment/deployment.py:549
+#: deployment/deployment.py:580
+msgid "IP Address"
+msgstr "آدرس IP"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:18
+msgid "Cloud project"
+msgstr "پروژه ابری"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:19
+#: virtual/admin.py:328 virtual/admin.py:501 virtual/models.py:42
+msgid "Cloud provider"
+msgstr "تامین‌کننده ابری"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:36
+msgid "Virtual hosts"
+msgstr "میزبان‌های مجازی"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:55
+msgid "Physical hosts"
+msgstr "میزبان‌های فیزیکی"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:77
+#: dns/forms.py:23
+#: security/templates/security/securityinfo/security_info.html:38
+msgid "Name"
+msgstr "نام"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:78
+msgid "Type"
+msgstr "نوع"
+
+#: data_center/templates/data_center/datacenterasset/relations.html:91
+msgid "No related objects found."
+msgstr "هیج شی مرتبطی یافت نشد."
+
+#: dc_view/templates/dc_view/server_room_view.html:5
+msgid "Dc View"
+msgstr "نمای مرکز داده"
+
+#: dc_view/templates/dc_view/server_room_view.html:31
+msgid "Server rooms"
+msgstr "اتاق‌های سرور"
+
+#: deployment/deployment.py:49
+msgid "<NEXT FREE>"
+msgstr "<NEXT FREE>"
+
+#: deployment/deployment.py:122 deployment/deployment.py:172
+#: lib/mixins/api.py:14 lib/mixins/forms.py:63
+msgid "Other"
+msgstr "دیگر"
+
+#: deployment/deployment.py:198
+msgid "use first"
+msgstr "دست اول"
+
+#: deployment/deployment.py:267
+msgid "Non-management MAC address not found"
+msgstr "آدرس MAC غیرمدیریتی یافت نشد"
+
+#: deployment/deployment.py:278
+msgid "Network environment not found."
+msgstr "محیط شبکه یافت نشد."
+
+#: deployment/deployment.py:286
+msgid "Clean hostname"
+msgstr "پاک کردن hostname"
+
+#: deployment/deployment.py:298
+msgid "Clean DNS entries"
+msgstr "پاک کردن DNS entry ها"
+
+#: deployment/deployment.py:337
+msgid "Clean IP addresses"
+msgstr "پاک کردن آدرس‌های IP"
+
+#: deployment/deployment.py:355
+msgid "Clean DHCP entries"
+msgstr "پاک کردن DHCP entry ها"
+
+#: deployment/deployment.py:372
+msgid "Remove from DHCP entries"
+msgstr "حذف از DHCP entry ها"
+
+#: deployment/deployment.py:375
+msgid "DHCP Entry"
+msgstr "DHCP Entry"
+
+#: deployment/deployment.py:396
+msgid "Assign new hostname"
+msgstr "انتساب یک hostname جدید"
+
+#: deployment/deployment.py:477
+msgid "Assign new IP"
+msgstr "انتساب یک IP جدید"
+
+#: deployment/deployment.py:539
+msgid "You can choose only one asset"
+msgstr "شما تنها یک دارایی را می‌توانید انتخاب کنید"
+
+#: deployment/deployment.py:545
+msgid "Replace IP"
+msgstr "تعویض IP"
+
+#: deployment/deployment.py:556 networks/admin.py:313
+msgid "Network"
+msgstr "شبکه"
+
+#: deployment/deployment.py:576
+msgid "Assign new IP address and create DHCP entries"
+msgstr "آدرس IP جدید منتسب کنید و DHCP entry ها را بسازید"
+
+#: deployment/deployment.py:676
+msgid "Wait for DHCP servers"
+msgstr "در انتظار سرورهای DHCP"
+
+#: deployment/deployment.py:703
+msgid "Create DNS entries"
+msgstr "DNS entry بسازید"
+
+#: deployment/deployment.py:728
+msgid "Change service-env"
+msgstr "تغییر سرویس-محیط"
+
+#: deployment/deployment.py:731
+msgid "Service-environment"
+msgstr "سرویس-محیط"
+
+#: deployment/deployment.py:748
+msgid "Change configuration_path"
+msgstr "انتخاب مسیر پیکره‌بندی"
+
+#: deployment/deployment.py:751 virtual/admin.py:411
+msgid "Configuration path"
+msgstr "مسیر پیکره‌بندی"
+
+#: deployment/deployment.py:772
+msgid "Apply preboot"
+msgstr "انجام پیش بوت"
+
+#: deployment/deployment.py:776
+msgid "Preboot"
+msgstr "پیش بوت"
+
+#: deployment/deployment.py:798
+msgid "Wait for ping"
+msgstr "در انتظار پینگ"
+
+#: deployment/models.py:26
+msgid "kernel"
+msgstr "کرنل"
+
+#: deployment/models.py:27
+msgid "initrd"
+msgstr "initrd"
+
+#: deployment/models.py:28
+msgid "netboot"
+msgstr "netboot"
+
+#: deployment/models.py:31
+msgid "iPXE"
+msgstr "iPXE"
+
+#: deployment/models.py:32
+msgid "kickstart"
+msgstr "kickstart"
+
+#: deployment/models.py:33
+msgid "preseed"
+msgstr "پیش‌کاشت"
+
+#: deployment/models.py:34
+msgid "script"
+msgstr "اسکریپت"
+
+#: deployment/models.py:35
+msgid "meta-data"
+msgstr "meta-data"
+
+#: deployment/models.py:36
+msgid "user-data"
+msgstr "user-data"
+
+#: deployment/models.py:39
+msgid "other"
+msgstr "دیگر"
+
+#: deployment/models.py:107
+msgid "configuration"
+msgstr "پیکره‌بندی"
+
+#: deployment/models.py:114 deployment/models.py:115
+msgid "preboot configuration"
+msgstr "پیکره‌بندی پیش بوت"
+
+#: deployment/models.py:128
+msgid "file"
+msgstr "فایل"
+
+#: deployment/models.py:136
+msgid "preboot file"
+msgstr "فایل پیش بوت"
+
+#: deployment/models.py:137
+msgid "preboot files"
+msgstr "فایل پیش بوت"
+
+#: deployment/models.py:144
+msgid "files"
+msgstr "فایل‌ها"
+
+#: deployment/models.py:155
+msgid "preboot"
+msgstr "پیش بوت"
+
+#: deployment/models.py:156
+msgid "preboots"
+msgstr "پیش بوت"
+
+#: dhcp/admin.py:23
+msgid "{} ({} ago)"
+msgstr "{} ({} پیش)"
+
+#: dhcp/admin.py:81
+msgid "in networks"
+msgstr "در شبکه‌ها"
+
+#: dhcp/models.py:35 dhcp/models.py:93 networks/admin.py:328
+#: networks/models/networks.py:616 networks/models/networks.py:631
+#: networks/models/networks.py:663
+msgid "IP address"
+msgstr "آدرس IP"
+
+#: dhcp/models.py:43
+msgid "DHCP Server"
+msgstr "سرور DHCP"
+
+#: dhcp/models.py:60
+msgid "DNS Server Group"
+msgstr "گروه سرور DNS"
+
+#: dhcp/models.py:98
+msgid "DNS Server"
+msgstr "سرور DNS"
+
+#: dns/dnsaas.py:24 dns/forms.py:10
+msgid "A"
+msgstr "A"
+
+#: dns/dnsaas.py:25 dns/forms.py:11
+msgid "TXT"
+msgstr "TXT"
+
+#: dns/dnsaas.py:26 dns/forms.py:12
+msgid "CNAME"
+msgstr "CNAME"
+
+#: dns/dnsaas.py:228
+msgid "Service is required for record {}"
+msgstr "سرویس برای رکورد {} مورد نیاز است"
+
+#: dns/forms.py:26
+msgid ""
+"Actual name of a record. Must not end in a '.' and be fully qualified - it "
+"is not relative to the name of the domain!"
+msgstr ""
+
+#: dns/forms.py:32
+msgid "Record type"
+msgstr "نوع رکورد"
+
+#: dns/forms.py:36
+msgid "Content"
+msgstr "محتوا"
+
+#: dns/forms.py:39
+msgid ""
+"The 'right hand side' of a DNS record. For an A record, this is the IP "
+"address"
+msgstr ""
+
+#: dns/forms.py:45
+msgid "PTR"
+msgstr "PTR"
+
+#: dns/forms.py:57
+msgid "Only A type record can be PTR"
+msgstr ""
+
+#: dns/templates/dns/dns_edit.html:7
+msgid "DNS edit"
+msgstr "ویرایش DNS"
+
+#: dns/templates/dns/dns_edit.html:40
+msgid "Are you sure to delete?"
+msgstr "آیا از حذف اطمینان دارید؟"
+
+#: dns/templates/dns/dns_edit.html:50
+msgid "Add at least one IP address to fetch DNS records."
+msgstr ""
+
+#: dns/views.py:104
+msgid "DNS record has been deleted."
+msgstr "رکورد DNS حذف شد."
+
+#: dns/views.py:112
+msgid "DNS record has been updated."
+msgstr "رکورد DNS بروزرسانی شد."
+
+#: dns/views.py:120
+msgid "DNS record has been created."
+msgstr "رکورد DNS ساخته شد."
+
+#: domains/admin.py:55 ssl_certificates/admin.py:42 trade_marks/admin.py:121
+#: trade_marks/admin.py:201
+msgid "Ownership info"
+msgstr "اطلاعات مالکیت"
+
+#: domains/admin.py:97 licences/admin.py:134
+msgid "Financial info"
+msgstr "اطلاعات مالی"
+
+#: domains/forms.py:22
+msgid "Price for domain renewal for given period"
+msgstr ""
+
+#: domains/models/domains.py:33
+msgid "Active"
+msgstr "فعال"
+
+#: domains/models/domains.py:34
+msgid "Pending lapse"
+msgstr ""
+
+#: domains/models/domains.py:35
+msgid "Pending transfer away"
+msgstr ""
+
+#: domains/models/domains.py:36
+msgid "Lapsed (inactive)"
+msgstr ""
+
+#: domains/models/domains.py:37
+msgid "Transfered away"
+msgstr ""
+
+#: domains/models/domains.py:43
+msgid "None"
+msgstr "هیچ"
+
+#: domains/models/domains.py:44
+msgid "Redirect"
+msgstr ""
+
+#: domains/models/domains.py:45
+msgid "Direct"
+msgstr "مستقیم"
+
+#: domains/models/domains.py:51
+msgid "Business"
+msgstr "کسب‌وکار"
+
+#: domains/models/domains.py:52
+msgid "Business security"
+msgstr "امنیت کسب‌وکار"
+
+#: domains/models/domains.py:53
+msgid "Technical"
+msgstr "فنی"
+
+#: domains/models/domains.py:87 ssl_certificates/models.py:28
+msgid "domain name"
+msgstr "نام دامنه"
+
+#: domains/models/domains.py:88 ssl_certificates/models.py:30
+msgid "Full domain name"
+msgstr "نام کامل دامنه"
+
+#: domains/models/domains.py:98
+msgid "Business segment for a domain"
+msgstr ""
+
+#: domains/models/domains.py:105
+msgid "Business contact person for a domain"
+msgstr ""
+
+#: domains/models/domains.py:112
+msgid "Technical contact person for a domain"
+msgstr ""
+
+#: domains/models/domains.py:118
+msgid "Company which receives invoice for the domain"
+msgstr ""
+
+#: domains/models/domains.py:127
+msgid "Type of website which domain refers to."
+msgstr ""
+
+#: domains/models/domains.py:131
+msgid "Website url which website type refers to."
+msgstr ""
+
+#: domains/models/domains.py:138
+msgid "Provider which keeps domain's DNS"
+msgstr "تامین‌کننده‌ای که DNS دامنه را نگه می‌دارد"
+
+#: domains/models/domains.py:156
+msgid "Website url should be empty for this website type"
+msgstr "برای این نوع از وب‌سایت باید آدرس url وب‌سایت خالی باشد"
+
+#: domains/models/domains.py:165
+msgid "Website url should be filled for this website type"
+msgstr "برای این نوع از وب‌سایت باید آدرس url وب‌سایت پر شود"
+
+#: lib/api/exceptions.py:9
+msgid "State of the resource is in conflict with the request."
+msgstr ""
+
+#: lib/custom_fields/forms.py:37
+msgid "Only users from {} group can set this custom field."
+msgstr ""
+
+#: lib/custom_fields/forms.py:49
+msgid "Clear children values?"
+msgstr ""
+
+#: lib/custom_fields/forms.py:110
+msgid ""
+"Please correct the duplicate data for custom fields (only one value for "
+"particular custom field is possible)."
+msgstr ""
+
+#: lib/custom_fields/models.py:57
+msgid "field name used in API. It's slugged name of the field"
+msgstr ""
+
+#: lib/custom_fields/models.py:66
+msgid "choices"
+msgstr "انتخاب‌ها"
+
+#: lib/custom_fields/models.py:67
+msgid "available choices for `choices list` separated by |"
+msgstr ""
+
+#: lib/custom_fields/models.py:71
+msgid "for boolean use \"true\" or \"false\""
+msgstr ""
+
+#: lib/custom_fields/models.py:79
+msgid ""
+"When set, only members of the specified group will be allowed to set, change "
+"or unset values of this custom field for objects."
+msgstr ""
+
+#: lib/custom_fields/models.py:87
+msgid ""
+"When set, this variable will be exposed in API in "
+"\"configuration_variables\" section. You could use this later in "
+"configuration management tool like Puppet or Ansible."
+msgstr ""
+
+#: lib/custom_fields/models.py:127
+msgid "key"
+msgstr "کلید"
+
+#: lib/custom_fields/models.py:132
+msgid "value"
+msgstr "مقدار"
+
+#: lib/custom_fields/models.py:177
+msgid "Custom field of the same type already exists for this object."
+msgstr "فیلد سفارشی از نوع یکسان از قبل برای این شی موجود است."
+
+#: lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:64
+msgid "summary"
+msgstr "خلاصه"
+
+#: lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:68
+msgid "Custom field"
+msgstr "فیلد سفارشی"
+
+#: lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:69
+#: lib/transitions/templates/transitions/run_transition.html:27
+msgid "Value"
+msgstr "مقدار"
+
+#: lib/custom_fields/templates/custom_fields/edit_inline/tabular.html:70
+msgid "Inherited from"
+msgstr "ارث‌بری شده از"
+
+#: lib/error_pages/views.py:8
+msgid "Not Found"
+msgstr "مقدار یافت نشد"
+
+#: lib/error_pages/views.py:9
+msgid "The requested resource was not found on this server."
+msgstr "منابع درخواستی بر روی این سرور یافت نشد."
+
+#: lib/external_services/models.py:39
+msgid "queued"
+msgstr "اضافه شده به صف"
+
+#: lib/external_services/models.py:40 lib/transitions/models.py:645
+msgid "finished"
+msgstr "تمام شده"
+
+#: lib/external_services/models.py:41 lib/transitions/models.py:646
+msgid "failed"
+msgstr "با شکست مواجه شده"
+
+#: lib/external_services/models.py:42 lib/transitions/models.py:644
+msgid "started"
+msgstr "شروع شده"
+
+#: lib/external_services/models.py:43
+msgid "frozen"
+msgstr "متوقف شده"
+
+#: lib/external_services/models.py:44
+msgid "killed"
+msgstr "از بین رفته"
+
+#: lib/external_services/models.py:80
+msgid "job status"
+msgstr "وضعیت پروسه"
+
+#: lib/mixins/fields.py:145 operations/admin.py:157 operations/views.py:46
+msgid "ticket ID"
+msgstr ""
+
+#: lib/mixins/fields.py:146
+msgid "External system ticket identifier"
+msgstr ""
+
+#: lib/mixins/fields.py:291
+#, python-format
+msgid "'%(value)s' is not a valid MAC address."
+msgstr "'%(value)s' یک آدرس معتبر MAC نیست."
+
+#: lib/mixins/models.py:39
+msgid "date created"
+msgstr "تاریخ ایجاد"
+
+#: lib/mixins/models.py:43
+msgid "last modified"
+msgstr "آخرین اصلاح"
+
+#: lib/mixins/models.py:57
+msgid "last seen"
+msgstr "آخرین بازدید"
+
+#: lib/permissions/api.py:117
+msgid "You cannot update readonly field."
+msgstr "نمی‌توان فیلد فقط خواندنی را بروزرسانی کرد."
+
+#: lib/permissions/models.py:166
+msgid "Can view {} field"
+msgstr "می‌توان فیلد {} را دید"
+
+#: lib/permissions/models.py:172
+msgid "Can change {} field"
+msgstr "می‌توان فیلد {} را تغییر داد"
+
+#: lib/transitions/forms.py:78
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: lib/transitions/forms.py:119
+msgid "Please provide async service name for asynchronous transition"
+msgstr ""
+
+#: lib/transitions/forms.py:123
+msgid " (At least one of chosen actions is asynchronous)"
+msgstr ""
+
+#: lib/transitions/models.py:187
+msgid "wrong source status"
+msgstr "وضعیت منبع اشتباه است"
+
+#: lib/transitions/models.py:530
+msgid ""
+"Run this transition in the background (this could be enforced if you choose "
+"at least one asynchronous action)"
+msgstr ""
+
+#: lib/transitions/models.py:537
+msgid ""
+"Name of asynchronous (internal) service to run this transition. Fill this "
+"field only if you want to run this transition in the background."
+msgstr ""
+
+#: lib/transitions/models.py:728
+msgid "transition action status"
+msgstr "وضعیت اقدامات انتقال"
+
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:5
+msgid "Job"
+msgstr "پروسه"
+
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:8
+#: lib/transitions/templates/transitions/current_transitions.html:22
+msgid "Object"
+msgstr "شی"
+
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:10
+#: lib/transitions/templates/transitions/current_transitions.html:24
+msgid "Status"
+msgstr "وضعیت"
+
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:11
+#: lib/transitions/templates/transitions/current_transitions.html:25
+msgid "Transition actions"
+msgstr "انتقالات"
+
+#: lib/transitions/templates/transitions/_transition_jobs_table.html:33
+#: lib/transitions/templates/transitions/_transition_jobs_table_body.html:42
+msgid "Are you sure you want to kill transition job?"
+msgstr "آیا مطمئن هستید که می‌خواهید این فرآیند انتقال را از بین ببرید؟"
+
+#: lib/transitions/templates/transitions/_transition_jobs_table_body.html:7
+msgid "Created date"
+msgstr "تاریخ ایجاد"
+
+#: lib/transitions/templates/transitions/current_transitions.html:32
+msgid "Current transition"
+msgstr "انتقال کنونی"
+
+#: lib/transitions/templates/transitions/current_transitions.html:39
+msgid "Nothing to do."
+msgstr "چیزی برای انجام دادن نیست."
+
+#: lib/transitions/templates/transitions/current_transitions.html:45
+msgid "Finished transitions"
+msgstr "انتقالات به اتمام رسید"
+
+#: lib/transitions/templates/transitions/current_transitions.html:52
+msgid "Nothing to display"
+msgstr "چیزی برای نمایش نیست"
+
+#: lib/transitions/templates/transitions/run_transition.html:5
+#: lib/transitions/templates/transitions/run_transition.html:10
+msgid "Tranisition"
+msgstr "انتقال"
+
+#: lib/transitions/templates/transitions/run_transition.html:26
+msgid "Option"
+msgstr "گزینه‌ها"
+
+#: lib/transitions/templates/transitions/run_transition.html:38
+msgid "Cancel transition"
+msgstr "لغو انتقال"
+
+#: lib/transitions/templates/transitions/run_transition.html:43
+msgid "Run transition"
+msgstr "اجرای انتقال"
+
+#: lib/transitions/templates/transitions/templatetags/available_transitions.html:15
+msgid "This transition will be run without any confirmation."
+msgstr "این انتقال بدون تایید اجرا خواهد شد."
+
+#: lib/transitions/views.py:205
+msgid "Transitions performed successfully"
+msgstr "انتقالات با موفقیت انجام شدند"
+
+#: lib/transitions/views.py:227
+msgid "Some assets are not valid"
+msgstr "بعضی از دارایی‌ها معتبر نیستند"
+
+#: licences/admin.py:29 licences/admin.py:37 supports/admin.py:26
+#: supports/admin.py:34
+msgid "Assignments"
+msgstr "واگذاری‌ها"
+
+#: licences/admin.py:36 supports/admin.py:33
+msgid "assignments"
+msgstr "واگذاری‌ها"
+
+#: licences/models.py:72
+msgid "software categories"
+msgstr "دسته‌بندی نرم‌افزار"
+
+#: licences/models.py:159
+msgid "Should be like 'per processor' or 'per machine' and so on. "
+msgstr ""
+
+#: licences/models.py:176
+msgid "SN / key"
+msgstr "شماره سریال/شماره کلید"
+
+#: licences/models.py:188 supports/models.py:109
+msgid "invoice date"
+msgstr "تاریخ فاکتور"
+
+#: licences/models.py:216
+msgid "Any value to help your accounting department identify this licence"
+msgstr "هر مقدار و متنی که کمک کند واحد حسابداری این لایسنس را تشخیص دهد"
+
+#: licences/models.py:222
+msgid "assigned base objects"
+msgstr "اشیای پایه منتسب شده"
+
+#: licences/models.py:236
+msgid "license details"
+msgstr "جزییات لایسنس"
+
+#: licences/models.py:326 supports/models.py:182
+msgid "Asset"
+msgstr "دارایی"
+
+#: licences/models.py:353
+msgid "Asset region is in a different region than licence."
+msgstr "ناحیه مکانی دارایی با ناحیه مکانی لایسنس تفاوت دارد."
+
+#: networks/admin.py:41
+msgid "Hostnames"
+msgstr "Hostnames"
+
+#: networks/admin.py:83 networks/admin.py:334
+msgid "Linked object"
+msgstr "اشیا لینک شده"
+
+#: networks/admin.py:138
+msgid "Network added to <a href=\"{}\" _target=\"blank\">{}</a>"
+msgstr "شبکه افزوده شد به <a href=\"{}\" _target=\"blank\">{}</a>"
+
+#: networks/admin.py:139
+msgid ""
+"Network reassigned from network <a href=\"{}\" target=\"_blank\">{}</a> to "
+"<a href=\"{}\" target=\"_blank\">{}</a>"
+msgstr ""
+"شبکه مجددا منتسب شد از <a href=\"{}\" target=\"_blank\">{}</a> به <a "
+"href=\"{}\" target=\"_blank\">{}</a>"
+
+#: networks/admin.py:181
+msgid "Network address"
+msgstr "آدرس شبکه"
+
+#: networks/admin.py:186
+msgid "Subnetworks count"
+msgstr "تعداد زیرشبکه‌ها"
+
+#: networks/admin.py:191
+msgid "IPAddress count"
+msgstr "تعداد آدرس‌های IP"
+
+#: networks/admin.py:204
+msgid "Parent networks"
+msgstr "شبکه‌های والد"
+
+#: networks/admin.py:212
+msgid "First free IP"
+msgstr "اولین IP آزاد"
+
+#: networks/admin.py:225
+msgid "Subnetworks"
+msgstr "زیرشبکه‌ها"
+
+#: networks/admin.py:246
+msgid "Addresses"
+msgstr "آدرس‌ها"
+
+#: networks/admin.py:300
+msgid "IP added to <a href=\"{}\" _target=\"blank\">{}</a>"
+msgstr "IP اضافه شد به <a href=\"{}\" _target=\"blank\">{}</a>"
+
+#: networks/admin.py:301
+msgid ""
+"IP reassigned from network <a href=\"{}\" target=\"_blank\">{}</a> to <a "
+"href=\"{}\" target=\"_blank\">{}</a>"
+msgstr ""
+
+#: networks/filters.py:42
+msgid "IP range"
+msgstr "رنج IP"
+
+#: networks/filters.py:64
+msgid "Network range"
+msgstr "رنج شبکه"
+
+#: networks/filters.py:82
+msgid "Private"
+msgstr "خصوصی"
+
+#: networks/filters.py:83
+msgid "Public"
+msgstr "عمومی"
+
+#: networks/filters.py:98 networks/filters.py:105
+msgid "Contains IP address"
+msgstr "حاوی آدرس‌های IP"
+
+#: networks/forms.py:125
+#, python-format
+msgid "Address %(ip)s already exist."
+msgstr "آدرس(های) %(ip)s از پیش موجود است."
+
+#: networks/forms.py:171
+msgid "Cannot expose in DHCP without IP address"
+msgstr "بدون آدرس IP نمی‌توان در DHCP نمایان کرد"
+
+#: networks/forms.py:175
+msgid "Cannot expose in DHCP without hostname"
+msgstr "بدون hostname نمی‌توان در DHCP نمایان کرد"
+
+#: networks/forms.py:179
+msgid "Cannot expose in DHCP without MAC address"
+msgstr "بدون آدرس MAC نمی‌توان در DHCP نمایان کرد"
+
+#: networks/forms.py:190
+msgid "At least one of {} is required"
+msgstr "حداقل یکی از {} مورد نیاز است"
+
+#: networks/forms.py:238 networks/models/networks.py:658
+msgid "Expose in DHCP"
+msgstr "نمایان شده در DHCP"
+
+#: networks/models/choices.py:7
+msgid "used (fixed address in DHCP)"
+msgstr "استفاده شده (آدرس ثابت در DHCP)"
+
+#: networks/models/choices.py:8
+msgid "Exclude from DHCP"
+msgstr "مستثنی شده از DHCP"
+
+#: networks/models/networks.py:48 networks/models/networks.py:309
+msgid "network kind"
+msgstr "نوع شبکه"
+
+#: networks/models/networks.py:49
+msgid "network kinds"
+msgstr "انواع شبکه"
+
+#: networks/models/networks.py:65 networks/models/networks.py:572
+msgid "discovery queue"
+msgstr "صف اکتشاف"
+
+#: networks/models/networks.py:71
+msgid "hostname template counter length"
+msgstr "طول‌شمار قالب hostname"
+
+#: networks/models/networks.py:75
+msgid "hostname template prefix"
+msgstr "پیشوند قالب hostname"
+
+#: networks/models/networks.py:79
+msgid "hostname template postfix"
+msgstr "پسوند قالب hostname"
+
+#: networks/models/networks.py:82
+msgid ""
+"This value will be used as a postfix when generating new hostname in this "
+"network environment. For example, when prefix is \"s1\", postfix is \".mydc."
+"net\" and counter length is 4, following  hostnames will be generated: "
+"s10000.mydc.net, s10001.mydc.net, .., s19999.mydc.net."
+msgstr ""
+
+#: networks/models/networks.py:90
+msgid "domain"
+msgstr "دامنه"
+
+#: networks/models/networks.py:94
+msgid "Used in DHCP configuration."
+msgstr "در پیکره‌بندی DHCP به کار گرفته شده است."
+
+#: networks/models/networks.py:97 networks/models/networks.py:265
+msgid "remarks"
+msgstr "ملاحظات"
+
+#: networks/models/networks.py:98 networks/models/networks.py:266
+msgid "Additional information."
+msgstr "اطلاعات اضافه."
+
+#: networks/models/networks.py:255
+msgid "network address"
+msgstr "آدرس شبکه"
+
+#: networks/models/networks.py:256
+msgid "Presented as string (e.g. 192.168.0.0/24)"
+msgstr "فرمت نمایشی رشته متنی است. (مثال: 192.168.0.0/24)"
+
+#: networks/models/networks.py:259
+msgid "Network Class"
+msgstr "کلاس شبکه"
+
+#: networks/models/networks.py:261
+msgid "Gateway address"
+msgstr "آدرس Gateway"
+
+#: networks/models/networks.py:273
+msgid "network terminators"
+msgstr "پایانه‌های شبکه"
+
+#: networks/models/networks.py:277
+msgid "VLAN number"
+msgstr "شماره VLAN"
+
+#: networks/models/networks.py:284
+msgid "racks"
+msgstr "رک‌ها"
+
+#: networks/models/networks.py:296
+msgid "smallest IP number"
+msgstr "کوچک‌ترین شماره IP"
+
+#: networks/models/networks.py:302
+msgid "largest IP number"
+msgstr "بزرگ‌ترین شماره IP"
+
+#: networks/models/networks.py:315
+msgid "Broadcast in DHCP configuration"
+msgstr "برادکست کردن در پیکره‌بندی DHCP"
+
+#: networks/models/networks.py:332
+msgid ""
+"Number of addresses to be omitted in DHCP automatic assignmentcounted from "
+"the first IP in range (excluding network address)"
+msgstr ""
+
+#: networks/models/networks.py:339
+msgid ""
+"Number of addresses to be omitted in DHCP automatic assignmentcounted from "
+"the last IP in range (excluding broadcast address)"
+msgstr ""
+
+#: networks/models/networks.py:403
+msgid "network"
+msgstr "شبکه"
+
+#: networks/models/networks.py:404
+msgid "networks"
+msgstr "شبکه‌ها"
+
+#: networks/models/networks.py:573
+msgid "discovery queues"
+msgstr "صف‌های اکتشاف"
+
+#: networks/models/networks.py:617
+msgid "Presented as string."
+msgstr "فرمت نمایشی رشته متنی است."
+
+#: networks/models/networks.py:632
+msgid "Presented as int."
+msgstr "فرمت نمایشی عدد است."
+
+#: networks/models/networks.py:640
+msgid "Is management address"
+msgstr "آیا آدرس مدیریتی است"
+
+#: networks/models/networks.py:644
+msgid "Is public"
+msgstr "آیا عمومی است"
+
+#: networks/models/networks.py:649
+msgid "Is gateway"
+msgstr "آیا gateway است"
+
+#: networks/models/networks.py:664
+msgid "IP addresses"
+msgstr "آدرس IP"
+
+#: networks/views.py:60
+msgid "Available networks"
+msgstr "شبکه‌های موجود"
+
+#: operations/admin.py:93
+msgid "services"
+msgstr "سرویس‌ها"
+
+#: operations/migrations/0010_auto_20170410_1031.py:15
+msgid "open"
+msgstr "باز"
+
+#: operations/migrations/0010_auto_20170410_1031.py:17
+msgid "resolved"
+msgstr "مرتفع شده"
+
+#: operations/migrations/0010_auto_20170410_1031.py:18
+msgid "closed"
+msgstr "بسته"
+
+#: operations/migrations/0010_auto_20170410_1031.py:19
+msgid "reopened"
+msgstr "باز شده"
+
+#: operations/migrations/0010_auto_20170410_1031.py:20
+msgid "todo"
+msgstr "برای انجام"
+
+#: operations/migrations/0010_auto_20170410_1031.py:21
+msgid "blocked"
+msgstr "مسدود شده"
+
+#: operations/models.py:23
+msgid "Operation statuses"
+msgstr "وضعیت‌های عملیاتی"
+
+#: operations/models.py:44
+msgid "change"
+msgstr "تغییر"
+
+#: operations/models.py:47
+msgid "incident"
+msgstr "حادثه"
+
+#: operations/models.py:50
+msgid "problem"
+msgstr "وجود مشکل"
+
+#: operations/models.py:53
+msgid "failure"
+msgstr "وجود خطا"
+
+#: operations/models.py:54
+msgid "hardware failure"
+msgstr "اشکال سخت‌افزاری"
+
+#: operations/models.py:61
+msgid "title"
+msgstr "عنوان"
+
+#: operations/models.py:68 supports/models.py:90
+msgid "status"
+msgstr "وضعیت"
+
+#: operations/models.py:76
+msgid "assignee"
+msgstr "منتسب شده"
+
+#: operations/models.py:84
+msgid "reporter"
+msgstr "گزارش‌دهنده"
+
+#: operations/models.py:89
+msgid "ticket id"
+msgstr "شناسه تیکت"
+
+#: operations/models.py:91
+msgid "created date"
+msgstr "تاریخ ایجاد"
+
+#: operations/models.py:94
+msgid "updated date"
+msgstr "تاریخ بروزرسانی"
+
+#: operations/models.py:97
+msgid "resolved date"
+msgstr "تاریخ رفع شدن"
+
+#: operations/models.py:100
+msgid "objects"
+msgstr "اشیا"
+
+#: operations/views.py:15
+msgid "Operation"
+msgstr "عملیات"
+
+#: operations/views.py:29
+msgid "Existing Operations"
+msgstr "عملیات‌های موجود"
+
+#: operations/views.py:51
+msgid "Add new Operation"
+msgstr "افزودن عملیات جدید"
+
+#: reports/forms.py:16
+msgid "Please select exactly one default item."
+msgstr "لطفا تنها یک مورد را به عنوان پیش‌فرض انتخاب کنید."
+
+#: reports/helpers.py:52
+msgid "Document autogenerated by {} transition."
+msgstr "سند به صورت اتوماتیک توسط انتقال {} ساخته شده است."
+
+#: reports/models.py:36
+msgid "Only one language can be default."
+msgstr "تنها یک زبان به عنوان پیش‌فرض می‌تواند باشد."
+
+#: reports/templates/reports/report_detail.html:13
+msgid "Last update:"
+msgstr "آخرین بروزرسانی:"
+
+#: reports/templates/reports/report_detail.html:18
+msgid "Filter"
+msgstr "فیلتر"
+
+#: reports/templates/reports/report_relations.html:7
+msgid "download report"
+msgstr "بارگیری گزارش"
+
+#: reports/views.py:81
+msgid "Only data center"
+msgstr "تنها مرکز داده"
+
+#: reports/views.py:86
+msgid "Only back office"
+msgstr "تنها داخل سازمانی"
+
+#: reports/views.py:193
+msgid "Category - model"
+msgstr "دسته‌بندی - مدل"
+
+#: reports/views.py:194
+msgid "Number of assets in each model category."
+msgstr "تعداد دارایی‌ها در هر دسته‌بندی مدل."
+
+#: reports/views.py:216
+msgid "Category - model - status"
+msgstr "دسته‌بندی - مدل - وضعیت"
+
+#: reports/views.py:217
+msgid "Number of assets in each status in the model category."
+msgstr ""
+
+#: reports/views.py:247
+msgid "Manufactured - category - model"
+msgstr "شرکت سازنده - دسته‌بندی - مدل"
+
+#: reports/views.py:248
+msgid "Number of assets in each manufacturer."
+msgstr "تعداد دارایی‌ها از هر شرکت سازنده."
+
+#: reports/views.py:284
+msgid "Status - model"
+msgstr "وضعیت - مدل"
+
+#: reports/views.py:285
+msgid "Number of assets in each the asset status."
+msgstr "تعداد دارایی‌ها در هر کدام از وضعیت‌های دارایی."
+
+#: reports/views.py:320
+msgid "Asset list of information about the user, owner, model."
+msgstr "لیست اطلاعات دارایی در مورد کاربر، مالک و مدل."
+
+#: reports/views.py:378
+msgid "Asset - supports"
+msgstr "دارایی - پشتیبانی"
+
+#: reports/views.py:379
+msgid "Assets with assigned supports"
+msgstr "دارایی‌هایی که به آنها پشتیبانی منتسب شده"
+
+#: reports/views.py:485
+msgid "List of licenses assigned to assets and users."
+msgstr "لیست لایسنس‌هایی که به کاربران و دارایی‌ها منتسب شده."
+
+#: reports/views.py:589
+msgid "Failure types for each manufacturer."
+msgstr "خراب شده‌ها برای هر کدام از شرکت‌ها سازنده."
+
+#: security/models.py:24
+msgid "ok"
+msgstr "بدون مشکل"
+
+#: security/models.py:25
+msgid "fail"
+msgstr "شکست عملیات"
+
+#: security/models.py:26
+msgid "error"
+msgstr "خطا"
+
+#: security/models.py:32
+msgid "low"
+msgstr "کم"
+
+#: security/models.py:33
+msgid "medium"
+msgstr "متوسط"
+
+#: security/models.py:34
+msgid "high"
+msgstr "زیاد"
+
+#: security/models.py:52
+msgid "display name"
+msgstr "نام نمایشی"
+
+#: security/models.py:61
+msgid "Id of vulnerability from external system"
+msgstr "شناسه آسیب‌پذیری از سیستم خارجی"
+
+#: security/models.py:89
+msgid "Rescan url"
+msgstr "آدرس url اسکن"
+
+#: security/templates/security/securityinfo/security_info.html:9
+#: security/views.py:44
+msgid "Security scan"
+msgstr "اسکن امنیتی"
+
+#: security/templates/security/securityinfo/security_info.html:13
+msgid "last scan date"
+msgstr "آخرین اسکن آسیب‌پذیری"
+
+#: security/templates/security/securityinfo/security_info.html:17
+msgid "scan status"
+msgstr "وضعیت اسکن آسیب‌پذیری"
+
+#: security/templates/security/securityinfo/security_info.html:21
+msgid "next scan date"
+msgstr "تاریخ اسکن آسیب‌پذیری بعدی"
+
+#: security/templates/security/securityinfo/security_info.html:25
+msgid "details"
+msgstr "جزییات"
+
+#: security/templates/security/securityinfo/security_info.html:29
+msgid "request for a scan"
+msgstr "درخواست اسکن آسیب‌پذیری"
+
+#: security/templates/security/securityinfo/security_info.html:34
+msgid "Vulnerabilities"
+msgstr "آسیب‌پذیری‌ها"
+
+#: security/templates/security/securityinfo/security_info.html:39
+msgid "Risk"
+msgstr "خطرات"
+
+#: security/templates/security/securityinfo/security_info.html:40
+msgid "Patch deadline"
+msgstr "تاریخ سررسید وصله امنیتی"
+
+#: security/templates/security/securityinfo/security_info.html:57
+msgid "No vulnerabilities found for this scan"
+msgstr "هیچ آسیب‌پذیری در این اسکن یافت نشد"
+
+#: security/templates/security/securityinfo/security_info.html:61
+msgid "No scan so far"
+msgstr "هیچ اسکنی تاکنون انجام نشده"
+
+#: security/transitions.py:18
+msgid "Cleanup security scans"
+msgstr "پاک کردن اسکن‌های امنیتی"
+
+#: settings/base.py:200
+msgid "English"
+msgstr "انگلیسی"
+
+#: settings/base.py:201
+msgid "Korean"
+msgstr "کره‌ای"
+
+#: settings/base.py:202
+msgid "Persian"
+msgstr "فارسی"
+
+#: settings/base.py:203
+msgid "Czech"
+msgstr "چک"
+
+#: settings/base.py:204
+msgid "Polish"
+msgstr "لهستانی"
+
+#: sim_cards/admin.py:52
+msgid "SIM Card Info"
+msgstr "اطلاعات سیم‌کارت"
+
+#: sim_cards/models.py:37 sim_cards/models.py:46 sim_cards/models.py:83
+#: sim_cards/models.py:87 sim_cards/models.py:92 sim_cards/models.py:97
+#: sim_cards/models.py:109
+msgid "Required numeric characters only."
+msgstr "نیازمند تنها کارکترهای عددی است."
+
+#: sim_cards/models.py:64
+msgid "in quarantine"
+msgstr "در قرنطینه"
+
+#: sim_cards/models.py:114
+msgid "ex. +2920181234"
+msgstr "مثال: 2920181234+"
+
+#: sim_cards/models.py:142
+msgid "End of quarantine date."
+msgstr "پایان تاریخ قرنطینه."
+
+#: sim_cards/models.py:156
+msgid "SIM Card: {}"
+msgstr "سیم‌کارت: {}"
+
+#: sim_cards/models.py:334
+msgid "PUK 1"
+msgstr "PUK 1"
+
+#: sim_cards/models.py:347
+msgid "card number"
+msgstr "شماره کارت"
+
+#: ssl_certificates/models.py:13
+msgid "EV"
+msgstr "EV"
+
+#: ssl_certificates/models.py:14
+msgid "OV"
+msgstr "OV"
+
+#: ssl_certificates/models.py:15
+msgid "DV"
+msgstr "DV"
+
+#: ssl_certificates/models.py:16
+msgid "Wildcard"
+msgstr "وایلد کارت"
+
+#: ssl_certificates/models.py:17
+msgid "Multisan"
+msgstr ""
+
+#: ssl_certificates/models.py:18
+msgid "CA ENT"
+msgstr "CA ENT"
+
+#: ssl_certificates/models.py:23
+msgid "certificate name"
+msgstr "نام گواهی‌نامه"
+
+#: ssl_certificates/models.py:24
+msgid "Full certificate name"
+msgstr "نام کامل گواهی‌نامه"
+
+#: ssl_certificates/models.py:38
+msgid "certificate repository"
+msgstr "مخزن گواهی‌نامه"
+
+#: ssl_certificates/models.py:40
+msgid "Certificate source repository"
+msgstr "مخزن منبع گواهی‌نامه"
+
+#: ssl_certificates/models.py:53
+msgid "All Subject Alternative Names"
+msgstr "همه نام‌های جایگزین موضوع"
+
+#: supports/admin.py:100
+msgid "Contract info"
+msgstr "اطلاعات قرارداد"
+
+#: supports/admin.py:185
+msgid "support type"
+msgstr "نوع پشتیبانی"
+
+#: supports/admin.py:191
+msgid "support contract id"
+msgstr "شناسه قرارداد پشتیبانی"
+
+#: supports/admin.py:196
+msgid "support name"
+msgstr "نام سرویس پشتیبانی"
+
+#: supports/admin.py:201
+msgid "support price"
+msgstr "هزینه سرویس پشتیبانی"
+
+#: supports/admin.py:206
+msgid "support date from"
+msgstr "پشتیبانی از تاریخ"
+
+#: supports/admin.py:211
+msgid "support date to"
+msgstr "پشتیبانی تا تاریخ"
+
+#: supports/admin.py:220
+msgid "asset hostname"
+msgstr "دارایی hostname"
+
+#: supports/admin.py:226
+msgid "asset service env"
+msgstr "دارایی سرویس محیط"
+
+#: supports/models.py:78
+msgid "contract ID"
+msgstr "شناسه قرارداد"
+
+#: tests/admin.py:37
+msgid "Bars"
+msgstr ""
+
+#: tests/models.py:25
+msgid "to_send"
+msgstr "برای فرستادن"
+
+#: tests/models.py:26
+msgid "sended"
+msgstr "فرستاده شده"
+
+#: trade_marks/admin.py:45
+msgid "Assigned to domain"
+msgstr "منتسب شده به دامنه"
+
+#: trade_marks/admin.py:138
+msgid "Database link"
+msgstr "لینک پایگاه داده"
+
+#: trade_marks/admin.py:153
+msgid "Image"
+msgstr "ایمیج"
+
+#: trade_marks/models.py:47
+msgid "Application filed"
+msgstr "فرم درخواست پر شده"
+
+#: trade_marks/models.py:48
+msgid "Application refused"
+msgstr "درخواست رد شده"
+
+#: trade_marks/models.py:49
+msgid "Application withdrawn"
+msgstr "درخواست پس گرفته شده"
+
+#: trade_marks/models.py:50
+msgid "Application opposed"
+msgstr "درخواست مغایرت دارد"
+
+#: trade_marks/models.py:51
+msgid "Registered"
+msgstr "درخواست ثبت شده"
+
+#: trade_marks/models.py:52
+msgid "Registration invalidated"
+msgstr "ثبت باطل شده"
+
+#: trade_marks/models.py:53
+msgid "Registration expired"
+msgstr "ثبت منقضی شده"
+
+#: trade_marks/models.py:70
+msgid "trade mark country"
+msgstr "کشور ثبت علامت تجاری"
+
+#: trade_marks/models.py:162
+msgid "Trade Mark Name"
+msgstr "نام علامت تجاری"
+
+#: trade_marks/models.py:162
+msgid "Trade Mark number"
+msgstr "شماره ثبت علامت تجاری"
+
+#: trade_marks/models.py:163
+msgid "Trade Mark status"
+msgstr "وضعیت علامت تجاری"
+
+#: trade_marks/models.py:163
+msgid "Trade Mark holder"
+msgstr "مالک علامت تجاری"
+
+#: trade_marks/models.py:164 trade_marks/models.py:211
+#: trade_marks/models.py:251 trade_marks/models.py:292
+msgid "Representation"
+msgstr "نمایندگی"
+
+#: trade_marks/models.py:169
+msgid "Trade Mark type"
+msgstr "نوع علامت تجاری"
+
+#: trade_marks/models.py:190
+msgid "Trade Marks Linked Domain"
+msgstr "دامنه مرتبط با علامت تجاری"
+
+#: trade_marks/models.py:191
+msgid "Trade Marks Linked Domains"
+msgstr "دامنه‌های مرتبط با علامت تجاری"
+
+#: trade_marks/models.py:204
+msgid "Trade Mark Additional Country"
+msgstr "کشور دیگر ثبت علامت تجاری"
+
+#: trade_marks/models.py:205
+msgid "Trade Mark Additional Countries"
+msgstr "کشورهای دیگر ثبت علامت تجاری"
+
+#: trade_marks/models.py:210
+msgid "Patent Name"
+msgstr "نام ثبت اختراع"
+
+#: trade_marks/models.py:210
+msgid "Patent number"
+msgstr "شماره ثبت اختراع"
+
+#: trade_marks/models.py:210
+msgid "Patent status"
+msgstr "وضعیت ثبت اختراع"
+
+#: trade_marks/models.py:211
+msgid "Patent holder"
+msgstr "مالک ثبت اختراع"
+
+#: trade_marks/models.py:230
+msgid "Patent Linked Domain"
+msgstr "دامنه مرتبط با ثبت اختراع"
+
+#: trade_marks/models.py:231
+msgid "Patent Linked Domains"
+msgstr "دامنه‌های مرتبط با ثبت اختراع"
+
+#: trade_marks/models.py:244
+msgid "Patent Additional Country"
+msgstr "کشور دیگری که ثبت اختراع شده"
+
+#: trade_marks/models.py:245
+msgid "Patent Additional Countries"
+msgstr "کشورهای دیگری که ثبت اختراع شده"
+
+#: trade_marks/models.py:250
+msgid "Design Name"
+msgstr "نام طرح"
+
+#: trade_marks/models.py:250
+msgid "Design number"
+msgstr "شماره ثبت طرح"
+
+#: trade_marks/models.py:250
+msgid "Design status"
+msgstr "وضعیت طرح"
+
+#: trade_marks/models.py:251
+msgid "Design holder"
+msgstr "مالک طرح"
+
+#: trade_marks/models.py:270
+msgid "Design Linked Domain"
+msgstr "دامنه مرتبط با طرح"
+
+#: trade_marks/models.py:271
+msgid "Design Linked Domains"
+msgstr "دامنه‌های مرتبط با طرح"
+
+#: trade_marks/models.py:284
+msgid "Design Additional Country"
+msgstr "کشور دیگر ثبت طرح"
+
+#: trade_marks/models.py:285
+msgid "Design Additional Countries"
+msgstr "کشورهای دیگر ثبت طرح"
+
+#: trade_marks/models.py:290
+msgid "Utility Model Name"
+msgstr "نام مدل کاربردی"
+
+#: trade_marks/models.py:290
+msgid "Utility Model number"
+msgstr "شماره ثبت مدل کاربردی"
+
+#: trade_marks/models.py:291
+msgid "Utility Model status"
+msgstr "وضعیت مدل کاربردی"
+
+#: trade_marks/models.py:291
+msgid "Utility Model holder"
+msgstr "مالک مدل کاربردی"
+
+#: trade_marks/models.py:292
+msgid "IPC Classification"
+msgstr "طبقه‌بندی IPC"
+
+#: trade_marks/models.py:303
+msgid "Utility Model Additional Country"
+msgstr "کشور دیگر ثبت مدل کاربردی"
+
+#: trade_marks/models.py:304
+msgid "Utility Model Additional Countries"
+msgstr "کشورهای دیگر ثبت مدل کاربردی"
+
+#: trade_marks/models.py:317
+msgid "Utility Model Linked Domain"
+msgstr "دامنه مرتبط ثبت مدل کاربردی"
+
+#: trade_marks/models.py:318
+msgid "Utility Model Linked Domains"
+msgstr "دامنه‌های مرتبط ثبت مدل کاربردی"
+
+#: virtual/admin.py:62
+msgid "Hypervisor must be one of DataCenterAsset or CloudHost"
+msgstr "مجازی‌ساز باید یکی از دارایی‌های مرکز داده و یا میزبان ابری باشد"
+
+#: virtual/admin.py:84 virtual/admin.py:211 virtual/admin.py:347
+msgid "Hypervisor"
+msgstr "مجازی‌ساز"
+
+#: virtual/admin.py:181
+msgid "Parent"
+msgstr "والد"
+
+#: virtual/admin.py:203 virtual/admin.py:341
+msgid "Not set"
+msgstr "تنظیم نشده"
+
+#: virtual/admin.py:357
+msgid "Cloud Flavor"
+msgstr "قالب ابری"
+
+#: virtual/admin.py:381
+msgid "Cloud Project"
+msgstr "پروژه ابری"
+
+#: virtual/admin.py:417 virtual/admin.py:460
+msgid "vCPU cores"
+msgstr "تعداد هسته vCPU"
+
+#: virtual/admin.py:421 virtual/admin.py:464
+msgid "RAM size (MiB)"
+msgstr "اندازه رم (MiB)"
+
+#: virtual/admin.py:425 virtual/admin.py:468
+msgid "Disk size (GiB)"
+msgstr "اندازه دیسک (GiB)"
+
+#: virtual/admin.py:472 virtual/admin.py:506
+msgid "instances count"
+msgstr "تعداد نمونه‌ها"
+
+#: virtual/api.py:192
+msgid ""
+"Cloud flavor is in use and hence is not deletable. Use {\"force\": true} to "
+"force deletion."
+msgstr ""
+"قالب ابری در حال استفاده است و بنابراین نمی‌تواند حذف شود. از {\"force\": "
+"true} برای حذف اجباری استفاده کنید."
+
+#: virtual/api.py:219
+msgid ""
+"Cloud provider is in use and hence is not deletable. Use {\"force\": true} "
+"to force deletion."
+msgstr ""
+"تامین‌کننده ابری در حال استفاده است و بنابراین نمی‌تواند حذف شود. از "
+"{\"force\": true} برای حذف اجباری استفاده کنید."
+
+#: virtual/forms.py:28
+msgid "Client configuration must be a valid JSON text."
+msgstr "پیکره‌بندی کلاینت بایستی یک متن JSON معتبر باشد."
+
+#: virtual/models.py:157
+msgid "project ID"
+msgstr "شناسه پروژه"
+
+#: virtual/models.py:169
+msgid "image ID"
+msgstr "شناسه ایمیج"
+
+#: virtual/models.py:211
+msgid "host ID"
+msgstr "شناسه میزبان"
+
+#: virtual/models.py:223
+msgid "Cloud host"
+msgstr "میزبان ابری"
+
+#: virtual/models.py:408
+msgid "Virtual server (VM)"
+msgstr "سرور مجازی"
+
+#: virtual/models.py:409
+msgid "Virtual servers (VM)"
+msgstr "سرورهای مجازی"
+
+#~ msgid "Filters"
+#~ msgstr "فیلترها"
+
+#~ msgid "This is a graph preview. Filters are disabled."
+#~ msgstr "این یک پیش‌نمایش گراف است. فیلترها غیرفعال شده‌اند."
