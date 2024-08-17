@@ -328,10 +328,10 @@ class SIMCard(AdminAbsoluteUrlMixin, TimeStampMixin, models.Model,
     @transition_action(
         form_fields={
             'pin1': {
-                'field': forms.CharField(label=_('pin1')),
+                'field': forms.CharField(label=_('PIN 1')),
             },
             'puk1': {
-                'field': forms.CharField(label=_('puk1')),
+                'field': forms.CharField(label=_('PUK 1')),
             }
         }
     )

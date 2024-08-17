@@ -17,10 +17,10 @@ from ralph.tests.models import Car, Foo, Manufacturer
 
 
 class TestChoices(Choices):
-    _ = Choices.Choice
+    c = Choices.Choice
 
-    foo = _('foo11')
-    bar = _('bar22')
+    foo = c('foo11')
+    bar = c('bar22')
 
 
 class TestStrSerialization(RalphAPITestCase):

@@ -167,6 +167,10 @@ class Support(
             str(self.name), self.date_to, self.supplier
         )
 
+    class Meta:
+        verbose_name = _('Support')
+        verbose_name_plural = _('Supports')
+
 
 class BaseObjectsSupport(
     AdminAbsoluteUrlMixin,

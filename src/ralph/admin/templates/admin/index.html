@@ -37,7 +37,7 @@
                                 <span class="mini">{% trans 'Unknown content' %}</span>
                             {% endif %}
                             <span class="timesince">
-                                {{ entry.action_time|timesince }} ago
+                                {{ entry.action_time|timesince }} {% trans 'ago' %}
                             </span>
                         </li>
                     {% endfor %}

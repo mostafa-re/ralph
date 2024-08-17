@@ -50,7 +50,7 @@
           <fieldset>
             <legend>{% trans 'Please login' %}</legend>
               {{ form.as_p }}
-            <button class="login right">{% trans 'Log in' %}</button>
+            <button class="login"><span>{% trans 'Log in' %}<span/></button>
           </fieldset>
           <input type="hidden" name="next" value="{{ next }}" />
           <div class="password-reset-link">

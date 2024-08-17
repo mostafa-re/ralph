@@ -312,6 +312,10 @@ class Licence(Regionalizable, AdminAbsoluteUrlMixin, PriceMixin, BaseObject):
             pk__in=[l.id for l in cls.objects_used_free.all() if l.free > 0]
         )
 
+    class Meta:
+        verbose_name = _('Licence')
+        verbose_name_plural = _('Licences')
+
 
 @reversion.register()
 class BaseObjectLicence(models.Model):

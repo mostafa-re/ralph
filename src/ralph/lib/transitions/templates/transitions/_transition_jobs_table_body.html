@@ -4,7 +4,7 @@
   <tr>
     <td>
       ID: {{ job.id }}<br>
-      {% trans "Created date" %}: {{ job.created }} <span class="date">{{ job.created|timesince }} ago</span>
+      {% trans "Created date" %}: {{ job.created }} <span class="date">{{ job.created|timesince }} {% trans "ago" %}</span>
     </td>
     <td>
       <a href="{{ job.user.get_absolute_url }}">{{ job.user }}</a>

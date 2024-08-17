@@ -186,7 +186,7 @@ def dc_capacity(context, data_centers=None, size='big'):
     results = []
     for name, value in sorted(difference.items()):
         capacity = 100 - (100 * value / available_space[name])
-        tooltip = '<strong>Free U:</strong> {} ({} in total)'.format(
+        tooltip = _('<strong>Free U:</strong> {} ({} in total)').format(
             available_space[name] - int(used_space[name]),
             available_space[name]
         )
