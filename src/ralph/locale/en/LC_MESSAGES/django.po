@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 22:34+0000\n"
+"POT-Creation-Date: 2024-08-17 14:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -437,7 +437,7 @@ msgstr ""
 msgid "Card Number"
 msgstr ""
 
-#: accounts/views.py:219
+#: accounts/views.py:219 sim_cards/models.py:331
 msgid "PIN 1"
 msgstr ""
 
@@ -679,7 +679,7 @@ msgid "Licenses"
 msgstr ""
 
 #: admin/sitetrees.py:170 data_center/admin.py:182 data_center/admin.py:310
-#: virtual/admin.py:98
+#: licences/models.py:317 virtual/admin.py:98
 msgid "Licences"
 msgstr ""
 
@@ -740,7 +740,7 @@ msgid "SSL Certificates"
 msgstr ""
 
 #: admin/sitetrees.py:196 admin/sitetrees.py:201 back_office/admin.py:39
-#: data_center/admin.py:294
+#: data_center/admin.py:294 supports/models.py:172
 msgid "Supports"
 msgstr ""
 
@@ -1101,6 +1101,11 @@ msgstr ""
 msgid "Unknown content"
 msgstr ""
 
+#: admin/templates/admin/index.html:40
+#: lib/transitions/templates/transitions/_transition_jobs_table_body.html:7
+msgid "ago"
+msgstr ""
+
 #: admin/templates/admin/login.html:51
 msgid "Please login"
 msgstr ""
@@ -1296,17 +1301,13 @@ msgstr ""
 msgid "Test hardware pick up"
 msgstr ""
 
+#: admin/templatetags/dashboard_tags.py:189
+msgid "<strong>Free U:</strong> {} ({} in total)"
+msgstr ""
+
 #: admin/views/multiadd.py:142
 #, python-format
 msgid "Saved %(count)d object(s): %(objects)s"
-msgstr ""
-
-#: api/tests/test_fields.py:15 api/tests/test_serializers.py:22
-msgid "foo11"
-msgstr ""
-
-#: api/tests/test_fields.py:16 api/tests/test_serializers.py:23
-msgid "bar22"
 msgstr ""
 
 #: assets/admin.py:62
@@ -1800,11 +1801,12 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: back_office/admin.py:46 data_center/admin.py:301
+#: back_office/admin.py:46 data_center/admin.py:301 supports/models.py:171
 msgid "Support"
 msgstr ""
 
 #: back_office/admin.py:56 back_office/admin.py:63 back_office/models.py:345
+#: licences/models.py:316
 msgid "Licence"
 msgstr ""
 
@@ -2944,6 +2946,10 @@ msgstr ""
 msgid "key"
 msgstr ""
 
+#: lib/custom_fields/models.py:132
+msgid "value"
+msgstr ""
+
 #: lib/custom_fields/models.py:177
 msgid "Custom field of the same type already exists for this object."
 msgstr ""
@@ -3180,11 +3186,11 @@ msgstr ""
 msgid "license details"
 msgstr ""
 
-#: licences/models.py:322 supports/models.py:178
+#: licences/models.py:326 supports/models.py:182
 msgid "Asset"
 msgstr ""
 
-#: licences/models.py:349
+#: licences/models.py:353
 msgid "Asset region is in a different region than licence."
 msgstr ""
 
@@ -3752,12 +3758,8 @@ msgstr ""
 msgid "SIM Card: {}"
 msgstr ""
 
-#: sim_cards/models.py:331
-msgid "pin1"
-msgstr ""
-
 #: sim_cards/models.py:334
-msgid "puk1"
+msgid "PUK 1"
 msgstr ""
 
 #: sim_cards/models.py:347

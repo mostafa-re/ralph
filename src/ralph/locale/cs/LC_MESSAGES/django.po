@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-14 22:34+0000\n"
+"POT-Creation-Date: 2024-08-17 14:47+0000\n"
 "PO-Revision-Date: 2018-08-08 09:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -476,7 +476,7 @@ msgstr "číslo objednávky"
 msgid "Card Number"
 msgstr "číslo objednávky"
 
-#: accounts/views.py:219
+#: accounts/views.py:219 sim_cards/models.py:331
 msgid "PIN 1"
 msgstr ""
 
@@ -734,7 +734,7 @@ msgid "Licenses"
 msgstr "Licence"
 
 #: admin/sitetrees.py:170 data_center/admin.py:182 data_center/admin.py:310
-#: virtual/admin.py:98
+#: licences/models.py:317 virtual/admin.py:98
 msgid "Licences"
 msgstr "Licence"
 
@@ -797,7 +797,7 @@ msgid "SSL Certificates"
 msgstr ""
 
 #: admin/sitetrees.py:196 admin/sitetrees.py:201 back_office/admin.py:39
-#: data_center/admin.py:294
+#: data_center/admin.py:294 supports/models.py:172
 msgid "Supports"
 msgstr "Podpory"
 
@@ -1189,6 +1189,11 @@ msgstr "Není k dispozici"
 msgid "Unknown content"
 msgstr "Neznámý obsah"
 
+#: admin/templates/admin/index.html:40
+#: lib/transitions/templates/transitions/_transition_jobs_table_body.html:7
+msgid "ago"
+msgstr ""
+
 #: admin/templates/admin/login.html:51
 msgid "Please login"
 msgstr "Přihlaste se"
@@ -1400,18 +1405,14 @@ msgstr "Hardware"
 msgid "Test hardware pick up"
 msgstr "Hardware"
 
+#: admin/templatetags/dashboard_tags.py:189
+msgid "<strong>Free U:</strong> {} ({} in total)"
+msgstr ""
+
 #: admin/views/multiadd.py:142
 #, python-format
 msgid "Saved %(count)d object(s): %(objects)s"
 msgstr "Uloženo %(count)d object(s): %(objects)s"
-
-#: api/tests/test_fields.py:15 api/tests/test_serializers.py:22
-msgid "foo11"
-msgstr "foo11"
-
-#: api/tests/test_fields.py:16 api/tests/test_serializers.py:23
-msgid "bar22"
-msgstr "bar22"
 
 #: assets/admin.py:62
 msgid "Objects count"
@@ -1908,11 +1909,12 @@ msgstr "Soubor"
 msgid "Description"
 msgstr "Popis"
 
-#: back_office/admin.py:46 data_center/admin.py:301
+#: back_office/admin.py:46 data_center/admin.py:301 supports/models.py:171
 msgid "Support"
 msgstr "Podpora"
 
 #: back_office/admin.py:56 back_office/admin.py:63 back_office/models.py:345
+#: licences/models.py:316
 msgid "Licence"
 msgstr "Licence"
 
@@ -3129,6 +3131,12 @@ msgstr ""
 msgid "key"
 msgstr "klíč"
 
+#: lib/custom_fields/models.py:132
+#, fuzzy
+#| msgid "Value"
+msgid "value"
+msgstr "Hodnota"
+
 #: lib/custom_fields/models.py:177
 msgid "Custom field of the same type already exists for this object."
 msgstr "Uživatelem určená kolonka stejného typu už pro tento objekt existuje."
@@ -3373,11 +3381,11 @@ msgstr "přiřazené základní objekty"
 msgid "license details"
 msgstr "podrobnosti licence"
 
-#: licences/models.py:322 supports/models.py:178
+#: licences/models.py:326 supports/models.py:182
 msgid "Asset"
 msgstr "Majetek"
 
-#: licences/models.py:349
+#: licences/models.py:353
 msgid "Asset region is in a different region than licence."
 msgstr "Oblast majetku je jiná než ve které se nachází licence."
 
@@ -3969,12 +3977,8 @@ msgstr ""
 msgid "SIM Card: {}"
 msgstr ""
 
-#: sim_cards/models.py:331
-msgid "pin1"
-msgstr ""
-
 #: sim_cards/models.py:334
-msgid "puk1"
+msgid "PUK 1"
 msgstr ""
 
 #: sim_cards/models.py:347
@@ -4385,6 +4389,22 @@ msgstr "Virt. server (VM)"
 #: virtual/models.py:409
 msgid "Virtual servers (VM)"
 msgstr "Virt. servery (VM)"
+
+#, fuzzy
+#~| msgid "Filter"
+#~ msgid "Filters"
+#~ msgstr "Filtrovat"
+
+#, fuzzy
+#~| msgid "Domains"
+#~ msgid "Domain"
+#~ msgstr "Doméhny"
+
+#~ msgid "foo11"
+#~ msgstr "foo11"
+
+#~ msgid "bar22"
+#~ msgstr "bar22"
 
 #, fuzzy
 #~| msgid "Manufacturer"
