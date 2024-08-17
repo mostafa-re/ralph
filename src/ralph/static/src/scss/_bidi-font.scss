@@ -1,0 +1,20 @@
+@import "font-face";
+
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-Thin",100, ttf woff2);
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-ExtraLight",200, ttf woff2);
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-Light",300, ttf woff2);
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-Regular",400, ttf woff2);
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-Medium",500, ttf woff2);
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-SemiBold",600, ttf woff2);
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-Bold",700, ttf woff2);
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-ExtraBold",800, ttf woff2);
+@include font-face("Vazirmatn RD UI", "../vendor/fonts/Vazirmatn-RD-UI-Black",900, ttf woff2);
+
+h1, h2, h3, h4, h5, h6,
+html, body, a, option, select, button,
+.price, .title, .label, .button,
+.side-nav, .sub-nav dt, .sub-nav dd, .sub-nav li,
+.top-bar-section ul li>a {
+    font-family: "Vazirmatn RD UI", Roboto;
+    vertical-align: middle;
+}
