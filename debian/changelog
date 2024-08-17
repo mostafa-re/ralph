@@ -1,3 +1,29 @@
+ralph (20240817.0) jammy; urgency=medium
+
+  [ mostafa-re ]
+  * Bump frontend dependencies
+  * Bump to Ubuntu 22.04 and Python 3.10
+  * Bump python dependencies
+  * Refine deb packing
+  * Fix changelog and build deb package procedure
+  * Fix snapshot version scheme
+  * Downgrade to Python 3.7
+  * Fix to Django 1.10
+  * Refine build and install shell scripts
+  * Fix constraint conflict in data_importer migration
+  * Update message files
+  * Language bug fix
+  * Add compile messages in build routine
+  * Add Vazirmatn as a bidi font
+  * Add rtl support
+  * Add some message strings to translate
+  * Add persian translation
+  * Update messagefiles
+  * Fix frontend files
+  * Add feature to get language_code from env
+
+ -- root <root@localhost>  Sat, 17 Aug 2024 15:15:57 +0000
+
 ralph (20240802.3) bionic; urgency=medium
 
   [ root ]
