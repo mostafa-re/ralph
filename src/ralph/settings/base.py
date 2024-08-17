@@ -195,7 +195,7 @@ DATABASES = {
 AUTH_USER_MODEL = "accounts.RalphUser"
 LOGIN_URL = "/login/"
 
-LANGUAGE_CODE = "en"
+LANGUAGE_CODE = os.environ.get("LANGUAGE", "en")
 LANGUAGES = [
     ("en", _("English")),
     ("ko", _("Korean")),
