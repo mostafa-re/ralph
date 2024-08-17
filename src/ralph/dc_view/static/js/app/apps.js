@@ -18,7 +18,7 @@
 
             $urlRouterProvider.otherwise('/sr');
             $breadcrumbProvider.setOptions({
-                template: '<ul class="breadcrumbs">' +
+                template: '<ul class="breadcrumbs flex">' +
                 '<li ng-repeat="step in steps" ng-class="{current: $last}" ng-switch="$last || !!step.abstract">' +
                 '<a ng-switch-when="false" href="{{step.ncyBreadcrumbLink}}">{{step.ncyBreadcrumbLabel}}</a>' +
                 '<span ng-switch-when="true">{{step.ncyBreadcrumbLabel}}</span>' +

@@ -1,0 +1,52 @@
+.top-bar-section {
+    text-align: center;
+}
+
+.row label:dir(rtl),
+.capacity-info:dir(rtl),
+div.columns:dir(rtl),
+button:dir(ltr),
+.columns.end:dir(ltr),
+.header .header-toolbar:dir(ltr) {
+    float: right;
+}
+
+.row label:dir(ltr),
+.capacity-info:dir(ltr),
+div.columns:dir(ltr),
+button:dir(rtl),
+.columns.end:dir(rtl),
+.header .header-toolbar:dir(rtl) {
+    float: left;
+}
+
+select:dir(rtl) {
+    background-position: 0 center;
+    margin-right: 0;
+    margin-right: 10;
+}
+
+select:dir(ltr) {
+    background-position: 100% center;
+    margin-right: 10px;
+    margin-right: 0;
+}
+
+.login button, .login input,
+.recent-actions .actionlist,
+.top-bar .title-area,
+.top-bar .top-bar-section .left {
+    direction: ltr !important;
+}
+
+.dashboard .categories .category .wrapper .icon:dir(ltr),
+.dashboard_graphs .categories .category .wrapper .icon:dir(ltr) {
+    right: 45px;
+    left: auto;
+}
+
+.dashboard .categories .category .wrapper .icon:dir(rtl),
+.dashboard_graphs .categories .category .wrapper .icon:dir(rtl) {
+    right: auto;
+    left: 45px;
+}
